@@ -55,7 +55,7 @@
 #define XERCES_HAVE_INTTYPES_H 1
 #define XERCES_HAVE_INTRIN_H 1
 #define XERCES_HAVE_EMMINTRIN_H 1
-#define XERCES_INCLUDE_WCHAR_H 1
+/* #undef XERCES_INCLUDE_WCHAR_H */
 
 #define XERCES_S16BIT_INT int16_t
 #define XERCES_S32BIT_INT int32_t
@@ -63,7 +63,7 @@
 #define XERCES_U16BIT_INT uint16_t
 #define XERCES_U32BIT_INT uint32_t
 #define XERCES_U64BIT_INT uint64_t
-#define XERCES_XMLCH_T wchar_t
+#define XERCES_XMLCH_T char16_t
 #define XERCES_SIZE_T size_t
 #define XERCES_SSIZE_T long
 
