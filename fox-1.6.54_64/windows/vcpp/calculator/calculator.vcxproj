@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -29,7 +29,7 @@
   <PropertyGroup Label="Globals">
     <SccProjectName />
     <SccLocalPath />
-    <ProjectGuid>{A7A6C2E8-65B0-89A9-DB70-D4EEE2CD0CFF}</ProjectGuid>
+    <ProjectGuid>{4BD37ADB-3468-4927-8783-17E49F0BBD2F}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
@@ -42,23 +42,23 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <UseOfMfc>false</UseOfMfc>
     <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <UseOfMfc>false</UseOfMfc>
     <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <UseOfMfc>false</UseOfMfc>
     <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <UseOfMfc>false</UseOfMfc>
     <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -92,8 +92,6 @@
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>.\Debug\</OutDir>
-    <IntDir>.\Debug\</IntDir>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -102,8 +100,6 @@
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>.\Release\</OutDir>
-    <IntDir>.\Release\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -190,7 +186,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
       <StringPooling>true</StringPooling>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <Optimization>MaxSpeed</Optimization>
@@ -230,7 +226,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
       <StringPooling>true</StringPooling>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <Optimization>MaxSpeed</Optimization>
@@ -267,15 +263,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\calculator\bigcalc.gif">
-      <FileType>Document</FileType>
-    </CustomBuild>
-    <CustomBuild Include="..\..\..\calculator\colors.gif">
-      <FileType>Document</FileType>
-    </CustomBuild>
-    <CustomBuild Include="..\..\..\calculator\constmem.bmp" />
+    <Image Include="..\..\..\calculator\bigcalc.gif" />
+    <Image Include="..\..\..\calculator\colors.gif" />
+    <Image Include="..\..\..\calculator\constmem.bmp" />
+    <Image Include="..\..\..\calculator\information.gif" />
+    <Image Include="..\..\..\calculator\question.gif" />
+    <Image Include="..\..\..\calculator\tinycalc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\calculator\Calculator.cpp" />
+    <ClCompile Include="..\..\..\calculator\help.cpp" />
+    <ClCompile Include="..\..\..\calculator\HelpWindow.cpp" />
+    <ClCompile Include="..\..\..\calculator\main.cpp" />
+    <ClCompile Include="..\..\..\calculator\Preferences.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\calculator\Calculator.h" />
+    <ClInclude Include="..\..\..\calculator\HelpWindow.h" />
+    <ClInclude Include="..\..\..\calculator\Preferences.h" />
+  </ItemGroup>
+  <ItemGroup>
     <CustomBuild Include="gifs.list">
-      <FileType>Document</FileType>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cd ..\..\..\calculator  
 $(SolutionDir)reswrap\Debug\reswrap -o icons.h bigcalc.gif tinycalc.gif constmem.bmp question.gif colors.gif information.gif</Command>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cd ..\..\..\calculator  
@@ -289,27 +297,16 @@ $(SolutionDir)reswrap\Release\reswrap -o icons.h bigcalc.gif tinycalc.gif constm
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">icons.h;icons.cpp;%(Outputs)</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">icons.h;icons.cpp;%(Outputs)</Outputs>
     </CustomBuild>
-    <CustomBuild Include="..\..\..\calculator\information.gif">
-      <FileType>Document</FileType>
-    </CustomBuild>
-    <CustomBuild Include="..\..\..\calculator\question.gif">
-      <FileType>Document</FileType>
-    </CustomBuild>
-    <CustomBuild Include="..\..\..\calculator\tinycalc.gif">
-      <FileType>Document</FileType>
-    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\calculator\Calculator.cpp" />
-    <ClCompile Include="..\..\..\calculator\help.cpp" />
-    <ClCompile Include="..\..\..\calculator\HelpWindow.cpp" />
-    <ClCompile Include="..\..\..\calculator\main.cpp" />
-    <ClCompile Include="..\..\..\calculator\Preferences.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\calculator\Calculator.h" />
-    <ClInclude Include="..\..\..\calculator\HelpWindow.h" />
-    <ClInclude Include="..\..\..\calculator\Preferences.h" />
+    <ProjectReference Include="..\fox\fox.vcxproj">
+      <Project>{c3b9d064-87e9-46c4-b946-b266e6caeec3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\reswrap\reswrap.vcxproj">
+      <Project>{34d4f708-14fd-44e8-b466-967ff59f84c4}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
