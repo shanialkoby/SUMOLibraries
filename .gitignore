@@ -1,0 +1,7 @@
+*.obj
+*.tlog
+*.pdb
+/fox-1.6.54/windows/vcpp/.vs/win32/v15/*.db
+/fox-1.6.54/windows/vcpp/.vs/win32/v15/*.suo
+*.db-shm
+/xerces-c-3.2.0-source/build
