@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgWrappers/deprecated-dotosg/osgSim/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgWrappers/deprecated-dotosg/osgSim/CMakeFiles/generate.stamp is up-to-date.
+  IO_BlinkSequence.cpp
+  IO_DOFTransform.cpp
+  IO_Impostor.cpp
+  IO_LightPoint.cpp
+  IO_LightPointNode.cpp
+  IO_MultiSwitch.cpp
+  IO_ObjectRecordData.cpp
+  IO_OverlayNode.cpp
+  IO_Sector.cpp
+  IO_ShapeAttribute.cpp
+  IO_VisibilityGroup.cpp
+  LibraryWrapper.cpp
+  Generating Code...
+  osgdb_deprecated_osgsim.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_deprecated_osgsim.dll

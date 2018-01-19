@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/bsp/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/bsp/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterBSP.cpp
+  BITSET.cpp
+  Q3BSPReader.cpp
+  Q3BSPLoad.cpp
+  VBSPData.cpp
+  VBSPEntity.cpp
+  VBSPGeometry.cpp
+  VBSPReader.cpp
+  Generating Code...
+  osgdb_bsp.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_bsp.dll

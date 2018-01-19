@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/zip/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/zip/CMakeFiles/generate.stamp is up-to-date.
+  unzip.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\zip\unzip.cpp(3712): warning C4457: declaration of 'buf' hides function parameter
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\zip\unzip.cpp(3679): note: see declaration of 'buf'
+  ZipArchive.cpp
+  ReaderWriterZIP.cpp
+  Generating Code...
+  osgdb_zip.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_zip.dll
