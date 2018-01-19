@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+C:/Libraries/OSG-3.4.0_64/src/OpenThreads/CMakeLists.txt
+C:/Libraries/OSG-3.4.0_64/CMakeModules/CheckAtomicOps.cmake
+C:/CMake/share/cmake-3.10/Modules/CheckCXXSourceRuns.cmake
+C:/Libraries/OSG-3.4.0_64/src/OpenThreads/common/Config.in
+C:/Libraries/OSG-3.4.0_64/src/OpenThreads/common/Version.in
+C:/Libraries/OSG-3.4.0_64/PlatformSpecifics/Windows/OpenThreadsVersionInfo.rc.in
+C:/CMake/share/cmake-3.10/Modules/FindThreads.cmake
+C:/CMake/share/cmake-3.10/Modules/CheckLibraryExists.cmake
+C:/CMake/share/cmake-3.10/Modules/CheckSymbolExists.cmake
+C:/CMake/share/cmake-3.10/Modules/CheckIncludeFile.cmake
+C:/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
+C:/Libraries/OSG-3.4.0_64/packaging/pkgconfig/openthreads.pc.in
