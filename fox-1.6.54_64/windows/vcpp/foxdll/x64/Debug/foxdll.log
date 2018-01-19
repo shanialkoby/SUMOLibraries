@@ -1,0 +1,60 @@
+﻿  Microsoft (R) C/C++-Optimierungscompiler Version 19.12.25834 für x64
+  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+  
+  cl /c /I..\..\..\include /Zi /W3 /WX- /diagnostics:classic /Od /D WIN32 /D _DEBUG /D _WINDOWS /D UNICODE /D _USRDLL /D FOXDLL /D FOXDLL_EXPORTS /D HAVE_GL_H /D HAVE_GLU_H /D _VC80_UPGRADE=0x0600 /D _WINDLL /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo".\Debug\\" /Fd".\Debug\vc141.pdb" /Gd /TP /errorReport:prompt ..\..\..\src\FX4Splitter.cpp ..\..\..\src\fxascii.cpp ..\..\..\src\FXComboBox.cpp ..\..\..\src\FXCP862Codec.cpp ..\..\..\src\FXDirBox.cpp ..\..\..\src\FXFileDict.cpp ..\..\..\src\FXGLObject.cpp ..\..\..\src\FXId.cpp ..\..\..\src\FXMat3d.cpp ..\..\..\src\FXMessageBox.cpp ..\..\..\src\FXPrintDialog.cpp ..\..\..\src\FXRex.cpp ..\..\..\src\FXSpheref.cpp ..\..\..\src\FXTextField.cpp ..\..\..\src\FXURL.cpp
+  
+  FX4Splitter.cpp
+  fxascii.cpp
+  FXComboBox.cpp
+C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: "FX::FXList::items": class "FX::FXObjectListOf<FX::FXListItem>" erfordert eine DLL-Schnittstelle, die von Clients von class "FX::FXList" verwendet wird
+  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: Siehe Deklaration von "FX::FXObjectListOf<FX::FXListItem>"
+  FXCP862Codec.cpp
+  FXDirBox.cpp
+  FXFileDict.cpp
+  FXGLObject.cpp
+C:\Libraries\fox-1.6.54_64\include\FXGLObject.h(90): warning C4251: "FX::FXGLGroup::list": class "FX::FXObjectListOf<FX::FXGLObject>" erfordert eine DLL-Schnittstelle, die von Clients von class "FX::FXGLGroup" verwendet wird
+  C:\Libraries\fox-1.6.54_64\include\FXGLObject.h(83): note: Siehe Deklaration von "FX::FXObjectListOf<FX::FXGLObject>"
+  FXId.cpp
+  FXMat3d.cpp
+  FXMessageBox.cpp
+  FXPrintDialog.cpp
+C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: "FX::FXList::items": class "FX::FXObjectListOf<FX::FXListItem>" erfordert eine DLL-Schnittstelle, die von Clients von class "FX::FXList" verwendet wird
+  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: Siehe Deklaration von "FX::FXObjectListOf<FX::FXListItem>"
+..\..\..\src\FXPrintDialog.cpp(338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+..\..\..\src\FXPrintDialog.cpp(364): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+..\..\..\src\FXPrintDialog.cpp(475): warning C4996: 'GetVersionExW': wurde als veraltet deklariert
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442): note: Siehe Deklaration von "GetVersionExW"
+..\..\..\src\FXPrintDialog.cpp(942): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+  FXRex.cpp
+..\..\..\src\FXRex.cpp(1026): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1027): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1161): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1162): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1170): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1178): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1189): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1200): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1202): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1214): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1215): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1228): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1230): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1892): warning C4244: "=": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(2290): warning C4244: "=": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(2307): warning C4244: "=": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(2441): warning C4244: "=": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(2442): warning C4244: "=": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(2629): warning C4244: "=": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+  FXSpheref.cpp
+  FXTextField.cpp
+..\..\..\src\FXTextField.cpp(1652): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "FX::FXint", Datenverlust möglich
+..\..\..\src\FXTextField.cpp(1684): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "FX::FXint", Datenverlust möglich
+  FXURL.cpp
+  Code wird generiert...
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Libraries\fox-1.6.54_64\windows\vcpp\x64\Debug\foxdll.dll) entspricht nicht dem OutputFile-Eigenschaftswert (C:\Libraries\fox-1.6.54_64\lib\FOXDLLD-1.6.dll) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(foxdll) entspricht nicht dem OutputFile-Eigenschaftswert (FOXDLLD-1.6) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
+     Bibliothek ".\..\..\..\lib\FOXDLLD-1.6.lib" und Objekt ".\..\..\..\lib\FOXDLLD-1.6.exp" werden erstellt.
+  foxdll.vcxproj -> C:\Libraries\fox-1.6.54_64\windows\vcpp\x64\Debug\foxdll.dll
