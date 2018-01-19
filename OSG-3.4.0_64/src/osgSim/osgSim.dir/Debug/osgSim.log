@@ -1,0 +1,55 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgSim/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgSim/CMakeFiles/generate.stamp is up-to-date.
+  BlinkSequence.cpp
+  ColorRange.cpp
+  DOFTransform.cpp
+  ElevationSlice.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgSim\ElevationSlice.cpp(465): warning C4456: declaration of 'nextItr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgSim\ElevationSlice.cpp(456): note: see declaration of 'nextItr'
+  HeightAboveTerrain.cpp
+  Impostor.cpp
+  ImpostorSprite.cpp
+  InsertImpostorsVisitor.cpp
+  LightPoint.cpp
+  LightPointDrawable.cpp
+  LightPointNode.cpp
+  LightPointSpriteDrawable.cpp
+  LineOfSight.cpp
+  MultiSwitch.cpp
+  OverlayNode.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgSim\OverlayNode.cpp(320): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgSim\OverlayNode.cpp(244): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0_64\src\osgSim\OverlayNode.cpp(333): warning C4456: declaration of 'center' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgSim\OverlayNode.cpp(268): note: see declaration of 'center'
+  ScalarBar.cpp
+  ScalarsToColors.cpp
+  Sector.cpp
+  ShapeAttribute.cpp
+  SphereSegment.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgSim\SphereSegment.cpp(1798): warning C4456: declaration of 'edge' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgSim\SphereSegment.cpp(1788): note: see declaration of 'edge'
+C:\Libraries\OSG-3.4.0_64\src\osgSim\SphereSegment.cpp(2063): warning C4456: declaration of 'end1' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgSim\SphereSegment.cpp(2048): note: see declaration of 'end1'
+  C:\Libraries\OSG-3.4.0_64\src\osgSim\SphereSegment.cpp(2197): note: see reference to function template instantiation 'void SphereSegmentIntersector::TriangleIntersectOperator::trim<I>(osgSim::SphereSegment::LineList &,osg::Vec3Array *,I,I)' being compiled
+          with
+          [
+              I=SphereSegmentIntersector::AzimPlaneIntersector
+          ]
+  C:\Libraries\OSG-3.4.0_64\src\osgSim\SphereSegment.cpp(2972): note: see reference to function template instantiation 'void SphereSegmentIntersector::TriangleIntersectOperator::trim<SphereSegmentIntersector::AzimPlaneIntersector>(osgSim::SphereSegment::LineList &,I,I)' being compiled
+          with
+          [
+              I=SphereSegmentIntersector::AzimPlaneIntersector
+          ]
+C:\Libraries\OSG-3.4.0_64\src\osgSim\SphereSegment.cpp(2066): warning C4456: declaration of 'end2' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgSim\SphereSegment.cpp(2049): note: see declaration of 'end2'
+C:\Libraries\OSG-3.4.0_64\src\osgSim\SphereSegment.cpp(2126): warning C4456: declaration of 'end1' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgSim\SphereSegment.cpp(2117): note: see declaration of 'end1'
+C:\Libraries\OSG-3.4.0_64\src\osgSim\SphereSegment.cpp(2129): warning C4456: declaration of 'end2' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgSim\SphereSegment.cpp(2118): note: see declaration of 'end2'
+  Generating Code...
+  Compiling...
+  Version.cpp
+  VisibilityGroup.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0_64/lib/osgSimd.lib and object C:/Libraries/OSG-3.4.0_64/lib/osgSimd.exp
+  osgSim.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osg130-osgSimd.dll

@@ -1,0 +1,36 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgText/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgText/CMakeFiles/generate.stamp is up-to-date.
+  DefaultFont.cpp
+  GlyphGeometry.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgText\GlyphGeometry.cpp(738): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgText\GlyphGeometry.cpp(664): note: see declaration of 'i'
+  Font.cpp
+  FadeText.cpp
+  Glyph.cpp
+  String.cpp
+  Style.cpp
+  TextBase.cpp
+  Text.cpp
+  Text3D.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(92): warning C4456: declaration of 'end' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(68): note: see declaration of 'end'
+C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(99): warning C4456: declaration of 'end' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(68): note: see declaration of 'end'
+C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(106): warning C4456: declaration of 'end' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(68): note: see declaration of 'end'
+C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(631): warning C4456: declaration of 'end' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(608): note: see declaration of 'end'
+C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(640): warning C4456: declaration of 'end' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(608): note: see declaration of 'end'
+C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(652): warning C4456: declaration of 'end' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(608): note: see declaration of 'end'
+C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(696): warning C4456: declaration of 'end' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(684): note: see declaration of 'end'
+C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(720): warning C4456: declaration of 'end' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(709): note: see declaration of 'end'
+C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(754): warning C4456: declaration of 'end' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgText\Text3D.cpp(742): note: see declaration of 'end'
+  Version.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0_64/lib/osgTextd.lib and object C:/Libraries/OSG-3.4.0_64/lib/osgTextd.exp
+  osgText.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osg130-osgTextd.dll

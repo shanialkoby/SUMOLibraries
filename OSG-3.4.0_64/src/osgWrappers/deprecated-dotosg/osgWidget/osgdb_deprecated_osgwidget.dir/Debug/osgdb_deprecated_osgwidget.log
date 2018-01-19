@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgWrappers/deprecated-dotosg/osgWidget/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgWrappers/deprecated-dotosg/osgWidget/CMakeFiles/generate.stamp is up-to-date.
+  Box.cpp
+  EmbeddedWindow.cpp
+  Frame.cpp
+  Input.cpp
+  Label.cpp
+  LibraryWrapper.cpp
+  Table.cpp
+  Widget.cpp
+  WindowManager.cpp
+  Generating Code...
+  osgdb_deprecated_osgwidget.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_deprecated_osgwidgetd.dll

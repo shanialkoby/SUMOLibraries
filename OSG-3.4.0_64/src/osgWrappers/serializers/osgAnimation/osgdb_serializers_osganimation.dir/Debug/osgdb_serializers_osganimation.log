@@ -1,0 +1,38 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgAnimation/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgAnimation/CMakeFiles/generate.stamp is up-to-date.
+  Action.cpp
+  ActionAnimation.cpp
+  ActionBlendIn.cpp
+  ActionBlendOut.cpp
+  ActionStripAnimation.cpp
+  Animation.cpp
+  AnimationManagerBase.cpp
+  BasicAnimationManager.cpp
+  Bone.cpp
+  LibraryWrapper.cpp
+  MorphGeometry.cpp
+  RigComputeBoundingBoxCallback.cpp
+  RigGeometry.cpp
+  Skeleton.cpp
+  StackedMatrixElement.cpp
+  StackedQuaternionElement.cpp
+  StackedRotateAxisElement.cpp
+  StackedScaleElement.cpp
+  StackedTransformElement.cpp
+  StackedTranslateElement.cpp
+  Generating Code...
+  Compiling...
+  Timeline.cpp
+  TimelineAnimationManager.cpp
+  UpdateBone.cpp
+  UpdateFloatUniform.cpp
+  UpdateMaterial.cpp
+  UpdateMatrixTransform.cpp
+  UpdateMatrixfUniform.cpp
+  UpdateMorph.cpp
+  UpdateMorphGeometry.cpp
+  UpdateRigGeometry.cpp
+  UpdateSkeleton.cpp
+  UpdateVec3fUniform.cpp
+  Generating Code...
+  osgdb_serializers_osganimation.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_serializers_osganimationd.dll

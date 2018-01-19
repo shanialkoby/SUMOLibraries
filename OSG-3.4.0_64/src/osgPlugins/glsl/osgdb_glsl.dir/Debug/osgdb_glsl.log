@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/glsl/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/glsl/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterGLSL.cpp
+  osgdb_glsl.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_glsld.dll

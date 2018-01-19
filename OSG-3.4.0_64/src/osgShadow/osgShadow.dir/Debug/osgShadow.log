@@ -1,0 +1,44 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgShadow/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgShadow/CMakeFiles/generate.stamp is up-to-date.
+  OccluderGeometry.cpp
+  ShadowMap.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgShadow\ShadowMap.cpp(433): warning C4456: declaration of 'lightDir' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgShadow\ShadowMap.cpp(346): note: see declaration of 'lightDir'
+  ShadowTechnique.cpp
+  ShadowTexture.cpp
+  ShadowVolume.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgShadow\ShadowVolume.cpp(288): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgShadow\ShadowVolume.cpp(252): note: see declaration of 'itr'
+  ShadowedScene.cpp
+  ShadowSettings.cpp
+  SoftShadowMap.cpp
+  ParallelSplitShadowMap.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgShadow\ParallelSplitShadowMap.cpp(639): warning C4456: declaration of 'it' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgShadow\ParallelSplitShadowMap.cpp(566): note: see declaration of 'it'
+  Version.cpp
+  ConvexPolyhedron.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgShadow\ConvexPolyhedron.cpp(373): warning C4456: declaration of 'fd' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgShadow\ConvexPolyhedron.cpp(326): note: see declaration of 'fd'
+C:\Libraries\OSG-3.4.0_64\src\osgShadow\ConvexPolyhedron.cpp(820): warning C4459: declaration of 'Points' hides global declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgShadow\ConvexPolyhedron.cpp(88): note: see declaration of '`anonymous-namespace'::Points'
+C:\Libraries\OSG-3.4.0_64\src\osgShadow\ConvexPolyhedron.cpp(1291): warning C4456: declaration of 'fd' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgShadow\ConvexPolyhedron.cpp(1239): note: see declaration of 'fd'
+C:\Libraries\OSG-3.4.0_64\src\osgShadow\ConvexPolyhedron.cpp(1849): warning C4456: declaration of 'cp' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgShadow\ConvexPolyhedron.cpp(1818): note: see declaration of 'cp'
+C:\Libraries\OSG-3.4.0_64\src\osgShadow\ConvexPolyhedron.cpp(1850): warning C4457: declaration of 'face' hides function parameter
+  C:\Libraries\OSG-3.4.0_64\src\osgShadow\ConvexPolyhedron.cpp(1790): note: see declaration of 'face'
+  DebugShadowMap.cpp
+  LightSpacePerspectiveShadowMap.cpp
+  MinimalCullBoundsShadowMap.cpp
+  MinimalDrawBoundsShadowMap.cpp
+  MinimalShadowMap.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgShadow\MinimalShadowMap.cpp(251): warning C4456: declaration of 'mvp' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgShadow\MinimalShadowMap.cpp(178): note: see declaration of 'mvp'
+C:\Libraries\OSG-3.4.0_64\src\osgShadow\MinimalShadowMap.cpp(260): warning C4456: declaration of 'mvp' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgShadow\MinimalShadowMap.cpp(178): note: see declaration of 'mvp'
+  StandardShadowMap.cpp
+  ViewDependentShadowTechnique.cpp
+  ViewDependentShadowMap.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0_64/lib/osgShadowd.lib and object C:/Libraries/OSG-3.4.0_64/lib/osgShadowd.exp
+  osgShadow.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osg130-osgShadowd.dll

@@ -1,0 +1,28 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/shp/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/shp/CMakeFiles/generate.stamp is up-to-date.
+  ESRIShape.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\shp\ESRIShape.cpp(271): warning C4458: declaration of 'shapeType' hides class member
+  c:\libraries\osg-3.4.0_64\src\osgplugins\shp\ESRIShape.h(121): note: see declaration of 'ESRIShape::ShapeObject::shapeType'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\shp\ESRIShape.cpp(339): warning C4458: declaration of 'shapeType' hides class member
+  c:\libraries\osg-3.4.0_64\src\osgplugins\shp\ESRIShape.h(121): note: see declaration of 'ESRIShape::ShapeObject::shapeType'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\shp\ESRIShape.cpp(411): warning C4458: declaration of 'shapeType' hides class member
+  c:\libraries\osg-3.4.0_64\src\osgplugins\shp\ESRIShape.h(121): note: see declaration of 'ESRIShape::ShapeObject::shapeType'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\shp\ESRIShape.cpp(529): warning C4458: declaration of 'shapeType' hides class member
+  c:\libraries\osg-3.4.0_64\src\osgplugins\shp\ESRIShape.h(121): note: see declaration of 'ESRIShape::ShapeObject::shapeType'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\shp\ESRIShape.cpp(622): warning C4458: declaration of 'shapeType' hides class member
+  c:\libraries\osg-3.4.0_64\src\osgplugins\shp\ESRIShape.h(121): note: see declaration of 'ESRIShape::ShapeObject::shapeType'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\shp\ESRIShape.cpp(720): warning C4458: declaration of 'shapeType' hides class member
+  c:\libraries\osg-3.4.0_64\src\osgplugins\shp\ESRIShape.h(121): note: see declaration of 'ESRIShape::ShapeObject::shapeType'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\shp\ESRIShape.cpp(796): warning C4458: declaration of 'shapeType' hides class member
+  c:\libraries\osg-3.4.0_64\src\osgplugins\shp\ESRIShape.h(121): note: see declaration of 'ESRIShape::ShapeObject::shapeType'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\shp\ESRIShape.cpp(868): warning C4458: declaration of 'shapeType' hides class member
+  c:\libraries\osg-3.4.0_64\src\osgplugins\shp\ESRIShape.h(121): note: see declaration of 'ESRIShape::ShapeObject::shapeType'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\shp\ESRIShape.cpp(985): warning C4458: declaration of 'shapeType' hides class member
+  c:\libraries\osg-3.4.0_64\src\osgplugins\shp\ESRIShape.h(121): note: see declaration of 'ESRIShape::ShapeObject::shapeType'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\shp\ESRIShape.cpp(1098): warning C4458: declaration of 'shapeType' hides class member
+  c:\libraries\osg-3.4.0_64\src\osgplugins\shp\ESRIShape.h(121): note: see declaration of 'ESRIShape::ShapeObject::shapeType'
+  ESRIShapeParser.cpp
+  ESRIShapeReaderWriter.cpp
+  XBaseParser.cpp
+  Generating Code...
+  osgdb_shp.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_shpd.dll

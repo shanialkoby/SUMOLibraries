@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/lws/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/lws/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterLWS.cpp
+  SceneLoader.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lws\SceneLoader.cpp(186): warning C4456: declaration of 'j' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lws\SceneLoader.cpp(165): note: see declaration of 'j'
+  Generating Code...
+  osgdb_lws.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_lwsd.dll

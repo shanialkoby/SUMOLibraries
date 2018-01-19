@@ -1,0 +1,11 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/osgjs/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/osgjs/CMakeFiles/generate.stamp is up-to-date.
+  Animation.cpp
+  Base64.cpp
+  JSON_Objects.cpp
+  ReaderWriterJSON.cpp
+  WriteVisitor.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\osgjs\WriteVisitor.cpp(228): warning C4311: 'type cast': pointer truncation from 'osg::Image *' to 'long'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\osgjs\WriteVisitor.cpp(228): warning C4302: 'type cast': truncation from 'osg::Image *' to 'long'
+  Generating Code...
+  osgdb_osgjs.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_osgjsd.dll
