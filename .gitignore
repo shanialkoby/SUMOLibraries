@@ -7,3 +7,4 @@
 *.db-wal
 /OSG-3.4.0/CMakeFiles
 /OSG-3.4.0_64/CMakeFiles
+/OSG-3.4.0_64/bin/*.ilk
