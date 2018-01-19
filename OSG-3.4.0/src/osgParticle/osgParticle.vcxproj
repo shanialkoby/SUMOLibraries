@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6771211B-00D9-306B-B203-0486C8FA4C07}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>osgParticle</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Libraries\OSG-3.4.0\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">osgParticle.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">osg130-osgParticled</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Libraries\OSG-3.4.0\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">osgParticle.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">osg130-osgParticle</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Libraries\OSG-3.4.0\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">osgParticle.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">osg130-osgParticles</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Libraries\OSG-3.4.0\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">osgParticle.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">osg130-osgParticlerd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4706;4127;4100</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR="Debug";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR=\"Debug\";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\osgDBd.lib;opengl32.lib;..\..\lib\osgUtild.lib;..\..\lib\osgd.lib;..\..\lib\OpenThreadsd.lib;C:\Libraries\3rdPartyLibs\x86\lib\zlibd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Libraries/OSG-3.4.0/lib/osgParticled.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Libraries/OSG-3.4.0/bin/osg130-osgParticled.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4706;4127;4100</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR="Release";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR=\"Release\";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\osgDB.lib;opengl32.lib;..\..\lib\osgUtil.lib;..\..\lib\osg.lib;..\..\lib\OpenThreads.lib;C:\Libraries\3rdPartyLibs\x86\lib\zlib.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Libraries/OSG-3.4.0/lib/osgParticle.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Libraries/OSG-3.4.0/bin/osg130-osgParticle.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4706;4127;4100</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR="MinSizeRel";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR=\"MinSizeRel\";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\osgDBs.lib;opengl32.lib;..\..\lib\osgUtils.lib;..\..\lib\osgs.lib;..\..\lib\OpenThreadss.lib;C:\Libraries\3rdPartyLibs\x86\lib\zlib.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Libraries/OSG-3.4.0/lib/osgParticles.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Libraries/OSG-3.4.0/bin/osg130-osgParticles.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4706;4127;4100</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR="RelWithDebInfo";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSGPARTICLE_LIBRARY;CMAKE_INTDIR=\"RelWithDebInfo\";osgParticle_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\osgDBrd.lib;opengl32.lib;..\..\lib\osgUtilrd.lib;..\..\lib\osgrd.lib;..\..\lib\OpenThreadsrd.lib;C:\Libraries\3rdPartyLibs\x86\lib\zlib.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Libraries/OSG-3.4.0/lib/osgParticlerd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Libraries/OSG-3.4.0/bin/osg130-osgParticlerd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Libraries\OSG-3.4.0\src\osgParticle\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgParticle/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Libraries/OSG-3.4.0 -BC:/Libraries/OSG-3.4.0 --check-stamp-file C:/Libraries/OSG-3.4.0/src/osgParticle/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Libraries/OSG-3.4.0/src/osgParticle/CMakeLists.txt;C:\Libraries\OSG-3.4.0\src\osgParticle\CMakeLists.txt;C:\Libraries\OSG-3.4.0\CMakeModules\ModuleInstall.cmake;C:\Libraries\OSG-3.4.0\src\osgParticle\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Libraries\OSG-3.4.0\src\osgParticle\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgParticle/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Libraries/OSG-3.4.0 -BC:/Libraries/OSG-3.4.0 --check-stamp-file C:/Libraries/OSG-3.4.0/src/osgParticle/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Libraries/OSG-3.4.0/src/osgParticle/CMakeLists.txt;C:\Libraries\OSG-3.4.0\src\osgParticle\CMakeLists.txt;C:\Libraries\OSG-3.4.0\CMakeModules\ModuleInstall.cmake;C:\Libraries\OSG-3.4.0\src\osgParticle\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Libraries\OSG-3.4.0\src\osgParticle\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgParticle/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Libraries/OSG-3.4.0 -BC:/Libraries/OSG-3.4.0 --check-stamp-file C:/Libraries/OSG-3.4.0/src/osgParticle/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Libraries/OSG-3.4.0/src/osgParticle/CMakeLists.txt;C:\Libraries\OSG-3.4.0\src\osgParticle\CMakeLists.txt;C:\Libraries\OSG-3.4.0\CMakeModules\ModuleInstall.cmake;C:\Libraries\OSG-3.4.0\src\osgParticle\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Libraries\OSG-3.4.0\src\osgParticle\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgParticle/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Libraries/OSG-3.4.0 -BC:/Libraries/OSG-3.4.0 --check-stamp-file C:/Libraries/OSG-3.4.0/src/osgParticle/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Libraries/OSG-3.4.0/src/osgParticle/CMakeLists.txt;C:\Libraries\OSG-3.4.0\src\osgParticle\CMakeLists.txt;C:\Libraries\OSG-3.4.0\CMakeModules\ModuleInstall.cmake;C:\Libraries\OSG-3.4.0\src\osgParticle\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Libraries\OSG-3.4.0\src\osgParticle\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\AccelOperator" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\AngularAccelOperator" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\BoxPlacer" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\CenteredPlacer" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\ConnectedParticleSystem" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\ConstantRateCounter" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\Counter" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\Emitter" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\ExplosionDebrisEffect" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\ExplosionEffect" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\Export" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\FireEffect" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\FluidFrictionOperator" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\FluidProgram" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\ForceOperator" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\Interpolator" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\LinearInterpolator" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\ModularEmitter" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\ModularProgram" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\MultiSegmentPlacer" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\Operator" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\Particle" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\ParticleEffect" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\ParticleProcessor" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\ParticleSystem" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\ParticleSystemUpdater" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\Placer" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\PointPlacer" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\PrecipitationEffect" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\Program" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\RadialShooter" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\RandomRateCounter" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\range" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\SectorPlacer" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\SegmentPlacer" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\Shooter" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\SmokeEffect" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\SmokeTrailEffect" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\VariableRateCounter" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\Version" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\CompositePlacer" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\AngularDampingOperator" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\DampingOperator" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\ExplosionOperator" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\OrbitOperator" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\DomainOperator" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\BounceOperator" />
+    <None Include="C:\Libraries\OSG-3.4.0\include\osgParticle\SinkOperator" />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\ConnectedParticleSystem.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\Emitter.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\ExplosionDebrisEffect.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\ExplosionEffect.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\FireEffect.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\FluidFrictionOperator.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\FluidProgram.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\ModularEmitter.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\ModularProgram.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\MultiSegmentPlacer.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\Particle.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\ParticleEffect.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\ParticleProcessor.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\ParticleSystem.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\ParticleSystemUpdater.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\PrecipitationEffect.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\Program.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\SmokeEffect.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\SmokeTrailEffect.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\Version.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\DomainOperator.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\BounceOperator.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0\src\osgParticle\SinkOperator.cpp"  />
+    <ResourceCompile Include="C:\Libraries\OSG-3.4.0\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\ZERO_CHECK.vcxproj">
+      <Project>{A4D46AA8-C967-3412-8A03-EDA7590AAC87}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\OpenThreads\win32\OpenThreads.vcxproj">
+      <Project>{94587118-039E-3DC9-86BC-77D63CB48197}</Project>
+      <Name>OpenThreads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osg\osg.vcxproj">
+      <Project>{FC357E85-7A62-365E-B978-CACF48DEB7A6}</Project>
+      <Name>osg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgDB\osgDB.vcxproj">
+      <Project>{F5D3C7F9-C27B-3E5E-87AB-EE34FEA6EFED}</Project>
+      <Name>osgDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgUtil\osgUtil.vcxproj">
+      <Project>{8A6FFF3D-4072-3D64-9558-E76CF328CFEF}</Project>
+      <Name>osgUtil</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

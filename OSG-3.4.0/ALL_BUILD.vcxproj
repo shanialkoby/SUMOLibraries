@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{613783CA-6A3B-3478-B100-6E48C8D79D2E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Libraries\OSG-3.4.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Libraries/OSG-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Libraries/OSG-3.4.0 -BC:/Libraries/OSG-3.4.0 --check-stamp-file C:/Libraries/OSG-3.4.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Libraries/OSG-3.4.0/CMakeLists.txt;C:\Libraries\OSG-3.4.0\CMakeLists.txt;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.10\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Libraries\OSG-3.4.0\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\src\osg\Config.in;C:\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Libraries\OSG-3.4.0\src\osg\GL.in;C:\Libraries\OSG-3.4.0\src\osg\Version.in;C:\Libraries\OSG-3.4.0\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc.in;C:\Libraries\OSG-3.4.0\CMakeModules\Find3rdPartyDependencies.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindNVTT.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindFreetype.cmake;C:\CMake\share\cmake-3.10\Modules\FindFreetype.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindInventor.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindJasper.cmake;C:\CMake\share\cmake-3.10\Modules\FindJasper.cmake;C:\CMake\share\cmake-3.10\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindOpenEXR.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindCOLLADA.cmake;C:\CMake\share\cmake-3.10\Modules\FindLibXml2.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindFBX.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindXine.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindOpenVRML.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindPerformer.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGDAL.cmake;C:\CMake\share\cmake-3.10\Modules\FindGDAL.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGTA.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindCURL.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindLibVNCServer.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindOurDCMTK.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindFFmpeg.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGStreamer.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGLIB.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindDirectShow.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindSDL2.cmake;C:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindSDL.cmake;C:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindPoppler-glib.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindRSVG.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGtkGl.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindDirectInput.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindNVTT.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindZeroConf.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindLIBLAS.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\OsgMacroUtils.cmake;C:\CMake\share\cmake-3.10\Modules\FindQt4.cmake;C:\CMake\share\cmake-3.10\Modules\CheckCXXSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\MacroAddFileDependencies.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.10\Modules\FindQt3.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGIFLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPNG.cmake;C:\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindTIFF.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindQuickTime.cmake;C:\CMake\share\cmake-3.10\Modules\Documentation.cmake;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osg.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgDB.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgFX.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgGA.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgParticle.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgSim.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgText.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgUtil.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgTerrain.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgManipulator.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgViewer.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgWidget.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgShadow.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgAnimation.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgVolume.pc.in;C:\Libraries\OSG-3.4.0\CMakeModules\cmake_uninstall.cmake.in;C:\Libraries\OSG-3.4.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Libraries\OSG-3.4.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Libraries/OSG-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Libraries/OSG-3.4.0 -BC:/Libraries/OSG-3.4.0 --check-stamp-file C:/Libraries/OSG-3.4.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Libraries/OSG-3.4.0/CMakeLists.txt;C:\Libraries\OSG-3.4.0\CMakeLists.txt;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.10\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Libraries\OSG-3.4.0\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\src\osg\Config.in;C:\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Libraries\OSG-3.4.0\src\osg\GL.in;C:\Libraries\OSG-3.4.0\src\osg\Version.in;C:\Libraries\OSG-3.4.0\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc.in;C:\Libraries\OSG-3.4.0\CMakeModules\Find3rdPartyDependencies.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindNVTT.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindFreetype.cmake;C:\CMake\share\cmake-3.10\Modules\FindFreetype.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindInventor.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindJasper.cmake;C:\CMake\share\cmake-3.10\Modules\FindJasper.cmake;C:\CMake\share\cmake-3.10\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindOpenEXR.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindCOLLADA.cmake;C:\CMake\share\cmake-3.10\Modules\FindLibXml2.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindFBX.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindXine.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindOpenVRML.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindPerformer.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGDAL.cmake;C:\CMake\share\cmake-3.10\Modules\FindGDAL.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGTA.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindCURL.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindLibVNCServer.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindOurDCMTK.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindFFmpeg.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGStreamer.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGLIB.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindDirectShow.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindSDL2.cmake;C:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindSDL.cmake;C:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindPoppler-glib.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindRSVG.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGtkGl.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindDirectInput.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindNVTT.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindZeroConf.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindLIBLAS.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\OsgMacroUtils.cmake;C:\CMake\share\cmake-3.10\Modules\FindQt4.cmake;C:\CMake\share\cmake-3.10\Modules\CheckCXXSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\MacroAddFileDependencies.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.10\Modules\FindQt3.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGIFLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPNG.cmake;C:\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindTIFF.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindQuickTime.cmake;C:\CMake\share\cmake-3.10\Modules\Documentation.cmake;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osg.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgDB.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgFX.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgGA.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgParticle.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgSim.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgText.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgUtil.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgTerrain.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgManipulator.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgViewer.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgWidget.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgShadow.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgAnimation.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgVolume.pc.in;C:\Libraries\OSG-3.4.0\CMakeModules\cmake_uninstall.cmake.in;C:\Libraries\OSG-3.4.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Libraries\OSG-3.4.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Libraries/OSG-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Libraries/OSG-3.4.0 -BC:/Libraries/OSG-3.4.0 --check-stamp-file C:/Libraries/OSG-3.4.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Libraries/OSG-3.4.0/CMakeLists.txt;C:\Libraries\OSG-3.4.0\CMakeLists.txt;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.10\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Libraries\OSG-3.4.0\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\src\osg\Config.in;C:\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Libraries\OSG-3.4.0\src\osg\GL.in;C:\Libraries\OSG-3.4.0\src\osg\Version.in;C:\Libraries\OSG-3.4.0\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc.in;C:\Libraries\OSG-3.4.0\CMakeModules\Find3rdPartyDependencies.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindNVTT.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindFreetype.cmake;C:\CMake\share\cmake-3.10\Modules\FindFreetype.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindInventor.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindJasper.cmake;C:\CMake\share\cmake-3.10\Modules\FindJasper.cmake;C:\CMake\share\cmake-3.10\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindOpenEXR.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindCOLLADA.cmake;C:\CMake\share\cmake-3.10\Modules\FindLibXml2.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindFBX.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindXine.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindOpenVRML.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindPerformer.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGDAL.cmake;C:\CMake\share\cmake-3.10\Modules\FindGDAL.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGTA.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindCURL.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindLibVNCServer.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindOurDCMTK.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindFFmpeg.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGStreamer.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGLIB.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindDirectShow.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindSDL2.cmake;C:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindSDL.cmake;C:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindPoppler-glib.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindRSVG.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGtkGl.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindDirectInput.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindNVTT.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindZeroConf.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindLIBLAS.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\OsgMacroUtils.cmake;C:\CMake\share\cmake-3.10\Modules\FindQt4.cmake;C:\CMake\share\cmake-3.10\Modules\CheckCXXSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\MacroAddFileDependencies.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.10\Modules\FindQt3.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGIFLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPNG.cmake;C:\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindTIFF.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindQuickTime.cmake;C:\CMake\share\cmake-3.10\Modules\Documentation.cmake;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osg.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgDB.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgFX.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgGA.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgParticle.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgSim.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgText.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgUtil.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgTerrain.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgManipulator.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgViewer.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgWidget.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgShadow.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgAnimation.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgVolume.pc.in;C:\Libraries\OSG-3.4.0\CMakeModules\cmake_uninstall.cmake.in;C:\Libraries\OSG-3.4.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Libraries\OSG-3.4.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Libraries/OSG-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Libraries/OSG-3.4.0 -BC:/Libraries/OSG-3.4.0 --check-stamp-file C:/Libraries/OSG-3.4.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Libraries/OSG-3.4.0/CMakeLists.txt;C:\Libraries\OSG-3.4.0\CMakeLists.txt;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.10\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Libraries\OSG-3.4.0\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;C:\Libraries\OSG-3.4.0\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;C:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\src\osg\Config.in;C:\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Libraries\OSG-3.4.0\src\osg\GL.in;C:\Libraries\OSG-3.4.0\src\osg\Version.in;C:\Libraries\OSG-3.4.0\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc.in;C:\Libraries\OSG-3.4.0\CMakeModules\Find3rdPartyDependencies.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindNVTT.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindFreetype.cmake;C:\CMake\share\cmake-3.10\Modules\FindFreetype.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindInventor.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindJasper.cmake;C:\CMake\share\cmake-3.10\Modules\FindJasper.cmake;C:\CMake\share\cmake-3.10\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindOpenEXR.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindCOLLADA.cmake;C:\CMake\share\cmake-3.10\Modules\FindLibXml2.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindFBX.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindXine.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindOpenVRML.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindPerformer.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGDAL.cmake;C:\CMake\share\cmake-3.10\Modules\FindGDAL.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGTA.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindCURL.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindLibVNCServer.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindOurDCMTK.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindFFmpeg.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGStreamer.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGLIB.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindDirectShow.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindSDL2.cmake;C:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindSDL.cmake;C:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindPoppler-glib.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindRSVG.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGtkGl.cmake;C:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindDirectInput.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindNVTT.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindZeroConf.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindLIBLAS.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\OsgMacroUtils.cmake;C:\CMake\share\cmake-3.10\Modules\FindQt4.cmake;C:\CMake\share\cmake-3.10\Modules\CheckCXXSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.10\Modules\MacroAddFileDependencies.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\CMakePushCheckState.cmake;C:\CMake\share\cmake-3.10\Modules\FindQt3.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindGIFLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindJPEG.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPNG.cmake;C:\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.10\Modules\FindTIFF.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Libraries\OSG-3.4.0\CMakeModules\FindQuickTime.cmake;C:\CMake\share\cmake-3.10\Modules\Documentation.cmake;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osg.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgDB.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgFX.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgGA.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgParticle.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgSim.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgText.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgUtil.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgTerrain.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgManipulator.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgViewer.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgWidget.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgShadow.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgAnimation.pc.in;C:\Libraries\OSG-3.4.0\packaging\pkgconfig\openscenegraph-osgVolume.pc.in;C:\Libraries\OSG-3.4.0\CMakeModules\cmake_uninstall.cmake.in;C:\Libraries\OSG-3.4.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Libraries\OSG-3.4.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\ZERO_CHECK.vcxproj">
+      <Project>{A4D46AA8-C967-3412-8A03-EDA7590AAC87}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\OpenThreads\win32\OpenThreads.vcxproj">
+      <Project>{94587118-039E-3DC9-86BC-77D63CB48197}</Project>
+      <Name>OpenThreads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\applications\osgarchive\application_osgarchive.vcxproj">
+      <Project>{5E837415-27D0-34B0-B468-D33A3A199409}</Project>
+      <Name>application_osgarchive</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\applications\osgconv\application_osgconv.vcxproj">
+      <Project>{55431EAC-56B3-3609-B21A-16D4BF858396}</Project>
+      <Name>application_osgconv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\applications\osgfilecache\application_osgfilecache.vcxproj">
+      <Project>{05B283C4-D83F-3A47-8582-89395D2D1CAC}</Project>
+      <Name>application_osgfilecache</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\applications\osgversion\application_osgversion.vcxproj">
+      <Project>{7EBAD9FF-0A15-35AD-B988-DB7B13B96F0E}</Project>
+      <Name>application_osgversion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\applications\osgviewer\application_osgviewer.vcxproj">
+      <Project>{B0850E58-5C94-3286-9DF8-72E774708BFF}</Project>
+      <Name>application_osgviewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\applications\present3D\application_present3D.vcxproj">
+      <Project>{57C20738-124A-3798-9C83-3D9C56B0074D}</Project>
+      <Name>application_present3D</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osg\osg.vcxproj">
+      <Project>{FC357E85-7A62-365E-B978-CACF48DEB7A6}</Project>
+      <Name>osg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgAnimation\osgAnimation.vcxproj">
+      <Project>{5369B56B-62EA-3418-965D-D98AA2CCA278}</Project>
+      <Name>osgAnimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgDB\osgDB.vcxproj">
+      <Project>{F5D3C7F9-C27B-3E5E-87AB-EE34FEA6EFED}</Project>
+      <Name>osgDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgFX\osgFX.vcxproj">
+      <Project>{D62E970B-EC92-38AA-A2DF-F90C636C1F87}</Project>
+      <Name>osgFX</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgGA\osgGA.vcxproj">
+      <Project>{6A353D1F-1D89-3385-9A38-AE9D05A17EFF}</Project>
+      <Name>osgGA</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgManipulator\osgManipulator.vcxproj">
+      <Project>{79A50222-679E-3B39-94E3-F1798CFC833A}</Project>
+      <Name>osgManipulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgParticle\osgParticle.vcxproj">
+      <Project>{6771211B-00D9-306B-B203-0486C8FA4C07}</Project>
+      <Name>osgParticle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPresentation\osgPresentation.vcxproj">
+      <Project>{9B2F4E3D-50D7-397D-89DC-E385C5B6D656}</Project>
+      <Name>osgPresentation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgShadow\osgShadow.vcxproj">
+      <Project>{16E40EC3-BB9B-32C5-AC9D-7E64AEB29A61}</Project>
+      <Name>osgShadow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgSim\osgSim.vcxproj">
+      <Project>{4DFC9D23-D20A-33B2-A873-9A47AB61E441}</Project>
+      <Name>osgSim</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgTerrain\osgTerrain.vcxproj">
+      <Project>{C4B0758E-B22C-320E-B34B-C7FDB688BA68}</Project>
+      <Name>osgTerrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgText\osgText.vcxproj">
+      <Project>{40BD075A-3D73-38D7-8536-C870701DD3B4}</Project>
+      <Name>osgText</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgUI\osgUI.vcxproj">
+      <Project>{354E7820-ED60-3132-8EA0-147DD01AD6F5}</Project>
+      <Name>osgUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgUtil\osgUtil.vcxproj">
+      <Project>{8A6FFF3D-4072-3D64-9558-E76CF328CFEF}</Project>
+      <Name>osgUtil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgViewer\osgViewer.vcxproj">
+      <Project>{10B31CC8-329F-3986-839D-AD39729F5ACB}</Project>
+      <Name>osgViewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgVolume\osgVolume.vcxproj">
+      <Project>{AA855187-6A55-3266-889D-898745FCC592}</Project>
+      <Name>osgVolume</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWidget\osgWidget.vcxproj">
+      <Project>{5FBEE27B-CF31-3F96-87CA-D210C8165DE7}</Project>
+      <Name>osgWidget</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\3dc\osgdb_3dc.vcxproj">
+      <Project>{4C8F6CDD-B169-366E-B93E-F38BF9296229}</Project>
+      <Name>osgdb_3dc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\3ds\osgdb_3ds.vcxproj">
+      <Project>{B98AC0D3-E880-3B72-8CC3-11C3F3E2F54F}</Project>
+      <Name>osgdb_3ds</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\ac\osgdb_ac.vcxproj">
+      <Project>{AE2439DC-7E6D-39F6-9E6E-FA678F904B07}</Project>
+      <Name>osgdb_ac</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\bmp\osgdb_bmp.vcxproj">
+      <Project>{710BD1F2-4DA5-31CD-AFCE-C65CC948EE41}</Project>
+      <Name>osgdb_bmp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\bsp\osgdb_bsp.vcxproj">
+      <Project>{25F02B2E-870C-37E8-99CD-DC88490DA293}</Project>
+      <Name>osgdb_bsp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\bvh\osgdb_bvh.vcxproj">
+      <Project>{7E87C53D-55C8-35F0-8091-F34B4313819B}</Project>
+      <Name>osgdb_bvh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\cfg\osgdb_cfg.vcxproj">
+      <Project>{A52A75DA-5588-39A8-B01D-680929550808}</Project>
+      <Name>osgdb_cfg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\curl\osgdb_curl.vcxproj">
+      <Project>{8A4525B7-18F4-3D99-9BA2-F26C864A91A5}</Project>
+      <Name>osgdb_curl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\dds\osgdb_dds.vcxproj">
+      <Project>{1F5C4BEC-251C-3D1A-9CAF-640AE9BB2E7D}</Project>
+      <Name>osgdb_dds</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\deprecated-dotosg\osg\osgdb_deprecated_osg.vcxproj">
+      <Project>{B352160A-3409-3A21-9621-A582DF4A8C4D}</Project>
+      <Name>osgdb_deprecated_osg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\deprecated-dotosg\osgAnimation\osgdb_deprecated_osganimation.vcxproj">
+      <Project>{07E01691-7FB2-30BA-8F06-33C3520FD199}</Project>
+      <Name>osgdb_deprecated_osganimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\deprecated-dotosg\osgFX\osgdb_deprecated_osgfx.vcxproj">
+      <Project>{26095E1B-9CEC-351F-9C28-76BC525DCCA7}</Project>
+      <Name>osgdb_deprecated_osgfx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\deprecated-dotosg\osgParticle\osgdb_deprecated_osgparticle.vcxproj">
+      <Project>{FE910DF5-70CB-34FA-A445-D0405F0658A6}</Project>
+      <Name>osgdb_deprecated_osgparticle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\deprecated-dotosg\osgShadow\osgdb_deprecated_osgshadow.vcxproj">
+      <Project>{0B5AD98D-CDF6-3A9C-8E2F-35E24779AE4B}</Project>
+      <Name>osgdb_deprecated_osgshadow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\deprecated-dotosg\osgSim\osgdb_deprecated_osgsim.vcxproj">
+      <Project>{BE48A7BD-49C4-3D7A-90E7-9609A067BFE5}</Project>
+      <Name>osgdb_deprecated_osgsim</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\deprecated-dotosg\osgTerrain\osgdb_deprecated_osgterrain.vcxproj">
+      <Project>{4A8D22DD-9AAA-3684-8E67-10054149CB21}</Project>
+      <Name>osgdb_deprecated_osgterrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\deprecated-dotosg\osgText\osgdb_deprecated_osgtext.vcxproj">
+      <Project>{45C4AE2F-2314-3BCC-ABF2-45E77546C0B1}</Project>
+      <Name>osgdb_deprecated_osgtext</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\deprecated-dotosg\osgViewer\osgdb_deprecated_osgviewer.vcxproj">
+      <Project>{BA0A8D70-3C5C-3BE2-905B-48F7D55224BB}</Project>
+      <Name>osgdb_deprecated_osgviewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\deprecated-dotosg\osgVolume\osgdb_deprecated_osgvolume.vcxproj">
+      <Project>{D84F6E86-C4F6-309C-9859-99383B610E3E}</Project>
+      <Name>osgdb_deprecated_osgvolume</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\deprecated-dotosg\osgWidget\osgdb_deprecated_osgwidget.vcxproj">
+      <Project>{5BA1D425-8CCA-30A0-AAD5-DB23374A5FAB}</Project>
+      <Name>osgdb_deprecated_osgwidget</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\dot\osgdb_dot.vcxproj">
+      <Project>{CC25F2A5-0106-31E7-A088-2092BC1AC6AF}</Project>
+      <Name>osgdb_dot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\dw\osgdb_dw.vcxproj">
+      <Project>{965F93F8-D9B6-3568-8075-5F38C73A3FA2}</Project>
+      <Name>osgdb_dw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\dxf\osgdb_dxf.vcxproj">
+      <Project>{03F960F3-F11A-305C-B70D-5DFDB0FC4584}</Project>
+      <Name>osgdb_dxf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\freetype\osgdb_freetype.vcxproj">
+      <Project>{B823D8B5-DA13-36C9-A620-B58961429F64}</Project>
+      <Name>osgdb_freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\gdal\osgdb_gdal.vcxproj">
+      <Project>{DA9639CA-1FB6-3393-8697-844976E0B268}</Project>
+      <Name>osgdb_gdal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\gif\osgdb_gif.vcxproj">
+      <Project>{CCB55F3B-5137-3108-9AF4-F72588C22759}</Project>
+      <Name>osgdb_gif</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\gles\osgdb_gles.vcxproj">
+      <Project>{7378B23D-37AA-3512-8782-86AD18388663}</Project>
+      <Name>osgdb_gles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\glsl\osgdb_glsl.vcxproj">
+      <Project>{5936A7BE-AF58-3973-9751-6841EFDF2826}</Project>
+      <Name>osgdb_glsl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\gz\osgdb_gz.vcxproj">
+      <Project>{169876DD-1997-3D5E-B8AF-8A271CAC7DF6}</Project>
+      <Name>osgdb_gz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\hdr\osgdb_hdr.vcxproj">
+      <Project>{8328BF6C-5F01-39CF-B7D5-64C16910800B}</Project>
+      <Name>osgdb_hdr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\osgdb_ive.vcxproj">
+      <Project>{2F431986-4328-353F-AD95-DBFE664FF2F4}</Project>
+      <Name>osgdb_ive</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\jpeg\osgdb_jpeg.vcxproj">
+      <Project>{15890050-BB15-3FD6-A6A2-80F69EB621DD}</Project>
+      <Name>osgdb_jpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\ktx\osgdb_ktx.vcxproj">
+      <Project>{4F713363-BD86-3EFC-8840-1C26C2F913BC}</Project>
+      <Name>osgdb_ktx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\logo\osgdb_logo.vcxproj">
+      <Project>{E3335D71-664C-3C34-A1B3-2F9616E575A7}</Project>
+      <Name>osgdb_logo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\lua\osgdb_lua.vcxproj">
+      <Project>{50689577-EBCA-3296-A405-8C896234FFF5}</Project>
+      <Name>osgdb_lua</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\lwo\osgdb_lwo.vcxproj">
+      <Project>{7CE8C1D7-493E-3675-BC77-B0CE7320F310}</Project>
+      <Name>osgdb_lwo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\lws\osgdb_lws.vcxproj">
+      <Project>{87D2B3FF-03BF-3E5A-A47A-E2E83CFFC4AE}</Project>
+      <Name>osgdb_lws</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\md2\osgdb_md2.vcxproj">
+      <Project>{BA247DC5-7E5E-368A-B16B-9B10794478B9}</Project>
+      <Name>osgdb_md2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\mdl\osgdb_mdl.vcxproj">
+      <Project>{D3A0EB58-46DC-3E58-B94D-44973149CB98}</Project>
+      <Name>osgdb_mdl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\normals\osgdb_normals.vcxproj">
+      <Project>{AC2878B3-5AFA-334C-BECC-015EB28E427D}</Project>
+      <Name>osgdb_normals</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\obj\osgdb_obj.vcxproj">
+      <Project>{56494F74-8B77-3FD6-8FCE-9C6BDE8DC183}</Project>
+      <Name>osgdb_obj</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\ogr\osgdb_ogr.vcxproj">
+      <Project>{124417EC-1BEB-3647-827E-01403B2479B3}</Project>
+      <Name>osgdb_ogr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\OpenFlight\osgdb_openflight.vcxproj">
+      <Project>{083E4F33-C11B-37AC-B125-25737E2471FE}</Project>
+      <Name>osgdb_openflight</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\osc\osgdb_osc.vcxproj">
+      <Project>{867EA65E-B9CC-3F48-B417-013E76721FB0}</Project>
+      <Name>osgdb_osc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\osg\osgdb_osg.vcxproj">
+      <Project>{4F2502BF-DDB8-3C4C-AF62-EB541CF1ACF5}</Project>
+      <Name>osgdb_osg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\osga\osgdb_osga.vcxproj">
+      <Project>{252782DC-7D8F-3838-9180-B30FCE6CAA1B}</Project>
+      <Name>osgdb_osga</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\osgjs\osgdb_osgjs.vcxproj">
+      <Project>{D1439DD8-E4BF-363A-972B-B80DFFB62D41}</Project>
+      <Name>osgdb_osgjs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\shadow\osgdb_osgshadow.vcxproj">
+      <Project>{8B8CC221-7555-316E-9C45-584B6D26546A}</Project>
+      <Name>osgdb_osgshadow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\terrain\osgdb_osgterrain.vcxproj">
+      <Project>{BEFCB7F6-34FC-3F97-97B2-637405AA3130}</Project>
+      <Name>osgdb_osgterrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\osgtgz\osgdb_osgtgz.vcxproj">
+      <Project>{BDC0B1A0-B526-3E70-BF11-070F57DE0C7D}</Project>
+      <Name>osgdb_osgtgz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\view\osgdb_osgviewer.vcxproj">
+      <Project>{C78DEF5D-3100-3F51-9229-366CEED8BB56}</Project>
+      <Name>osgdb_osgviewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\p3d\osgdb_p3d.vcxproj">
+      <Project>{B09AC37E-5163-3B1E-9CE6-5A32C7FACD61}</Project>
+      <Name>osgdb_p3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\pic\osgdb_pic.vcxproj">
+      <Project>{45F8B01E-A3FC-3890-9AF7-464839E8DD27}</Project>
+      <Name>osgdb_pic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\ply\osgdb_ply.vcxproj">
+      <Project>{61C009BE-29CA-3670-92C4-B1E9B4AA86B0}</Project>
+      <Name>osgdb_ply</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\png\osgdb_png.vcxproj">
+      <Project>{EBD1CB4A-A5FE-3D5A-8860-0569E59C1C3D}</Project>
+      <Name>osgdb_png</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\pnm\osgdb_pnm.vcxproj">
+      <Project>{BA0DBC70-0CD7-305C-AE91-5476C5904495}</Project>
+      <Name>osgdb_pnm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\pov\osgdb_pov.vcxproj">
+      <Project>{7B3D4FF5-E41F-35B3-8918-5C657B62E8F8}</Project>
+      <Name>osgdb_pov</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\pvr\osgdb_pvr.vcxproj">
+      <Project>{4703CFD6-6C44-383B-AB33-753914E36AB4}</Project>
+      <Name>osgdb_pvr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\revisions\osgdb_revisions.vcxproj">
+      <Project>{B3F97267-66A9-3560-A887-6949F30C5135}</Project>
+      <Name>osgdb_revisions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\rgb\osgdb_rgb.vcxproj">
+      <Project>{9C9E2A22-864F-34A7-B407-369BE4491545}</Project>
+      <Name>osgdb_rgb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\rot\osgdb_rot.vcxproj">
+      <Project>{919CE973-D343-3589-93A5-B2604CA51BAA}</Project>
+      <Name>osgdb_rot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\scale\osgdb_scale.vcxproj">
+      <Project>{0D649E52-0FEC-39E1-8BC2-EC7016DC522E}</Project>
+      <Name>osgdb_scale</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osg\osgdb_serializers_osg.vcxproj">
+      <Project>{199C7DF1-6BCB-3BD7-A092-761EC5728DB4}</Project>
+      <Name>osgdb_serializers_osg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osgAnimation\osgdb_serializers_osganimation.vcxproj">
+      <Project>{96B7DACA-3CF9-3CF0-B74F-60F5D303023C}</Project>
+      <Name>osgdb_serializers_osganimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osgFX\osgdb_serializers_osgfx.vcxproj">
+      <Project>{AF719358-01AE-3BFC-8253-02A216962EC9}</Project>
+      <Name>osgdb_serializers_osgfx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osgGA\osgdb_serializers_osgga.vcxproj">
+      <Project>{BF53DB21-A59A-3626-8332-0BB0CA751452}</Project>
+      <Name>osgdb_serializers_osgga</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osgManipulator\osgdb_serializers_osgmanipulator.vcxproj">
+      <Project>{5E121F92-002C-389F-A3CB-F15804CF5931}</Project>
+      <Name>osgdb_serializers_osgmanipulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osgParticle\osgdb_serializers_osgparticle.vcxproj">
+      <Project>{E970635B-796E-36C5-B629-85A34043DBFA}</Project>
+      <Name>osgdb_serializers_osgparticle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osgShadow\osgdb_serializers_osgshadow.vcxproj">
+      <Project>{79EFF13F-2EC4-34FA-A093-EBD419EC6CB7}</Project>
+      <Name>osgdb_serializers_osgshadow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osgSim\osgdb_serializers_osgsim.vcxproj">
+      <Project>{89505E2D-70F0-34B4-8218-1947AFE1154A}</Project>
+      <Name>osgdb_serializers_osgsim</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osgTerrain\osgdb_serializers_osgterrain.vcxproj">
+      <Project>{35D7084B-A710-3595-A197-0BE2FDCFD03F}</Project>
+      <Name>osgdb_serializers_osgterrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osgText\osgdb_serializers_osgtext.vcxproj">
+      <Project>{25F6AEF3-5DA3-3039-B799-378E272138B5}</Project>
+      <Name>osgdb_serializers_osgtext</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osgUI\osgdb_serializers_osgui.vcxproj">
+      <Project>{6E6E9F1F-89BB-3CD3-9CBC-4791916C106E}</Project>
+      <Name>osgdb_serializers_osgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osgUtil\osgdb_serializers_osgutil.vcxproj">
+      <Project>{73AE0E7A-6EA8-3E72-8026-D7747F6AD3AD}</Project>
+      <Name>osgdb_serializers_osgutil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osgViewer\osgdb_serializers_osgviewer.vcxproj">
+      <Project>{7DE5DDDD-2F34-319F-99CF-3549B109B867}</Project>
+      <Name>osgdb_serializers_osgviewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgWrappers\serializers\osgVolume\osgdb_serializers_osgvolume.vcxproj">
+      <Project>{4E4F9182-5F5D-3901-9688-B31B743EE57A}</Project>
+      <Name>osgdb_serializers_osgvolume</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\shp\osgdb_shp.vcxproj">
+      <Project>{CDF870A7-835C-372A-84F6-3F928994A52B}</Project>
+      <Name>osgdb_shp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\stl\osgdb_stl.vcxproj">
+      <Project>{6CDFF9D9-9D49-3B85-A6E1-038A3771C51E}</Project>
+      <Name>osgdb_stl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\tf\osgdb_tf.vcxproj">
+      <Project>{90AA9887-BD59-387D-9482-CC0055D61AF2}</Project>
+      <Name>osgdb_tf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\tga\osgdb_tga.vcxproj">
+      <Project>{15B1D765-1B6B-39B3-8BBB-AFF97911B858}</Project>
+      <Name>osgdb_tga</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\tgz\osgdb_tgz.vcxproj">
+      <Project>{5E06CE6D-AD4F-3115-BC3E-091FE5E83E03}</Project>
+      <Name>osgdb_tgz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\tiff\osgdb_tiff.vcxproj">
+      <Project>{60AD9D1C-74D2-3690-B56C-BC296A373AE3}</Project>
+      <Name>osgdb_tiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\trans\osgdb_trans.vcxproj">
+      <Project>{879B3D58-48FA-3864-82C5-395267DE0515}</Project>
+      <Name>osgdb_trans</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\trk\osgdb_trk.vcxproj">
+      <Project>{0F0F8046-228E-38AD-966E-0E76AA3AAC04}</Project>
+      <Name>osgdb_trk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\txf\osgdb_txf.vcxproj">
+      <Project>{A8E5B6AB-EE43-3A19-84FE-69049526B4D5}</Project>
+      <Name>osgdb_txf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\osgdb_txp.vcxproj">
+      <Project>{D2763F4B-7434-35EA-B669-A076A0FD35C2}</Project>
+      <Name>osgdb_txp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\vtf\osgdb_vtf.vcxproj">
+      <Project>{AC8FFD37-9CD0-3AC7-9ADA-F829CC1FFBCC}</Project>
+      <Name>osgdb_vtf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\x\osgdb_x.vcxproj">
+      <Project>{3B1EC10B-9D5E-3785-BF24-22E2FAE04DFA}</Project>
+      <Name>osgdb_x</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0\src\osgPlugins\zip\osgdb_zip.vcxproj">
+      <Project>{E262119C-5473-3D19-B2C4-117267E0526B}</Project>
+      <Name>osgdb_zip</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
