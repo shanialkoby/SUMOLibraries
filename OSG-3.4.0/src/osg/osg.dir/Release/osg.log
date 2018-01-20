@@ -1,0 +1,251 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osg/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osg/CMakeFiles/generate.stamp is up-to-date.
+  AlphaFunc.cpp
+  AnimationPath.cpp
+  ApplicationUsage.cpp
+  ArgumentParser.cpp
+  Array.cpp
+  ArrayDispatchers.cpp
+  AudioStream.cpp
+  AutoTransform.cpp
+  Billboard.cpp
+  BlendColor.cpp
+  BlendEquation.cpp
+  BlendEquationi.cpp
+  BlendFunc.cpp
+  BlendFunci.cpp
+  BufferIndexBinding.cpp
+  BufferObject.cpp
+  Callback.cpp
+  Capability.cpp
+  Camera.cpp
+  CameraView.cpp
+  Generating Code...
+  Compiling...
+  ClampColor.cpp
+  ClearNode.cpp
+  ClipControl.cpp
+  ClipNode.cpp
+  ClipPlane.cpp
+  ClusterCullingCallback.cpp
+  CollectOccludersVisitor.cpp
+  ColorMask.cpp
+  ColorMaski.cpp
+  ColorMatrix.cpp
+  ComputeBoundsVisitor.cpp
+  ConvexPlanarOccluder.cpp
+  ConvexPlanarPolygon.cpp
+  CoordinateSystemNode.cpp
+  CopyOp.cpp
+  CullFace.cpp
+  CullingSet.cpp
+  CullSettings.cpp
+  CullStack.cpp
+  DeleteHandler.cpp
+  Generating Code...
+  Compiling...
+  Depth.cpp
+  DisplaySettings.cpp
+  Drawable.cpp
+  DrawPixels.cpp
+  dxtctool.cpp
+  Fog.cpp
+  FragmentProgram.cpp
+  FrameBufferObject.cpp
+  FrameStamp.cpp
+  FrontFace.cpp
+  Geode.cpp
+  Geometry.cpp
+C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1544): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1505): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1558): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1505): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1591): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1505): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1605): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1505): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1636): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1505): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1650): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1505): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1680): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1505): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1693): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1505): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1723): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1505): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1737): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\Geometry.cpp(1505): note: see declaration of 'itr'
+  GLExtensions.cpp
+  GLBeginEndAdapter.cpp
+  GLObjects.cpp
+  GLStaticLibrary.cpp
+  GraphicsCostEstimator.cpp
+  GraphicsContext.cpp
+  GraphicsThread.cpp
+  Group.cpp
+  Generating Code...
+  Compiling...
+  Hint.cpp
+  Image.cpp
+  ImageSequence.cpp
+  ImageStream.cpp
+  ImageUtils.cpp
+C:\Libraries\OSG-3.4.0\src\osg\ImageUtils.cpp(571): warning C4456: declaration of 'r' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\ImageUtils.cpp(564): note: see declaration of 'r'
+  KdTree.cpp
+  Light.cpp
+  LightModel.cpp
+  LightSource.cpp
+  LineSegment.cpp
+  LineStipple.cpp
+  LineWidth.cpp
+  LOD.cpp
+  LogicOp.cpp
+  Material.cpp
+  Math.cpp
+  Matrixd.cpp
+  MatrixDecomposition.cpp
+C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(346): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(344): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(346): warning C4456: declaration of 'j' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(344): note: see declaration of 'j'
+C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(365): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(344): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(365): warning C4456: declaration of 'j' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(344): note: see declaration of 'j'
+C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(366): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(344): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(366): warning C4456: declaration of 'j' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(344): note: see declaration of 'j'
+C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(367): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(344): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(367): warning C4456: declaration of 'j' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(344): note: see declaration of 'j'
+C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(374): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(344): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(374): warning C4456: declaration of 'j' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(344): note: see declaration of 'j'
+C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(397): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(396): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(397): warning C4456: declaration of 'j' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(396): note: see declaration of 'j'
+C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(550): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\MatrixDecomposition.cpp(455): note: see declaration of 'i'
+  Matrixf.cpp
+  MatrixTransform.cpp
+  Generating Code...
+  Compiling...
+  Multisample.cpp
+  Node.cpp
+  NodeTrackerCallback.cpp
+  NodeVisitor.cpp
+  Notify.cpp
+  Object.cpp
+  Observer.cpp
+  ObserverNodePath.cpp
+  OccluderNode.cpp
+  OcclusionQueryNode.cpp
+  OperationThread.cpp
+  PatchParameter.cpp
+  PagedLOD.cpp
+  Point.cpp
+  PointSprite.cpp
+  PolygonMode.cpp
+  PolygonOffset.cpp
+  PolygonStipple.cpp
+  PositionAttitudeTransform.cpp
+  PrimitiveSet.cpp
+  Generating Code...
+  Compiling...
+  PrimitiveRestartIndex.cpp
+  Program.cpp
+  Projection.cpp
+  ProxyNode.cpp
+  Quat.cpp
+  Referenced.cpp
+  SampleMaski.cpp
+  Scissor.cpp
+  ScriptEngine.cpp
+  Sequence.cpp
+  ShadeModel.cpp
+  Shader.cpp
+  ShaderAttribute.cpp
+  ShaderComposer.cpp
+C:\Libraries\OSG-3.4.0\src\osg\ShaderComposer.cpp(65): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\ShaderComposer.cpp(48): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osg\ShaderComposer.cpp(146): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\ShaderComposer.cpp(133): note: see declaration of 'itr'
+  ShadowVolumeOccluder.cpp
+C:\Libraries\OSG-3.4.0\src\osg\ShadowVolumeOccluder.cpp(258): warning C4456: declaration of 'points' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\ShadowVolumeOccluder.cpp(218): note: see declaration of 'points'
+C:\Libraries\OSG-3.4.0\src\osg\ShadowVolumeOccluder.cpp(265): warning C4456: declaration of 'farPoints' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\ShadowVolumeOccluder.cpp(223): note: see declaration of 'farPoints'
+C:\Libraries\OSG-3.4.0\src\osg\ShadowVolumeOccluder.cpp(279): warning C4456: declaration of 'occludePlane' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\ShadowVolumeOccluder.cpp(237): note: see declaration of 'occludePlane'
+  Shape.cpp
+  ShapeDrawable.cpp
+C:\Libraries\OSG-3.4.0\src\osg\ShapeDrawable.cpp(311): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Libraries\OSG-3.4.0\src\osg\ShapeDrawable.cpp(381): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Libraries\OSG-3.4.0\src\osg\ShapeDrawable.cpp(669): warning C4305: '=': truncation from 'double' to 'float'
+C:\Libraries\OSG-3.4.0\src\osg\ShapeDrawable.cpp(776): warning C4305: '=': truncation from 'double' to 'float'
+C:\Libraries\OSG-3.4.0\src\osg\ShapeDrawable.cpp(1479): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Libraries\OSG-3.4.0\src\osg\ShapeDrawable.cpp(1697): warning C4305: '=': truncation from 'double' to 'float'
+C:\Libraries\OSG-3.4.0\src\osg\ShapeDrawable.cpp(1783): warning C4305: '=': truncation from 'double' to 'float'
+  StateAttribute.cpp
+  State.cpp
+  StateSet.cpp
+  Generating Code...
+  Compiling...
+  Stats.cpp
+  Stencil.cpp
+  StencilTwoSided.cpp
+  Switch.cpp
+  TexEnvCombine.cpp
+  TexEnv.cpp
+  TexEnvFilter.cpp
+  TexGen.cpp
+  TexGenNode.cpp
+  TexMat.cpp
+  Texture1D.cpp
+  Texture2DArray.cpp
+C:\Libraries\OSG-3.4.0\src\osg\Texture2DArray.cpp(394): warning C4456: declaration of 'extensions' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\Texture2DArray.cpp(242): note: see declaration of 'extensions'
+  Texture2D.cpp
+  Texture2DMultisample.cpp
+  Texture3D.cpp
+  Texture.cpp
+  TextureBuffer.cpp
+  TextureCubeMap.cpp
+  TextureRectangle.cpp
+  Timer.cpp
+  Generating Code...
+  Compiling...
+  TransferFunction.cpp
+  Transform.cpp
+  Uniform.cpp
+  UserDataContainer.cpp
+  Version.cpp
+  VertexAttribDivisor.cpp
+  VertexProgram.cpp
+  View.cpp
+C:\Libraries\OSG-3.4.0\src\osg\View.cpp(175): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osg\View.cpp(167): note: see declaration of 'i'
+  Viewport.cpp
+  error.cpp
+  mipmap.cpp
+  normal.cpp
+  memalloc.cpp
+  priorityq.cpp
+  render.cpp
+  mesh.cpp
+  tessmono.cpp
+  sweep.cpp
+  dict.cpp
+  geom.cpp
+  Generating Code...
+  Compiling...
+  tess.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0/lib/osg.lib and object C:/Libraries/OSG-3.4.0/lib/osg.exp
+  osg.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osg130-osg.dll

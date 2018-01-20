@@ -1,0 +1,20 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPresentation/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPresentation/CMakeFiles/generate.stamp is up-to-date.
+  Cursor.cpp
+  AnimationMaterial.cpp
+  CompileSlideCallback.cpp
+  PickEventHandler.cpp
+  PropertyManager.cpp
+  KeyEventHandler.cpp
+  SlideEventHandler.cpp
+  SlideShowConstructor.cpp
+C:\Libraries\OSG-3.4.0\src\osgPresentation\SlideShowConstructor.cpp(1088): warning C4456: declaration of 'foundFile' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgPresentation\SlideShowConstructor.cpp(1076): note: see declaration of 'foundFile'
+C:\Libraries\OSG-3.4.0\src\osgPresentation\SlideShowConstructor.cpp(1133): warning C4456: declaration of 'foundFile' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgPresentation\SlideShowConstructor.cpp(1076): note: see declaration of 'foundFile'
+C:\Libraries\OSG-3.4.0\src\osgPresentation\SlideShowConstructor.cpp(2803): warning C4456: declaration of 'layer' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgPresentation\SlideShowConstructor.cpp(2668): note: see declaration of 'layer'
+  Timeout.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0/lib/osgPresentation.lib and object C:/Libraries/OSG-3.4.0/lib/osgPresentation.exp
+  osgPresentation.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osg130-osgPresentation.dll

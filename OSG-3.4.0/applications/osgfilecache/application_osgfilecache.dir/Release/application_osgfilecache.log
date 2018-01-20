@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/applications/osgfilecache/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/applications/osgfilecache/CMakeFiles/generate.stamp is up-to-date.
+  osgfilecache.cpp
+  application_osgfilecache.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgfilecache.exe

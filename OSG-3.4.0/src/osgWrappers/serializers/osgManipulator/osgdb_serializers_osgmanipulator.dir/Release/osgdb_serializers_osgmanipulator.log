@@ -1,0 +1,22 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgWrappers/serializers/osgManipulator/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgWrappers/serializers/osgManipulator/CMakeFiles/generate.stamp is up-to-date.
+  AntiSquish.cpp
+  CompositeDragger.cpp
+  Dragger.cpp
+  LibraryWrapper.cpp
+  RotateCylinderDragger.cpp
+  RotateSphereDragger.cpp
+  Scale1DDragger.cpp
+  Scale2DDragger.cpp
+  ScaleAxisDragger.cpp
+  TabBoxDragger.cpp
+  TabBoxTrackballDragger.cpp
+  TabPlaneDragger.cpp
+  TabPlaneTrackballDragger.cpp
+  TrackballDragger.cpp
+  Translate1DDragger.cpp
+  Translate2DDragger.cpp
+  TranslateAxisDragger.cpp
+  TranslatePlaneDragger.cpp
+  Generating Code...
+  osgdb_serializers_osgmanipulator.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_serializers_osgmanipulator.dll

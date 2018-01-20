@@ -1,0 +1,577 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/txp/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/txp/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterTXP.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  TileMapper.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  trpage_basic.cpp
+  trpage_compat.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  trpage_geom.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  trpage_header.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  trpage_label.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_label.cpp(250): warning C4458: declaration of 'handle' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_io.h(580): note: see declaration of 'trpgCheckable::handle'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_label.cpp(495): warning C4458: declaration of 'handle' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_io.h(580): note: see declaration of 'trpgCheckable::handle'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_label.cpp(751): warning C4458: declaration of 'handle' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_io.h(580): note: see declaration of 'trpgCheckable::handle'
+  trpage_light.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_light.cpp(963): warning C4458: declaration of 'handle' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_io.h(580): note: see declaration of 'trpgCheckable::handle'
+  trpage_main.cpp
+  trpage_managers.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  trpage_material.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  trpage_model.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  trpage_nodes.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_nodes.cpp(727): warning C4458: declaration of 'id' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(2376): note: see declaration of 'trpgGroup::id'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_nodes.cpp(731): warning C4458: declaration of 'id' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(2376): note: see declaration of 'trpgGroup::id'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_nodes.cpp(740): warning C4458: declaration of 'id' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(2376): note: see declaration of 'trpgGroup::id'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_nodes.cpp(744): warning C4458: declaration of 'id' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(2376): note: see declaration of 'trpgGroup::id'
+  trpage_parse.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_parse.cpp(207): warning C4456: declaration of 'ret' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_parse.cpp(169): note: see declaration of 'ret'
+  trpage_pparse.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_pparse.cpp(241): warning C4458: declaration of 'imageHelp' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_print.h(136): note: see declaration of 'trpgPrintGraphParser::imageHelp'
+  trpage_print.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  trpage_print_parse.cpp
+  trpage_range.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_range.cpp(270): warning C4458: declaration of 'handle' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_io.h(580): note: see declaration of 'trpgCheckable::handle'
+  trpage_rarchive.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_rarchive.cpp(105): warning C4458: declaration of 'ness' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(228): note: see declaration of 'trpgr_Archive::ness'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_rarchive.cpp(105): warning C4458: declaration of 'dir' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(232): note: see declaration of 'trpgr_Archive::dir'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_rarchive.cpp(105): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(235): note: see declaration of 'trpgr_Archive::texTable'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_rarchive.cpp(382): warning C4458: declaration of 'fp' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(229): note: see declaration of 'trpgr_Archive::fp'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_rarchive.cpp(514): warning C4458: declaration of 'separateGeoTyp' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(177): note: see declaration of 'trpgrImageHelper::separateGeoTyp'
+  trpage_readbuf.cpp
+  Generating Code...
+  Compiling...
+  trpage_scene.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  trpage_swap.cpp
+  trpage_tile.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  trpage_util.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  trpage_warchive.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_warchive.cpp(533): warning C4458: declaration of 'numLod' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_write.h(337): note: see declaration of 'trpgwArchive::numLod'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_warchive.cpp(746): warning C4458: declaration of 'ness' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_write.h(317): note: see declaration of 'trpgwArchive::ness'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_warchive.cpp(746): warning C4458: declaration of 'dir' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_write.h(320): note: see declaration of 'trpgwArchive::dir'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_warchive.cpp(1379): warning C4458: declaration of 'separateGeoTypical' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_write.h(225): note: see declaration of 'trpgwImageHelper::separateGeoTypical'
+  trpage_writebuf.cpp
+  TXPArchive.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\TXPArchive.cpp(125): warning C4458: declaration of 'header' hides class member
+  c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(233): note: see declaration of 'trpgr_Archive::header'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\TXPArchive.cpp(592): warning C4458: declaration of 'textStyleTable' hides class member
+  c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(240): note: see declaration of 'trpgr_Archive::textStyleTable'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\TXPArchive.cpp(672): warning C4458: declaration of 'handle' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_io.h(580): note: see declaration of 'trpgCheckable::handle'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\TXPArchive.cpp(801): warning C4456: declaration of 'tileID' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\TXPArchive.cpp(787): note: see declaration of 'tileID'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\TXPArchive.cpp(872): warning C4457: declaration of 'loc' hides function parameter
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\TXPArchive.cpp(818): note: see declaration of 'loc'
+  TXPIO.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  TXPNode.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  TXPPagedLOD.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  TXPPageManager.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  TXPParser.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\TXPParser.cpp(316): warning C4458: declaration of 'parents' hides class member
+  c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(270): note: see declaration of 'trpgSceneParser::parents'
+  TXPSeamLOD.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(210): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'rows' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(233): note: see declaration of 'trpgHeader::rows'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(215): warning C4458: declaration of 'cols' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(234): note: see declaration of 'trpgHeader::cols'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1963): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'row' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1980): note: see declaration of 'trpgTileHeader::row'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1968): warning C4458: declaration of 'col' hides class member
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\txp\trpage_geom.h(1981): note: see declaration of 'trpgTileHeader::col'
+c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(165): warning C4458: declaration of 'texTable' hides class member
+  c:\libraries\osg-3.4.0\src\osgplugins\txp\trpage_read.h(173): note: see declaration of 'trpgrImageHelper::texTable'
+  Generating Code...
+  osgdb_txp.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_txp.dll

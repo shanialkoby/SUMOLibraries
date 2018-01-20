@@ -1,0 +1,11 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/jpeg/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/jpeg/CMakeFiles/generate.stamp is up-to-date.
+  EXIF_Orientation.cpp
+  ReaderWriterJPEG.cpp
+  Generating Code...
+  jpeg.lib(jerror.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+jpeg.lib(jerror.obj) : error LNK2001: unresolved external symbol __imp__sprintf
+jpeg.lib(jerror.obj) : error LNK2001: unresolved external symbol __imp____iob_func
+jpeg.lib(jerror.obj) : error LNK2001: unresolved external symbol __imp__fprintf
+jpeg.lib(jmemmgr.obj) : error LNK2001: unresolved external symbol __imp__sscanf
+C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_jpeg.dll : fatal error LNK1120: 4 unresolved externals

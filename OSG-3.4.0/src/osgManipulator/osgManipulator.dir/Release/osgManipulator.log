@@ -1,0 +1,25 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgManipulator/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgManipulator/CMakeFiles/generate.stamp is up-to-date.
+  AntiSquish.cpp
+  Command.cpp
+  Constraint.cpp
+  Dragger.cpp
+  Projector.cpp
+  RotateCylinderDragger.cpp
+  RotateSphereDragger.cpp
+  Scale1DDragger.cpp
+  Scale2DDragger.cpp
+  ScaleAxisDragger.cpp
+  TabBoxDragger.cpp
+  TabBoxTrackballDragger.cpp
+  TabPlaneDragger.cpp
+  TabPlaneTrackballDragger.cpp
+  TrackballDragger.cpp
+  Translate1DDragger.cpp
+  Translate2DDragger.cpp
+  TranslateAxisDragger.cpp
+  TranslatePlaneDragger.cpp
+  Version.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0/lib/osgManipulator.lib and object C:/Libraries/OSG-3.4.0/lib/osgManipulator.exp
+  osgManipulator.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osg130-osgManipulator.dll
