@@ -1,0 +1,143 @@
+﻿  AzimSector.cpp
+  Billboard.cpp
+  BlendColor.cpp
+  BlendEquation.cpp
+  BlendFunc.cpp
+  BlinkSequence.cpp
+  BumpMapping.cpp
+  Camera.cpp
+  CameraView.cpp
+  Cartoon.cpp
+  ClipNode.cpp
+  ClipPlane.cpp
+  ClusterCullingCallback.cpp
+  ColorMask.cpp
+  CompositeLayer.cpp
+  ConeSector.cpp
+  ConvexPlanarOccluder.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\ConvexPlanarOccluder.cpp(68): warning C4456: declaration of 'cpp' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\ConvexPlanarOccluder.cpp(62): note: see declaration of 'cpp'
+  ConvexPlanarPolygon.cpp
+  CoordinateSystemNode.cpp
+  CullFace.cpp
+  Generating Code...
+  Compiling...
+  DOFTransform.cpp
+  DataInputStream.cpp
+  DataOutputStream.cpp
+  Depth.cpp
+  DirectionalSector.cpp
+  DrawArrayLengths.cpp
+  DrawArrays.cpp
+  DrawElementsUByte.cpp
+  DrawElementsUInt.cpp
+  DrawElementsUShort.cpp
+  Drawable.cpp
+  Effect.cpp
+  ElevationSector.cpp
+  EllipsoidModel.cpp
+  Exception.cpp
+  FadeText.cpp
+  Fog.cpp
+  FragmentProgram.cpp
+  FrontFace.cpp
+  Geode.cpp
+  Generating Code...
+  Compiling...
+  Geometry.cpp
+  Group.cpp
+  HeightFieldLayer.cpp
+  Image.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\Image.cpp(72): warning C4456: declaration of 'size' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\Image.cpp(62): note: see declaration of 'size'
+  ImageLayer.cpp
+  ImageSequence.cpp
+  Impostor.cpp
+  LOD.cpp
+  Layer.cpp
+  Light.cpp
+  LightModel.cpp
+  LightPoint.cpp
+  LightPointNode.cpp
+  LightSource.cpp
+  LineStipple.cpp
+  LineWidth.cpp
+  Locator.cpp
+  Material.cpp
+  MatrixTransform.cpp
+  MultiSwitch.cpp
+  Generating Code...
+  Compiling...
+  MultiTextureControl.cpp
+  Multisample.cpp
+  Node.cpp
+  Object.cpp
+  OccluderNode.cpp
+  OcclusionQueryNode.cpp
+  PagedLOD.cpp
+  Point.cpp
+  PointSprite.cpp
+  PolygonMode.cpp
+  PolygonOffset.cpp
+  PolygonStipple.cpp
+  PositionAttitudeTransform.cpp
+  PrimitiveSet.cpp
+  Program.cpp
+  ProxyNode.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\ProxyNode.cpp(208): warning C4456: declaration of 'node' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\ProxyNode.cpp(158): note: see declaration of 'node'
+  ReaderWriterIVE.cpp
+  Scissor.cpp
+  Scribe.cpp
+  Sequence.cpp
+  Generating Code...
+  Compiling...
+  ShadeModel.cpp
+  Shader.cpp
+  Shape.cpp
+  ShapeAttributeList.cpp
+  ShapeDrawable.cpp
+  SpecularHighlights.cpp
+  StateSet.cpp
+  Stencil.cpp
+  StencilTwoSided.cpp
+  Switch.cpp
+  SwitchLayer.cpp
+  Terrain.cpp
+  TerrainTile.cpp
+  TexEnv.cpp
+  TexEnvCombine.cpp
+  TexGen.cpp
+  TexGenNode.cpp
+  TexMat.cpp
+  Text.cpp
+  Text3D.cpp
+  Generating Code...
+  Compiling...
+  Texture.cpp
+  Texture1D.cpp
+  Texture2D.cpp
+  Texture2DArray.cpp
+  Texture3D.cpp
+  TextureCubeMap.cpp
+  TextureRectangle.cpp
+  Transform.cpp
+  Uniform.cpp
+  VertexProgram.cpp
+  Viewport.cpp
+  VisibilityGroup.cpp
+  Volume.cpp
+  VolumeCompositeLayer.cpp
+  VolumeCompositeProperty.cpp
+  VolumeImageLayer.cpp
+  VolumeLayer.cpp
+  VolumeLocator.cpp
+  VolumePropertyAdjustmentCallback.cpp
+  VolumeScalarProperty.cpp
+  Generating Code...
+  Compiling...
+  VolumeSwitchProperty.cpp
+  VolumeTile.cpp
+  VolumeTransferFunctionProperty.cpp
+  Generating Code...
+  osgdb_ive.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_ived.dll

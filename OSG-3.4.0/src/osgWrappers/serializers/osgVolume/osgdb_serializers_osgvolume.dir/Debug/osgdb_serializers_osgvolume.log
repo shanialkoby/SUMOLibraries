@@ -1,0 +1,31 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgWrappers/serializers/osgVolume/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgWrappers/serializers/osgVolume/CMakeFiles/generate.stamp is up-to-date.
+  AlphaFuncProperty.cpp
+  CompositeLayer.cpp
+  CompositeProperty.cpp
+  FixedFunctionTechnique.cpp
+  ImageDetails.cpp
+  ImageLayer.cpp
+  IsoSurfaceProperty.cpp
+  Layer.cpp
+  LibraryWrapper.cpp
+  LightingProperty.cpp
+  Locator.cpp
+  MaximumIntensityProjectionProperty.cpp
+  Property.cpp
+  PropertyAdjustmentCallback.cpp
+  RayTracedTechnique.cpp
+  SampleDensityProperty.cpp
+  SampleRatioProperty.cpp
+  ScalarProperty.cpp
+  SwitchProperty.cpp
+  TransferFunctionProperty.cpp
+  Generating Code...
+  Compiling...
+  TransparencyProperty.cpp
+  Volume.cpp
+  VolumeSettings.cpp
+  VolumeTechnique.cpp
+  VolumeTile.cpp
+  Generating Code...
+  osgdb_serializers_osgvolume.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_serializers_osgvolumed.dll

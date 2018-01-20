@@ -1,0 +1,23 @@
+﻿  AntiSquish.cpp
+  Command.cpp
+  Constraint.cpp
+  Dragger.cpp
+  Projector.cpp
+  RotateCylinderDragger.cpp
+  RotateSphereDragger.cpp
+  Scale1DDragger.cpp
+  Scale2DDragger.cpp
+  ScaleAxisDragger.cpp
+  TabBoxDragger.cpp
+  TabBoxTrackballDragger.cpp
+  TabPlaneDragger.cpp
+  TabPlaneTrackballDragger.cpp
+  TrackballDragger.cpp
+  Translate1DDragger.cpp
+  Translate2DDragger.cpp
+  TranslateAxisDragger.cpp
+  TranslatePlaneDragger.cpp
+  Version.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0/lib/osgManipulatord.lib and object C:/Libraries/OSG-3.4.0/lib/osgManipulatord.exp
+  osgManipulator.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osg130-osgManipulatord.dll

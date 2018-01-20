@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/gdal/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/gdal/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterGDAL.cpp
+  DataSetLayer.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0/lib/osgPlugins-3.4.0/osgdb_gdald.lib and object C:/Libraries/OSG-3.4.0/lib/osgPlugins-3.4.0/osgdb_gdald.exp
+  osgdb_gdal.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_gdald.dll

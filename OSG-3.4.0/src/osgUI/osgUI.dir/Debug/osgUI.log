@@ -1,0 +1,22 @@
+﻿  AlignmentSettings.cpp
+  Callbacks.cpp
+  ColorPalette.cpp
+  ComboBox.cpp
+C:\Libraries\OSG-3.4.0\src\osgUI\ComboBox.cpp(280): warning C4456: declaration of 'group' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUI\ComboBox.cpp(184): note: see declaration of 'group'
+C:\Libraries\OSG-3.4.0\src\osgUI\ComboBox.cpp(288): warning C4456: declaration of 'group' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUI\ComboBox.cpp(184): note: see declaration of 'group'
+  Dialog.cpp
+  FrameSettings.cpp
+  Label.cpp
+  LineEdit.cpp
+  Popup.cpp
+  PushButton.cpp
+  Style.cpp
+  TabWidget.cpp
+  TextSettings.cpp
+  Validator.cpp
+  Widget.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0/lib/osgUId.lib and object C:/Libraries/OSG-3.4.0/lib/osgUId.exp
+  osgUI.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osg130-osgUId.dll

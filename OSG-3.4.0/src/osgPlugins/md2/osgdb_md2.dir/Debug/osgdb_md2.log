@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/md2/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/md2/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterMD2.cpp
+  osgdb_md2.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_md2d.dll

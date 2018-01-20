@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/pov/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/pov/CMakeFiles/generate.stamp is up-to-date.
+  POVWriterNodeVisitor.cpp
+  ReaderWriterPOV.cpp
+  Generating Code...
+  osgdb_pov.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_povd.dll
