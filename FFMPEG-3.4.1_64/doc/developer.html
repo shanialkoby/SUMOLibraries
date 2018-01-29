@@ -10,7 +10,7 @@
 <meta name="description" content="Developer Documentation: ">
 <meta name="keywords" content="FFmpeg documentation : Developer ">
 <meta name="Generator" content="texi2html 5.0">
-<!-- Created on January 18, 2018 by texi2html 5.0 -->
+<!-- Created on December 13, 2017 by texi2html 5.0 -->
 <!--
 texi2html was written by: 
             Lionel Cons <Lionel.Cons@cern.ch> (original author)
@@ -36,38 +36,42 @@ Send bugs and suggestions to <texi2html-bug@nongnu.org>
 <div class="contents">
 
 <ul class="no-bullet">
-  <li><a name="toc-Notes-for-external-developers" href="#Notes-for-external-developers">1 Notes for external developers</a></li>
-  <li><a name="toc-Contributing" href="#Contributing">2 Contributing</a></li>
-  <li><a name="toc-Coding-Rules-1" href="#Coding-Rules-1">3 Coding Rules</a>
+  <li><a name="toc-Developers-Guide" href="#Developers-Guide">1 Developers Guide</a>
   <ul class="no-bullet">
-    <li><a name="toc-Code-formatting-conventions" href="#Code-formatting-conventions">3.1 Code formatting conventions</a></li>
-    <li><a name="toc-Comments" href="#Comments">3.2 Comments</a></li>
-    <li><a name="toc-C-language-features" href="#C-language-features">3.3 C language features</a></li>
-    <li><a name="toc-Naming-conventions" href="#Naming-conventions">3.4 Naming conventions</a></li>
-    <li><a name="toc-Miscellaneous-conventions" href="#Miscellaneous-conventions">3.5 Miscellaneous conventions</a></li>
-    <li><a name="toc-Editor-configuration" href="#Editor-configuration">3.6 Editor configuration</a></li>
-  </ul></li>
-  <li><a name="toc-Development-Policy" href="#Development-Policy">4 Development Policy</a>
-  <ul class="no-bullet">
-    <li><a name="toc-Patches_002fCommitting" href="#Patches_002fCommitting">4.1 Patches/Committing</a></li>
-    <li><a name="toc-Code" href="#Code">4.2 Code</a></li>
-    <li><a name="toc-Documentation_002fOther" href="#Documentation_002fOther">4.3 Documentation/Other</a></li>
-  </ul></li>
-  <li><a name="toc-Code-of-conduct" href="#Code-of-conduct">5 Code of conduct</a></li>
-  <li><a name="toc-Submitting-patches-1" href="#Submitting-patches-1">6 Submitting patches</a></li>
-  <li><a name="toc-New-codecs-or-formats-checklist" href="#New-codecs-or-formats-checklist">7 New codecs or formats checklist</a></li>
-  <li><a name="toc-Patch-submission-checklist" href="#Patch-submission-checklist">8 Patch submission checklist</a></li>
-  <li><a name="toc-Patch-review-process" href="#Patch-review-process">9 Patch review process</a></li>
-  <li><a name="toc-Regression-tests-1" href="#Regression-tests-1">10 Regression tests</a>
-  <ul class="no-bullet">
-    <li><a name="toc-Adding-files-to-the-fate_002dsuite-dataset" href="#Adding-files-to-the-fate_002dsuite-dataset">10.1 Adding files to the fate-suite dataset</a></li>
-    <li><a name="toc-Visualizing-Test-Coverage" href="#Visualizing-Test-Coverage">10.2 Visualizing Test Coverage</a></li>
-    <li><a name="toc-Using-Valgrind" href="#Using-Valgrind">10.3 Using Valgrind</a></li>
-  </ul></li>
-  <li><a name="toc-Release-process-1" href="#Release-process-1">11 Release process</a>
-  <ul class="no-bullet">
-    <li><a name="toc-Criteria-for-Point-Releases-1" href="#Criteria-for-Point-Releases-1">11.1 Criteria for Point Releases</a></li>
-    <li><a name="toc-Release-Checklist" href="#Release-Checklist">11.2 Release Checklist</a></li>
+    <li><a name="toc-Notes-for-external-developers" href="#Notes-for-external-developers">1.1 Notes for external developers</a></li>
+    <li><a name="toc-Contributing" href="#Contributing">1.2 Contributing</a></li>
+    <li><a name="toc-Coding-Rules-1" href="#Coding-Rules-1">1.3 Coding Rules</a>
+    <ul class="no-bullet">
+      <li><a name="toc-Code-formatting-conventions" href="#Code-formatting-conventions">1.3.1 Code formatting conventions</a></li>
+      <li><a name="toc-Comments" href="#Comments">1.3.2 Comments</a></li>
+      <li><a name="toc-C-language-features" href="#C-language-features">1.3.3 C language features</a></li>
+      <li><a name="toc-Naming-conventions" href="#Naming-conventions">1.3.4 Naming conventions</a></li>
+      <li><a name="toc-Miscellaneous-conventions" href="#Miscellaneous-conventions">1.3.5 Miscellaneous conventions</a></li>
+      <li><a name="toc-Editor-configuration" href="#Editor-configuration">1.3.6 Editor configuration</a></li>
+    </ul></li>
+    <li><a name="toc-Development-Policy" href="#Development-Policy">1.4 Development Policy</a>
+    <ul class="no-bullet">
+      <li><a name="toc-Patches_002fCommitting" href="#Patches_002fCommitting">1.4.1 Patches/Committing</a></li>
+      <li><a name="toc-Code" href="#Code">1.4.2 Code</a></li>
+      <li><a name="toc-Documentation_002fOther" href="#Documentation_002fOther">1.4.3 Documentation/Other</a></li>
+    </ul></li>
+    <li><a name="toc-Code-of-conduct" href="#Code-of-conduct">1.5 Code of conduct</a></li>
+    <li><a name="toc-Submitting-patches-1" href="#Submitting-patches-1">1.6 Submitting patches</a></li>
+    <li><a name="toc-New-codecs-or-formats-checklist" href="#New-codecs-or-formats-checklist">1.7 New codecs or formats checklist</a></li>
+    <li><a name="toc-patch-submission-checklist" href="#patch-submission-checklist">1.8 patch submission checklist</a></li>
+    <li><a name="toc-Patch-review-process" href="#Patch-review-process">1.9 Patch review process</a></li>
+    <li><a name="toc-Regression-tests-1" href="#Regression-tests-1">1.10 Regression tests</a>
+    <ul class="no-bullet">
+      <li><a name="toc-Adding-files-to-the-fate_002dsuite-dataset" href="#Adding-files-to-the-fate_002dsuite-dataset">1.10.1 Adding files to the fate-suite dataset</a></li>
+      <li><a name="toc-Visualizing-Test-Coverage" href="#Visualizing-Test-Coverage">1.10.2 Visualizing Test Coverage</a></li>
+      <li><a name="toc-Using-Valgrind" href="#Using-Valgrind">1.10.3 Using Valgrind</a></li>
+    </ul></li>
+    <li><a name="toc-Release-process-1" href="#Release-process-1">1.11 Release process</a>
+    <ul class="no-bullet">
+      <li><a name="toc-Criteria-for-Point-Releases-1" href="#Criteria-for-Point-Releases-1">1.11.1 Criteria for Point Releases</a></li>
+      <li><a name="toc-Release-Checklist" href="#Release-Checklist">1.11.2 Release Checklist</a></li>
+    </ul>
+</li>
   </ul>
 </li>
 </ul>
@@ -75,8 +79,11 @@ Send bugs and suggestions to <texi2html-bug@nongnu.org>
 
 
 <hr size="6">
+<a name="Developers-Guide"></a>
+<h1 class="chapter"><a href="developer.html#toc-Developers-Guide">1 Developers Guide</a></h1>
+
 <a name="Notes-for-external-developers"></a>
-<h1 class="chapter"><a href="developer.html#toc-Notes-for-external-developers">1 Notes for external developers</a></h1>
+<h2 class="section"><a href="developer.html#toc-Notes-for-external-developers">1.1 Notes for external developers</a></h2>
 
 <p>This document is mostly useful for internal FFmpeg developers.
 External developers who need to use the API in their application should
@@ -95,7 +102,7 @@ external programs read the &lsquo;<tt>LICENSE</tt>&rsquo; file in the source tre
 consult <a href="https://ffmpeg.org/legal.html">https://ffmpeg.org/legal.html</a>.
 </p>
 <a name="Contributing"></a>
-<h1 class="chapter"><a href="developer.html#toc-Contributing">2 Contributing</a></h1>
+<h2 class="section"><a href="developer.html#toc-Contributing">1.2 Contributing</a></h2>
 
 <p>There are 3 ways by which code gets into FFmpeg.
 </p><ul>
@@ -113,10 +120,10 @@ and should try to fix issues their commit causes.
 </p>
 <p><a name="Coding-Rules"></a>
 </p><a name="Coding-Rules-1"></a>
-<h1 class="chapter"><a href="developer.html#toc-Coding-Rules-1">3 Coding Rules</a></h1>
+<h2 class="section"><a href="developer.html#toc-Coding-Rules-1">1.3 Coding Rules</a></h2>
 
 <a name="Code-formatting-conventions"></a>
-<h2 class="section"><a href="developer.html#toc-Code-formatting-conventions">3.1 Code formatting conventions</a></h2>
+<h3 class="subsection"><a href="developer.html#toc-Code-formatting-conventions">1.3.1 Code formatting conventions</a></h3>
 
 <p>There are the following guidelines regarding the indentation in files:
 </p>
@@ -142,7 +149,7 @@ K&amp;R coding style is used.
 minimize the bug count.
 </p>
 <a name="Comments"></a>
-<h2 class="section"><a href="developer.html#toc-Comments">3.2 Comments</a></h2>
+<h3 class="subsection"><a href="developer.html#toc-Comments">1.3.2 Comments</a></h3>
 <p>Use the JavaDoc/Doxygen  format (see examples below) so that code documentation
 can be generated automatically. All nontrivial functions should have a comment
 above them explaining what the function does, even if it is just one sentence.
@@ -183,7 +190,7 @@ int myfunc(int my_parameter)
 </pre></div>
 
 <a name="C-language-features"></a>
-<h2 class="section"><a href="developer.html#toc-C-language-features">3.3 C language features</a></h2>
+<h3 class="subsection"><a href="developer.html#toc-C-language-features">1.3.3 C language features</a></h3>
 
 <p>FFmpeg is programmed in the ISO C90 language with a few additional
 features from ISO C99, namely:
@@ -230,7 +237,7 @@ GCC statement expressions (&lsquo;<samp>(x = ({ int y = 4; y; })</samp>&rsquo;).
 </li></ul>
 
 <a name="Naming-conventions"></a>
-<h2 class="section"><a href="developer.html#toc-Naming-conventions">3.4 Naming conventions</a></h2>
+<h3 class="subsection"><a href="developer.html#toc-Naming-conventions">1.3.4 Naming conventions</a></h3>
 <p>All names should be composed with underscores (_), not CamelCase. For example,
 &lsquo;<samp>avfilter_get_video_buffer</samp>&rsquo; is an acceptable function name and
 &lsquo;<samp>AVFilterGetVideo</samp>&rsquo; is not. The exception from this are type names, like
@@ -254,7 +261,7 @@ e.g. &lsquo;<samp>ff_w64_demuxer</samp>&rsquo;.
 </li><li>
 For variables and functions visible outside of file scope, used internally
 across multiple libraries, use <code>avpriv_</code> as prefix, for example,
-&lsquo;<samp>avpriv_report_missing_feature</samp>&rsquo;.
+&lsquo;<samp>avpriv_aac_parse_header</samp>&rsquo;.
 
 </li><li>
 Each library has its own prefix for public symbols, in addition to the
@@ -275,7 +282,7 @@ are reserved at the file level and may not be used for externally visible
 symbols. If in doubt, just avoid names starting with <code>_</code> altogether.
 </p>
 <a name="Miscellaneous-conventions"></a>
-<h2 class="section"><a href="developer.html#toc-Miscellaneous-conventions">3.5 Miscellaneous conventions</a></h2>
+<h3 class="subsection"><a href="developer.html#toc-Miscellaneous-conventions">1.3.5 Miscellaneous conventions</a></h3>
 
 <ul>
 <li>
@@ -288,7 +295,7 @@ should also be avoided if they don&rsquo;t make the code easier to understand.
 </li></ul>
 
 <a name="Editor-configuration"></a>
-<h2 class="section"><a href="developer.html#toc-Editor-configuration">3.6 Editor configuration</a></h2>
+<h3 class="subsection"><a href="developer.html#toc-Editor-configuration">1.3.6 Editor configuration</a></h3>
 <p>In order to configure Vim to follow FFmpeg formatting conventions, paste
 the following snippet into your &lsquo;<tt>.vimrc</tt>&rsquo;:
 </p><div class="example">
@@ -322,10 +329,10 @@ autocmd InsertEnter * match ForbiddenWhitespace /\t\|\s\+\%#\@&lt;!$/
 </pre></div>
 
 <a name="Development-Policy"></a>
-<h1 class="chapter"><a href="developer.html#toc-Development-Policy">4 Development Policy</a></h1>
+<h2 class="section"><a href="developer.html#toc-Development-Policy">1.4 Development Policy</a></h2>
 
 <a name="Patches_002fCommitting"></a>
-<h2 class="section"><a href="developer.html#toc-Patches_002fCommitting">4.1 Patches/Committing</a></h2>
+<h3 class="subsection"><a href="developer.html#toc-Patches_002fCommitting">1.4.1 Patches/Committing</a></h3>
 <a name="Licenses-for-patches-must-be-compatible-with-FFmpeg_002e"></a>
 <h3 class="subheading">Licenses for patches must be compatible with FFmpeg.</h3>
 <p>Contributions should be licensed under the
@@ -436,7 +443,7 @@ time-frame (12h for build failures and security fixes, 3 days small changes,
 Also note, the maintainer can simply ask for more time to review!
 </p>
 <a name="Code"></a>
-<h2 class="section"><a href="developer.html#toc-Code">4.2 Code</a></h2>
+<h3 class="subsection"><a href="developer.html#toc-Code">1.4.2 Code</a></h3>
 <a name="API_002fABI-changes-should-be-discussed-before-they-are-made_002e"></a>
 <h3 class="subheading">API/ABI changes should be discussed before they are made.</h3>
 <p>Do not change behavior of the programs (renaming options etc) or public
@@ -472,31 +479,13 @@ always check values read from some untrusted source before using them
 as array index or other risky things.
 </p>
 <a name="Documentation_002fOther"></a>
-<h2 class="section"><a href="developer.html#toc-Documentation_002fOther">4.3 Documentation/Other</a></h2>
-<a name="Subscribe-to-the-ffmpeg_002ddevel-mailing-list_002e"></a>
-<h3 class="subheading">Subscribe to the ffmpeg-devel mailing list.</h3>
-<p>It is important to be subscribed to the
-<a href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-devel">ffmpeg-devel</a>
-mailing list. Almost any non-trivial patch is to be sent there for review.
-Other developers may have comments about your contribution. We expect you see
-those comments, and to improve it if requested. (N.B. Experienced committers
-have other channels, and may sometimes skip review for trivial fixes.) Also,
-discussion here about bug fixes and FFmpeg improvements by other developers may
-be helpful information for you. Finally, by being a list subscriber, your
-contribution will be posted immediately to the list, without the moderation
-hold which messages from non-subscribers experience.
-</p>
-<p>However, it is more important to the project that we receive your patch than
-that you be subscribed to the ffmpeg-devel list. If you have a patch, and don&rsquo;t
-want to subscribe and discuss the patch, then please do send it to the list
-anyway.
-</p>
+<h3 class="subsection"><a href="developer.html#toc-Documentation_002fOther">1.4.3 Documentation/Other</a></h3>
 <a name="Subscribe-to-the-ffmpeg_002dcvslog-mailing-list_002e"></a>
 <h3 class="subheading">Subscribe to the ffmpeg-cvslog mailing list.</h3>
-<p>Diffs of all commits are sent to the
-<a href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-cvslog">ffmpeg-cvslog</a>
-mailing list. Some developers read this list to review all code base changes
-from all sources. Subscribing to this list is not mandatory.
+<p>It is important to do this as the diffs of all commits are sent there and
+reviewed by all the other developers. Bugs and possible improvements or
+general questions regarding commits are discussed there. We expect you to
+react if problems with your code are uncovered.
 </p>
 <a name="Keep-the-documentation-up-to-date_002e"></a>
 <h3 class="subheading">Keep the documentation up to date.</h3>
@@ -520,7 +509,7 @@ finding a new maintainer and also don&rsquo;t forget to update the &lsquo;<tt>MA
 <p>We think our rules are not too hard. If you have comments, contact us.
 </p>
 <a name="Code-of-conduct"></a>
-<h1 class="chapter"><a href="developer.html#toc-Code-of-conduct">5 Code of conduct</a></h1>
+<h2 class="section"><a href="developer.html#toc-Code-of-conduct">1.5 Code of conduct</a></h2>
 
 <p>Be friendly and respectful towards others and third parties.
 Treat others the way you yourself want to be treated.
@@ -551,7 +540,7 @@ instead and point them in the right direction.
 </p>
 <p><a name="Submitting-patches"></a>
 </p><a name="Submitting-patches-1"></a>
-<h1 class="chapter"><a href="developer.html#toc-Submitting-patches-1">6 Submitting patches</a></h1>
+<h2 class="section"><a href="developer.html#toc-Submitting-patches-1">1.6 Submitting patches</a></h2>
 
 <p>First, read the <a href="#Coding-Rules">Coding Rules</a> above if you did not yet, in particular
 the rules regarding patch submission.
@@ -601,7 +590,7 @@ send a reminder by email. Your patch should eventually be dealt with.
 </p>
 
 <a name="New-codecs-or-formats-checklist"></a>
-<h1 class="chapter"><a href="developer.html#toc-New-codecs-or-formats-checklist">7 New codecs or formats checklist</a></h1>
+<h2 class="section"><a href="developer.html#toc-New-codecs-or-formats-checklist">1.7 New codecs or formats checklist</a></h2>
 
 <ol>
 <li>
@@ -653,8 +642,8 @@ Did you make sure it compiles standalone, i.e. with
 </li></ol>
 
 
-<a name="Patch-submission-checklist"></a>
-<h1 class="chapter"><a href="developer.html#toc-Patch-submission-checklist">8 Patch submission checklist</a></h1>
+<a name="patch-submission-checklist"></a>
+<h2 class="section"><a href="developer.html#toc-patch-submission-checklist">1.8 patch submission checklist</a></h2>
 
 <ol>
 <li>
@@ -768,7 +757,7 @@ of leaks, out of array accesses, etc.
 </li></ol>
 
 <a name="Patch-review-process"></a>
-<h1 class="chapter"><a href="developer.html#toc-Patch-review-process">9 Patch review process</a></h1>
+<h2 class="section"><a href="developer.html#toc-Patch-review-process">1.9 Patch review process</a></h2>
 
 <p>All patches posted to ffmpeg-devel will be reviewed, unless they contain a
 clear note that the patch is not for the git master branch.
@@ -800,7 +789,7 @@ way to get everyone&rsquo;s patches reviewed sooner.
 </p>
 <p><a name="Regression-tests"></a>
 </p><a name="Regression-tests-1"></a>
-<h1 class="chapter"><a href="developer.html#toc-Regression-tests-1">10 Regression tests</a></h1>
+<h2 class="section"><a href="developer.html#toc-Regression-tests-1">1.10 Regression tests</a></h2>
 
 <p>Before submitting a patch (or committing to the repository), you should at least
 test that you did not break anything.
@@ -812,7 +801,7 @@ this case, the reference results of the regression tests shall be modified
 accordingly].
 </p>
 <a name="Adding-files-to-the-fate_002dsuite-dataset"></a>
-<h2 class="section"><a href="developer.html#toc-Adding-files-to-the-fate_002dsuite-dataset">10.1 Adding files to the fate-suite dataset</a></h2>
+<h3 class="subsection"><a href="developer.html#toc-Adding-files-to-the-fate_002dsuite-dataset">1.10.1 Adding files to the fate-suite dataset</a></h3>
 
 <p>When there is no muxer or encoder available to generate test media for a
 specific test then the media has to be included in the fate-suite.
@@ -824,7 +813,7 @@ message or introductory message for the patch series that you post to
 the ffmpeg-devel mailing list, a direct link to download the sample media.
 </p>
 <a name="Visualizing-Test-Coverage"></a>
-<h2 class="section"><a href="developer.html#toc-Visualizing-Test-Coverage">10.2 Visualizing Test Coverage</a></h2>
+<h3 class="subsection"><a href="developer.html#toc-Visualizing-Test-Coverage">1.10.2 Visualizing Test Coverage</a></h3>
 
 <p>The FFmpeg build system allows visualizing the test coverage in an easy
 manner with the coverage tools <code>gcov</code>/<code>lcov</code>.  This involves
@@ -852,7 +841,7 @@ measurements. You will need to rerun <code>make lcov</code> after running a
 new test.
 </p>
 <a name="Using-Valgrind"></a>
-<h2 class="section"><a href="developer.html#toc-Using-Valgrind">10.3 Using Valgrind</a></h2>
+<h3 class="subsection"><a href="developer.html#toc-Using-Valgrind">1.10.3 Using Valgrind</a></h3>
 
 <p>The configure script provides a shortcut for using valgrind to spot bugs
 related to memory handling. Just add the option
@@ -867,7 +856,7 @@ your configure line instead.
 </p>
 <p><a name="Release-process"></a>
 </p><a name="Release-process-1"></a>
-<h1 class="chapter"><a href="developer.html#toc-Release-process-1">11 Release process</a></h1>
+<h2 class="section"><a href="developer.html#toc-Release-process-1">1.11 Release process</a></h2>
 
 <p>FFmpeg maintains a set of <strong>release branches</strong>, which are the
 recommended deliverable for system integrators and distributors (such as
@@ -900,7 +889,7 @@ on the <strong>ffmpeg-devel</strong> mailing list in time to allow forward plann
 </p>
 <p><a name="Criteria-for-Point-Releases"></a>
 </p><a name="Criteria-for-Point-Releases-1"></a>
-<h2 class="section"><a href="developer.html#toc-Criteria-for-Point-Releases-1">11.1 Criteria for Point Releases</a></h2>
+<h3 class="subsection"><a href="developer.html#toc-Criteria-for-Point-Releases-1">1.11.1 Criteria for Point Releases</a></h3>
 
 <p>Changes that match the following criteria are valid candidates for
 inclusion into a point release:
@@ -925,7 +914,7 @@ point releases of the same release branch.
 </p>
 
 <a name="Release-Checklist"></a>
-<h2 class="section"><a href="developer.html#toc-Release-Checklist">11.2 Release Checklist</a></h2>
+<h3 class="subsection"><a href="developer.html#toc-Release-Checklist">1.11.2 Release Checklist</a></h3>
 
 <p>The release process involves the following steps:
 </p>

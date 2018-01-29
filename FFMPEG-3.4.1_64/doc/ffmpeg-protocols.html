@@ -10,7 +10,7 @@
 <meta name="description" content="FFmpeg Protocols Documentation: ">
 <meta name="keywords" content="FFmpeg documentation : FFmpeg Protocols ">
 <meta name="Generator" content="texi2html 5.0">
-<!-- Created on January 18, 2018 by texi2html 5.0 -->
+<!-- Created on December 13, 2017 by texi2html 5.0 -->
 <!--
 texi2html was written by: 
             Lionel Cons <Lionel.Cons@cern.ch> (original author)
@@ -72,7 +72,7 @@ Send bugs and suggestions to <texi2html-bug@nongnu.org>
     <li><a name="toc-rtp" href="#rtp">3.27 rtp</a></li>
     <li><a name="toc-rtsp" href="#rtsp">3.28 rtsp</a>
     <ul class="no-bullet">
-      <li><a name="toc-Examples-1" href="#Examples-1">3.28.1 Examples</a></li>
+      <li><a name="toc-Examples" href="#Examples">3.28.1 Examples</a></li>
     </ul></li>
     <li><a name="toc-sap" href="#sap">3.29 sap</a>
     <ul class="no-bullet">
@@ -87,7 +87,7 @@ Send bugs and suggestions to <texi2html-bug@nongnu.org>
     <li><a name="toc-tls" href="#tls">3.35 tls</a></li>
     <li><a name="toc-udp" href="#udp">3.36 udp</a>
     <ul class="no-bullet">
-      <li><a name="toc-Examples" href="#Examples">3.36.1 Examples</a></li>
+      <li><a name="toc-Examples-1" href="#Examples-1">3.36.1 Examples</a></li>
     </ul></li>
     <li><a name="toc-unix" href="#unix">3.37 unix</a></li>
   </ul></li>
@@ -464,10 +464,6 @@ for live / endless streams.
 <dd><p>Export the MIME type.
 </p>
 </dd>
-<dt>&lsquo;<samp>http_version</samp>&rsquo;</dt>
-<dd><p>Exports the HTTP response version number. Usually &quot;1.0&quot; or &quot;1.1&quot;.
-</p>
-</dd>
 <dt>&lsquo;<samp>icy</samp>&rsquo;</dt>
 <dd><p>If set to 1 request ICY (SHOUTcast) metadata from the server. If the server
 supports this, the metadata has to be retrieved by the application by reading
@@ -517,7 +513,7 @@ autodetection in the future.
 used as an output option, or read data from a client with HTTP POST when used as
 an input option.
 If set to 2 enables experimental multi-client HTTP server. This is not yet implemented
-in ffmpeg.c and thus must not be used as a command line option.
+in ffmpeg.c or ffserver.c and thus must not be used as a command line option.
 </p><div class="example">
 <pre class="example"># Server side (sending):
 ffmpeg -i somefile.ogg -c copy -listen 1 -f ogg http://<var>server</var>:<var>port</var>
@@ -1243,8 +1239,8 @@ streams to display can be chosen with <code>-vst</code> <var>n</var> and
 <code>-ast</code> <var>n</var> for video and audio respectively, and can be switched
 on the fly by pressing <code>v</code> and <code>a</code>.
 </p>
-<a name="Examples-1"></a>
-<h3 class="subsection"><a href="ffmpeg-protocols.html#toc-Examples-1">3.28.1 Examples</a></h3>
+<a name="Examples"></a>
+<h3 class="subsection"><a href="ffmpeg-protocols.html#toc-Examples">3.28.1 Examples</a></h3>
 
 <p>The following examples all make use of the <code>ffplay</code> and
 <code>ffmpeg</code> tools.
@@ -1436,7 +1432,6 @@ The underlying stream must be seekable.
 </p></dd>
 <dt>&lsquo;<samp>end</samp>&rsquo;</dt>
 <dd><p>End offset of the extracted segment, in bytes.
-If set to 0, extract till end of file.
 </p></dd>
 </dl>
 
@@ -1451,11 +1446,6 @@ externally and multiplied by 2048):
 <p>Play an AVI file directly from a TAR archive:
 </p><div class="example">
 <pre class="example">subfile,,start,183241728,end,366490624,,:archive.tar
-</pre></div>
-
-<p>Play a MPEG-TS file from start offset till end:
-</p><div class="example">
-<pre class="example">subfile,,start,32815239,end,0,,:video.ts
 </pre></div>
 
 <a name="tee"></a>
@@ -1505,10 +1495,6 @@ than this time interval, raise error.
 </dd>
 <dt>&lsquo;<samp>send_buffer_size=<var>bytes</var></samp>&rsquo;</dt>
 <dd><p>Set send buffer size, expressed bytes.
-</p>
-</dd>
-<dt>&lsquo;<samp>tcp_nodelay=<var>1|0</var></samp>&rsquo;</dt>
-<dd><p>Set TCP_NODELAY to disable Nagle&rsquo;s algorithm. Default value is 0.
 </p></dd>
 </dl>
 
@@ -1546,7 +1532,7 @@ The file must be in OpenSSL PEM format.
 Note, if using OpenSSL, this currently only makes sure that the
 peer certificate is signed by one of the root certificates in the CA
 database, but it does not validate that the certificate actually
-matches the host name we are trying to connect to. (With other backends,
+matches the host name we are trying to connect to. (With GnuTLS,
 the host name is validated as well.)
 </p>
 <p>This is disabled by default since it requires a CA database to be
@@ -1690,8 +1676,8 @@ a broadcast storm protection.
 </p></dd>
 </dl>
 
-<a name="Examples"></a>
-<h3 class="subsection"><a href="ffmpeg-protocols.html#toc-Examples">3.36.1 Examples</a></h3>
+<a name="Examples-1"></a>
+<h3 class="subsection"><a href="ffmpeg-protocols.html#toc-Examples-1">3.36.1 Examples</a></h3>
 
 <ul>
 <li>
@@ -1741,7 +1727,7 @@ Use <code>ffmpeg</code> to receive over UDP from a remote endpoint:
 <a name="See-Also"></a>
 <h1 class="chapter"><a href="ffmpeg-protocols.html#toc-See-Also">4 See Also</a></h1>
 
-<p><a href="ffmpeg.html">ffmpeg</a>, <a href="ffplay.html">ffplay</a>, <a href="ffprobe.html">ffprobe</a>,
+<p><a href="ffmpeg.html">ffmpeg</a>, <a href="ffplay.html">ffplay</a>, <a href="ffprobe.html">ffprobe</a>, <a href="ffserver.html">ffserver</a>,
 <a href="libavformat.html">libavformat</a>
 </p>
 

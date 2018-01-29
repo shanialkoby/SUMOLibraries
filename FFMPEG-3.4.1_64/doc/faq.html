@@ -10,7 +10,7 @@
 <meta name="description" content="FFmpeg FAQ: ">
 <meta name="keywords" content="FFmpeg documentation : FFmpeg FAQ: ">
 <meta name="Generator" content="texi2html 5.0">
-<!-- Created on January 18, 2018 by texi2html 5.0 -->
+<!-- Created on December 13, 2017 by texi2html 5.0 -->
 <!--
 texi2html was written by: 
             Lionel Cons <Lionel.Cons@cern.ch> (original author)
@@ -76,8 +76,6 @@ Send bugs and suggestions to <texi2html-bug@nongnu.org>
     <li><a name="toc-Why-does-FFmpeg-not-see-the-subtitles-in-my-VOB-file_003f" href="#Why-does-FFmpeg-not-see-the-subtitles-in-my-VOB-file_003f">3.16 Why does FFmpeg not see the subtitles in my VOB file?</a></li>
     <li><a name="toc-Why-was-the-ffmpeg-_002dsameq-option-removed_003f-What-to-use-instead_003f" href="#Why-was-the-ffmpeg-_002dsameq-option-removed_003f-What-to-use-instead_003f">3.17 Why was the <code>ffmpeg</code> &lsquo;<samp>-sameq</samp>&rsquo; option removed? What to use instead?</a></li>
     <li><a name="toc-I-have-a-stretched-video_002c-why-does-scaling-does-not-fix-it_003f" href="#I-have-a-stretched-video_002c-why-does-scaling-does-not-fix-it_003f">3.18 I have a stretched video, why does scaling does not fix it?</a></li>
-    <li><a name="toc-How-do-I-run-ffmpeg-as-a-background-task_003f" href="#How-do-I-run-ffmpeg-as-a-background-task_003f">3.19 How do I run ffmpeg as a background task?</a></li>
-    <li><a name="toc-How-do-I-prevent-ffmpeg-from-suspending-with-a-message-like-suspended-_0028tty-output_0029_003f" href="#How-do-I-prevent-ffmpeg-from-suspending-with-a-message-like-suspended-_0028tty-output_0029_003f">3.20 How do I prevent ffmpeg from suspending with a message like <em>suspended (tty output)</em>?</a></li>
   </ul></li>
   <li><a name="toc-Development" href="#Development">4 Development</a>
   <ul class="no-bullet">
@@ -632,73 +630,6 @@ ffmpeg -i ega_screen.nut -vf setdar=4/3 ega_screen_anamorphic.nut
 ffmpeg -i ega_screen.nut -aspect 4/3 -c copy ega_screen_overridden.nut
 </pre></div>
 
-<p><a name="background-task"></a>
-</p><a name="How-do-I-run-ffmpeg-as-a-background-task_003f"></a>
-<h2 class="section"><a href="faq.html#toc-How-do-I-run-ffmpeg-as-a-background-task_003f">3.19 How do I run ffmpeg as a background task?</a></h2>
-
-<p>ffmpeg normally checks the console input, for entries like &quot;q&quot; to stop
-and &quot;?&quot; to give help, while performing operations. ffmpeg does not have a way of
-detecting when it is running as a background task.
-When it checks the console input, that can cause the process running ffmpeg
-in the background to suspend.
-</p>
-<p>To prevent those input checks, allowing ffmpeg to run as a background task,
-use the <a href="ffmpeg.html#stdin-option"><code>-nostdin</code> option</a>
-in the ffmpeg invocation. This is effective whether you run ffmpeg in a shell
-or invoke ffmpeg in its own process via an operating system API.
-</p>
-<p>As an alternative, when you are running ffmpeg in a shell, you can redirect
-standard input to <code>/dev/null</code> (on Linux and Mac OS)
-or <code>NUL</code> (on Windows). You can do this redirect either
-on the ffmpeg invocation, or from a shell script which calls ffmpeg.
-</p>
-<p>For example:
-</p>
-<div class="example">
-<pre class="example">ffmpeg -nostdin -i INPUT OUTPUT
-</pre></div>
-
-<p>or (on Linux, Mac OS, and other UNIX-like shells):
-</p>
-<div class="example">
-<pre class="example">ffmpeg -i INPUT OUTPUT &lt;/dev/null
-</pre></div>
-
-<p>or (on Windows):
-</p>
-<div class="example">
-<pre class="example">ffmpeg -i INPUT OUTPUT &lt;NUL
-</pre></div>
-
-<a name="How-do-I-prevent-ffmpeg-from-suspending-with-a-message-like-suspended-_0028tty-output_0029_003f"></a>
-<h2 class="section"><a href="faq.html#toc-How-do-I-prevent-ffmpeg-from-suspending-with-a-message-like-suspended-_0028tty-output_0029_003f">3.20 How do I prevent ffmpeg from suspending with a message like <em>suspended (tty output)</em>?</a></h2>
-
-<p>If you run ffmpeg in the background, you may find that its process suspends.
-There may be a message like <em>suspended (tty output)</em>. The question is how
-to prevent the process from being suspended.
-</p>
-<p>For example:
-</p>
-<div class="example">
-<pre class="example">% ffmpeg -i INPUT OUTPUT &amp;&gt; ~/tmp/log.txt &amp;
-[1] 93352
-%
-[1]  + suspended (tty output)  ffmpeg -i INPUT OUTPUT &amp;&gt;
-</pre></div>
-
-<p>The message &quot;tty output&quot; notwithstanding, the problem here is that
-ffmpeg normally checks the console input when it runs. The operating system
-detects this, and suspends the process until you can bring it to the
-foreground and attend to it.
-</p>
-<p>The solution is to use the right techniques to tell ffmpeg not to consult
-console input. You can use the
-<a href="ffmpeg.html#stdin-option"><code>-nostdin</code> option</a>,
-or redirect standard input with <code>&lt; /dev/null</code>.
-See FAQ
-<a href="#background-task"><em>How do I run ffmpeg as a background task?</em></a>
-for details.
-</p>
 <a name="Development"></a>
 <h1 class="chapter"><a href="faq.html#toc-Development">4 Development</a></h1>
 

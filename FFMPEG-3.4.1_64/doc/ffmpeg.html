@@ -10,7 +10,7 @@
 <meta name="description" content="ffmpeg Documentation: ">
 <meta name="keywords" content="FFmpeg documentation : ffmpeg ">
 <meta name="Generator" content="texi2html 5.0">
-<!-- Created on January 18, 2018 by texi2html 5.0 -->
+<!-- Created on December 13, 2017 by texi2html 5.0 -->
 <!--
 texi2html was written by: 
             Lionel Cons <Lionel.Cons@cern.ch> (original author)
@@ -663,7 +663,54 @@ ffmpeg -cpuflags 0 ...
 </dl>
 </dd>
 </dl>
+
 </dd>
+<dt>&lsquo;<samp>-opencl_bench</samp>&rsquo;</dt>
+<dd><p>This option is used to benchmark all available OpenCL devices and print the
+results. This option is only available when FFmpeg has been compiled with
+<code>--enable-opencl</code>.
+</p>
+<p>When FFmpeg is configured with <code>--enable-opencl</code>, the options for the
+global OpenCL context are set via &lsquo;<samp>-opencl_options</samp>&rsquo;. See the
+&quot;OpenCL Options&quot; section in the ffmpeg-utils manual for the complete list of
+supported options. Amongst others, these options include the ability to select
+a specific platform and device to run the OpenCL code on. By default, FFmpeg
+will run on the first device of the first platform. While the options for the
+global OpenCL context provide flexibility to the user in selecting the OpenCL
+device of their choice, most users would probably want to select the fastest
+OpenCL device for their system.
+</p>
+<p>This option assists the selection of the most efficient configuration by
+identifying the appropriate device for the user&rsquo;s system. The built-in
+benchmark is run on all the OpenCL devices and the performance is measured for
+each device. The devices in the results list are sorted based on their
+performance with the fastest device listed first. The user can subsequently
+invoke <code>ffmpeg</code> using the device deemed most appropriate via
+&lsquo;<samp>-opencl_options</samp>&rsquo; to obtain the best performance for the OpenCL
+accelerated code.
+</p>
+<p>Typical usage to use the fastest OpenCL device involve the following steps.
+</p>
+<p>Run the command:
+</p><div class="example">
+<pre class="example">ffmpeg -opencl_bench
+</pre></div>
+<p>Note down the platform ID (<var>pidx</var>) and device ID (<var>didx</var>) of the first
+i.e. fastest device in the list.
+Select the platform and device using the command:
+</p><div class="example">
+<pre class="example">ffmpeg -opencl_options platform_idx=<var>pidx</var>:device_idx=<var>didx</var> ...
+</pre></div>
+
+</dd>
+<dt>&lsquo;<samp>-opencl_options options (<em>global</em>)</samp>&rsquo;</dt>
+<dd><p>Set OpenCL environment options. This option is only available when
+FFmpeg has been compiled with <code>--enable-opencl</code>.
+</p>
+<p><var>options</var> must be a list of <var>key</var>=<var>value</var> option pairs
+separated by &rsquo;:&rsquo;. See the &ldquo;OpenCL Options&rdquo; section in the
+ffmpeg-utils manual for the list of supported options.
+</p></dd>
 </dl>
 
 <a name="AVOptions"></a>
@@ -763,8 +810,8 @@ see <a href="ffmpeg-utils.html#time-duration-syntax">(ffmpeg-utils)the Time dura
 <p>-to and -t are mutually exclusive and -t has priority.
 </p>
 </dd>
-<dt>&lsquo;<samp>-to <var>position</var> (<em>input/output</em>)</samp>&rsquo;</dt>
-<dd><p>Stop writing the output or reading the input at <var>position</var>.
+<dt>&lsquo;<samp>-to <var>position</var> (<em>output</em>)</samp>&rsquo;</dt>
+<dd><p>Stop writing the output at <var>position</var>.
 <var>position</var> must be a time duration specification,
 see <a href="ffmpeg-utils.html#time-duration-syntax">(ffmpeg-utils)the Time duration section in the ffmpeg-utils(1) manual</a>.
 </p>
@@ -962,8 +1009,7 @@ the encoding process. It is made of &quot;<var>key</var>=<var>value</var>&quot; 
 consists of only alphanumeric characters. The last key of a sequence of
 progress information is always &quot;progress&quot;.
 </p>
-<p><a name="stdin-option"></a>
-</p></dd>
+</dd>
 <dt>&lsquo;<samp>-stdin</samp>&rsquo;</dt>
 <dd><p>Enable interaction on standard input. On by default unless standard input is
 used as an input. To explicitly disable interaction you need to specify
@@ -1291,47 +1337,6 @@ platform-appropriate subdevice (&lsquo;<samp>dxva2</samp>&rsquo; or &lsquo;<samp
 QSV device from that.)
 </p>
 </dd>
-<dt>&lsquo;<samp>opencl</samp>&rsquo;</dt>
-<dd><p><var>device</var> selects the platform and device as <em>platform_index.device_index</em>.
-</p>
-<p>The set of devices can also be filtered using the key-value pairs to find only
-devices matching particular platform or device strings.
-</p>
-<p>The strings usable as filters are:
-</p><dl compact="compact">
-<dt>&lsquo;<samp>platform_profile</samp>&rsquo;</dt>
-<dt>&lsquo;<samp>platform_version</samp>&rsquo;</dt>
-<dt>&lsquo;<samp>platform_name</samp>&rsquo;</dt>
-<dt>&lsquo;<samp>platform_vendor</samp>&rsquo;</dt>
-<dt>&lsquo;<samp>platform_extensions</samp>&rsquo;</dt>
-<dt>&lsquo;<samp>device_name</samp>&rsquo;</dt>
-<dt>&lsquo;<samp>device_vendor</samp>&rsquo;</dt>
-<dt>&lsquo;<samp>driver_version</samp>&rsquo;</dt>
-<dt>&lsquo;<samp>device_version</samp>&rsquo;</dt>
-<dt>&lsquo;<samp>device_profile</samp>&rsquo;</dt>
-<dt>&lsquo;<samp>device_extensions</samp>&rsquo;</dt>
-<dt>&lsquo;<samp>device_type</samp>&rsquo;</dt>
-</dl>
-
-<p>The indices and filters must together uniquely select a device.
-</p>
-<p>Examples:
-</p><dl compact="compact">
-<dt><em>-init_hw_device opencl:0.1</em></dt>
-<dd><p>Choose the second device on the first platform.
-</p>
-</dd>
-<dt><em>-init_hw_device opencl:,device_name=Foo9000</em></dt>
-<dd><p>Choose the device with a name containing the string <em>Foo9000</em>.
-</p>
-</dd>
-<dt><em>-init_hw_device opencl:1,device_type=gpu,device_extensions=cl_khr_fp16</em></dt>
-<dd><p>Choose the GPU device on the second platform supporting the <em>cl_khr_fp16</em>
-extension.
-</p></dd>
-</dl>
-
-</dd>
 </dl>
 
 </dd>
@@ -1366,6 +1371,10 @@ of <var>hwaccel</var> are:
 </dd>
 <dt>&lsquo;<samp>auto</samp>&rsquo;</dt>
 <dd><p>Automatically select the hardware acceleration method.
+</p>
+</dd>
+<dt>&lsquo;<samp>vda</samp>&rsquo;</dt>
+<dd><p>Use Apple VDA hardware acceleration.
 </p>
 </dd>
 <dt>&lsquo;<samp>vdpau</samp>&rsquo;</dt>
@@ -1754,6 +1763,11 @@ By default <code>ffmpeg</code> attempts to read the input(s) as fast as possible
 This option will slow down the reading of the input(s) to the native frame rate
 of the input(s). It is useful for real-time output (e.g. live streaming).
 </p></dd>
+<dt>&lsquo;<samp>-loop_input</samp>&rsquo;</dt>
+<dd><p>Loop over the input stream. Currently it works only for image
+streams. This option is used for automatic FFserver testing.
+This option is deprecated, use -loop 1.
+</p></dd>
 <dt>&lsquo;<samp>-loop_output <var>number_of_times</var></samp>&rsquo;</dt>
 <dd><p>Repeatedly loop output for formats that support looping such as animated GIF
 (0 will loop the output infinitely).
@@ -1890,9 +1904,6 @@ or as a floating point number (e.g. 0.04166, 2.0833e-5)
 <p>Default value is 0.
 </p>
 </dd>
-<dt>&lsquo;<samp>-bitexact (<em>input/output</em>)</samp>&rsquo;</dt>
-<dd><p>Enable bitexact mode for (de)muxer and (de/en)coder
-</p></dd>
 <dt>&lsquo;<samp>-shortest (<em>output</em>)</samp>&rsquo;</dt>
 <dd><p>Finish encoding when the shortest input stream ends.
 </p></dd>
@@ -2028,6 +2039,17 @@ not start from timestamp 0, such as transport streams.
 file or device. With low latency / high rate live streams, packets may be
 discarded if they are not read in a timely manner; raising this value can
 avoid it.
+</p>
+</dd>
+<dt>&lsquo;<samp>-override_ffserver (<em>global</em>)</samp>&rsquo;</dt>
+<dd><p>Overrides the input specifications from <code>ffserver</code>. Using this
+option you can map any input stream to <code>ffserver</code> and control
+many aspects of the encoding from <code>ffmpeg</code>. Without this
+option <code>ffmpeg</code> will transmit to <code>ffserver</code> what is
+requested by <code>ffserver</code>.
+</p>
+<p>The option is intended for cases where features are needed that cannot be
+specified to <code>ffserver</code> but can be to <code>ffmpeg</code>.
 </p>
 </dd>
 <dt>&lsquo;<samp>-sdp_file <var>file</var> (<em>global</em>)</samp>&rsquo;</dt>
@@ -2369,7 +2391,7 @@ but you may use the QP2LAMBDA constant to easily convert from &rsquo;q&rsquo; un
 <h1 class="chapter"><a href="ffmpeg.html#toc-See-Also">7 See Also</a></h1>
 
 <p><a href="ffmpeg-all.html">ffmpeg-all</a>,
-<a href="ffplay.html">ffplay</a>, <a href="ffprobe.html">ffprobe</a>,
+<a href="ffplay.html">ffplay</a>, <a href="ffprobe.html">ffprobe</a>, <a href="ffserver.html">ffserver</a>,
 <a href="ffmpeg-utils.html">ffmpeg-utils</a>,
 <a href="ffmpeg-scaler.html">ffmpeg-scaler</a>,
 <a href="ffmpeg-resampler.html">ffmpeg-resampler</a>,

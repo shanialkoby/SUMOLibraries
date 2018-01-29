@@ -1,6 +1,6 @@
 Zeranoe FFmpeg Builds <http://ffmpeg.zeranoe.com/builds/>
 
-Build: ffmpeg-20180117-1b5d3c0-win64-shared
+Build: ffmpeg-3.4.1-win64-shared
 
 Configuration:
   --disable-static
@@ -16,8 +16,6 @@ Configuration:
   --enable-libbluray
   --enable-libfreetype
   --enable-libmp3lame
-  --enable-libopencore-amrnb
-  --enable-libopencore-amrwb
   --enable-libopenjpeg
   --enable-libopus
   --enable-libshine
@@ -37,17 +35,13 @@ Configuration:
   --enable-gmp
   --enable-libvidstab
   --enable-libvorbis
-  --enable-libvo-amrwbenc
-  --enable-libmysofa
-  --enable-libspeex
-  --enable-libmfx
-  --enable-amf
   --enable-cuda
   --enable-cuvid
   --enable-d3d11va
   --enable-nvenc
   --enable-dxva2
   --enable-avisynth
+  --enable-libmfx
 
 Libraries:
   SDL 2.0.7 <https://libsdl.org>
@@ -56,10 +50,9 @@ Libraries:
   GnuTLS 3.5.16 <http://gnutls.org>
   libiconv 1.15 <http://gnu.org/software/libiconv>
   libass 0.14.0 <https://github.com/libass/libass>
-  libbluray 20171222-cd81889 <http://videolan.org/developers/libbluray.html>
+  libbluray 20171203-c02d5a6 <http://videolan.org/developers/libbluray.html>
   FreeType 2.8.1 <http://freetype.sourceforge.net>
   LAME 3.100 <http://lame.sourceforge.net>
-  OpenCORE AMR 20170731-07a5be4 <https://sourceforge.net/projects/opencore-amr>
   OpenJPEG 2.3.0 <https://github.com/uclouvain/openjpeg>
   Opus 1.2.1 <http://opus-codec.org>
   shine 3.1.1 <https://github.com/savonet/shine>
@@ -70,22 +63,18 @@ Libraries:
   vpx 1.6.1 <http://webmproject.org>
   WavPack 5.1.0 <http://wavpack.com>
   WebP 0.6.1 <https://developers.google.com/speed/webp>
-  x264 20171224-b00bcaf <http://videolan.org/developers/x264.html>
-  x265 20180113-3712d13 <https://bitbucket.org/multicoreware/x265/wiki/Home>
+  x264 20170626-ba24899 <http://videolan.org/developers/x264.html>
+  x265 20171207-6b07985 <https://bitbucket.org/multicoreware/x265/wiki/Home>
   libxml2 2.9.7 <http://xmlsoft.org>
-  z.lib 20171220-8e87f5a <https://github.com/sekrit-twc/zimg>
+  z.lib 20171205-373a10c <https://github.com/sekrit-twc/zimg>
   XZ Utils 5.2.3 <http://tukaani.org/xz>
   zlib 1.2.11 <http://zlib.net>
   GMP 6.1.2 <https://gmplib.org>
   vid.stab 20170830-afc8ea9 <http://public.hronopik.de/vid.stab>
   Vorbis 1.3.5 <http://vorbis.com>
-  VisualOn AMR-WB 20141107-3b3fcd0 <https://sourceforge.net/projects/opencore-amr>
-  libmysofa 20171120-cec6eea <https://github.com/hoene/libmysofa>
-  Speex 1.2.0 <http://speex.org>
   libmfx 1.23 <https://software.intel.com/en-us/media-sdk>
-  AMF 20171130-cd231d5 <https://gpuopen.com/gaming-product/advanced-media-framework>
 
-Copyright (C) 2018 Kyle Schwarz
+Copyright (C) 2017 Kyle Schwarz
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

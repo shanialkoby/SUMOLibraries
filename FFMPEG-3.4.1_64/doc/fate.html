@@ -10,7 +10,7 @@
 <meta name="description" content="FFmpeg Automated Testing Environment: ">
 <meta name="keywords" content="FFmpeg documentation : FFmpeg Automated Testing Environment: ">
 <meta name="Generator" content="texi2html 5.0">
-<!-- Created on January 18, 2018 by texi2html 5.0 -->
+<!-- Created on December 13, 2017 by texi2html 5.0 -->
 <!--
 texi2html was written by: 
             Lionel Cons <Lionel.Cons@cern.ch> (original author)
@@ -40,12 +40,11 @@ Send bugs and suggestions to <texi2html-bug@nongnu.org>
   <li><a name="toc-Introduction" href="#Introduction">1 Introduction</a></li>
   <li><a name="toc-Using-FATE-from-your-FFmpeg-source-directory" href="#Using-FATE-from-your-FFmpeg-source-directory">2 Using FATE from your FFmpeg source directory</a></li>
   <li><a name="toc-Submitting-the-results-to-the-FFmpeg-result-aggregation-server" href="#Submitting-the-results-to-the-FFmpeg-result-aggregation-server">3 Submitting the results to the FFmpeg result aggregation server</a></li>
-  <li><a name="toc-Uploading-new-samples-to-the-fate-suite" href="#Uploading-new-samples-to-the-fate-suite">4 Uploading new samples to the fate suite</a></li>
-  <li><a name="toc-FATE-makefile-targets-and-variables" href="#FATE-makefile-targets-and-variables">5 FATE makefile targets and variables</a>
+  <li><a name="toc-FATE-makefile-targets-and-variables" href="#FATE-makefile-targets-and-variables">4 FATE makefile targets and variables</a>
   <ul class="no-bullet">
-    <li><a name="toc-Makefile-targets" href="#Makefile-targets">5.1 Makefile targets</a></li>
-    <li><a name="toc-Makefile-variables" href="#Makefile-variables">5.2 Makefile variables</a></li>
-    <li><a name="toc-Examples" href="#Examples">5.3 Examples</a></li>
+    <li><a name="toc-Makefile-targets" href="#Makefile-targets">4.1 Makefile targets</a></li>
+    <li><a name="toc-Makefile-variables" href="#Makefile-variables">4.2 Makefile variables</a></li>
+    <li><a name="toc-Examples" href="#Examples">4.3 Examples</a></li>
   </ul>
 </li>
 </ul>
@@ -223,33 +222,12 @@ process.
 <p>The only thing left is to automate the execution of the fate.sh script and
 the synchronisation of the samples directory.
 </p>
-<a name="Uploading-new-samples-to-the-fate-suite"></a>
-<h1 class="chapter"><a href="fate.html#toc-Uploading-new-samples-to-the-fate-suite">4 Uploading new samples to the fate suite</a></h1>
-
-<p>This is for developers who have an account on the fate suite server.
-If you upload new samples, please make sure they are as small as possible,
-space on each client, network bandwidth and so on benefit from smaller test cases.
-Also keep in mind older checkouts use existing sample files, that means in
-practice generally do not replace, remove or overwrite files as it likely would
-break older checkouts or releases.
-</p>
-<div class="example">
-<pre class="example">#First update your local samples copy:
-rsync -vauL --chmod=Dg+s,Duo+x,ug+rw,o+r,o-w,+X fate-suite.ffmpeg.org:/home/samples/fate-suite/ ~/fate-suite
-
-#Then do a dry run checking what would be uploaded:
-rsync -vanL --no-g --chmod=Dg+s,Duo+x,ug+rw,o+r,o-w,+X ~/fate-suite/ fate-suite.ffmpeg.org:/home/samples/fate-suite
-
-#Upload the files:
-rsync -vaL  --no-g --chmod=Dg+s,Duo+x,ug+rw,o+r,o-w,+X ~/fate-suite/ fate-suite.ffmpeg.org:/home/samples/fate-suite
-</pre></div>
-
 
 <a name="FATE-makefile-targets-and-variables"></a>
-<h1 class="chapter"><a href="fate.html#toc-FATE-makefile-targets-and-variables">5 FATE makefile targets and variables</a></h1>
+<h1 class="chapter"><a href="fate.html#toc-FATE-makefile-targets-and-variables">4 FATE makefile targets and variables</a></h1>
 
 <a name="Makefile-targets"></a>
-<h2 class="section"><a href="fate.html#toc-Makefile-targets">5.1 Makefile targets</a></h2>
+<h2 class="section"><a href="fate.html#toc-Makefile-targets">4.1 Makefile targets</a></h2>
 
 <dl compact="compact">
 <dt>&lsquo;<samp>fate-rsync</samp>&rsquo;</dt>
@@ -266,7 +244,7 @@ rsync -vaL  --no-g --chmod=Dg+s,Duo+x,ug+rw,o+r,o-w,+X ~/fate-suite/ fate-suite.
 </dl>
 
 <a name="Makefile-variables"></a>
-<h2 class="section"><a href="fate.html#toc-Makefile-variables">5.2 Makefile variables</a></h2>
+<h2 class="section"><a href="fate.html#toc-Makefile-variables">4.2 Makefile variables</a></h2>
 
 <dl compact="compact">
 <dt><code>V</code></dt>
@@ -316,7 +294,7 @@ by default &lsquo;<samp>none</samp>&rsquo; is used.
 </dl>
 
 <a name="Examples"></a>
-<h2 class="section"><a href="fate.html#toc-Examples">5.3 Examples</a></h2>
+<h2 class="section"><a href="fate.html#toc-Examples">4.3 Examples</a></h2>
 
 <div class="example">
 <pre class="example">make V=1 SAMPLES=/var/fate/samples THREADS=2 CPUFLAGS=mmx fate

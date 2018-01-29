@@ -10,7 +10,7 @@
 <meta name="description" content="ffplay Documentation: ">
 <meta name="keywords" content="FFmpeg documentation : ffplay ">
 <meta name="Generator" content="texi2html 5.0">
-<!-- Created on January 18, 2018 by texi2html 5.0 -->
+<!-- Created on December 13, 2017 by texi2html 5.0 -->
 <!--
 texi2html was written by: 
             Lionel Cons <Lionel.Cons@cern.ch> (original author)
@@ -437,7 +437,54 @@ ffmpeg -cpuflags 0 ...
 </dl>
 </dd>
 </dl>
+
 </dd>
+<dt>&lsquo;<samp>-opencl_bench</samp>&rsquo;</dt>
+<dd><p>This option is used to benchmark all available OpenCL devices and print the
+results. This option is only available when FFmpeg has been compiled with
+<code>--enable-opencl</code>.
+</p>
+<p>When FFmpeg is configured with <code>--enable-opencl</code>, the options for the
+global OpenCL context are set via &lsquo;<samp>-opencl_options</samp>&rsquo;. See the
+&quot;OpenCL Options&quot; section in the ffmpeg-utils manual for the complete list of
+supported options. Amongst others, these options include the ability to select
+a specific platform and device to run the OpenCL code on. By default, FFmpeg
+will run on the first device of the first platform. While the options for the
+global OpenCL context provide flexibility to the user in selecting the OpenCL
+device of their choice, most users would probably want to select the fastest
+OpenCL device for their system.
+</p>
+<p>This option assists the selection of the most efficient configuration by
+identifying the appropriate device for the user&rsquo;s system. The built-in
+benchmark is run on all the OpenCL devices and the performance is measured for
+each device. The devices in the results list are sorted based on their
+performance with the fastest device listed first. The user can subsequently
+invoke <code>ffmpeg</code> using the device deemed most appropriate via
+&lsquo;<samp>-opencl_options</samp>&rsquo; to obtain the best performance for the OpenCL
+accelerated code.
+</p>
+<p>Typical usage to use the fastest OpenCL device involve the following steps.
+</p>
+<p>Run the command:
+</p><div class="example">
+<pre class="example">ffmpeg -opencl_bench
+</pre></div>
+<p>Note down the platform ID (<var>pidx</var>) and device ID (<var>didx</var>) of the first
+i.e. fastest device in the list.
+Select the platform and device using the command:
+</p><div class="example">
+<pre class="example">ffmpeg -opencl_options platform_idx=<var>pidx</var>:device_idx=<var>didx</var> ...
+</pre></div>
+
+</dd>
+<dt>&lsquo;<samp>-opencl_options options (<em>global</em>)</samp>&rsquo;</dt>
+<dd><p>Set OpenCL environment options. This option is only available when
+FFmpeg has been compiled with <code>--enable-opencl</code>.
+</p>
+<p><var>options</var> must be a list of <var>key</var>=<var>value</var> option pairs
+separated by &rsquo;:&rsquo;. See the &ldquo;OpenCL Options&rdquo; section in the
+ffmpeg-utils manual for the list of supported options.
+</p></dd>
 </dl>
 
 <a name="AVOptions"></a>
@@ -767,7 +814,7 @@ Seek backward/forward 10 minutes.
 <h1 class="chapter"><a href="ffplay.html#toc-See-Also">4 See Also</a></h1>
 
 <p><a href="ffplay-all.html">ffmpeg-all</a>,
-<a href="ffmpeg.html">ffmpeg</a>, <a href="ffprobe.html">ffprobe</a>,
+<a href="ffmpeg.html">ffmpeg</a>, <a href="ffprobe.html">ffprobe</a>, <a href="ffserver.html">ffserver</a>,
 <a href="ffmpeg-utils.html">ffmpeg-utils</a>,
 <a href="ffmpeg-scaler.html">ffmpeg-scaler</a>,
 <a href="ffmpeg-resampler.html">ffmpeg-resampler</a>,
