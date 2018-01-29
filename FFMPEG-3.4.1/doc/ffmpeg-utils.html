@@ -10,7 +10,7 @@
 <meta name="description" content="FFmpeg Utilities Documentation: ">
 <meta name="keywords" content="FFmpeg documentation : FFmpeg Utilities ">
 <meta name="Generator" content="texi2html 5.0">
-<!-- Created on January 18, 2018 by texi2html 5.0 -->
+<!-- Created on December 13, 2017 by texi2html 5.0 -->
 <!--
 texi2html was written by: 
             Lionel Cons <Lionel.Cons@cern.ch> (original author)
@@ -41,12 +41,12 @@ Send bugs and suggestions to <texi2html-bug@nongnu.org>
   <ul class="no-bullet">
     <li><a name="toc-Quoting-and-escaping" href="#Quoting-and-escaping">2.1 Quoting and escaping</a>
     <ul class="no-bullet">
-      <li><a name="toc-Examples" href="#Examples">2.1.1 Examples</a></li>
+      <li><a name="toc-Examples-1" href="#Examples-1">2.1.1 Examples</a></li>
     </ul></li>
     <li><a name="toc-Date" href="#Date">2.2 Date</a></li>
     <li><a name="toc-Time-duration" href="#Time-duration">2.3 Time duration</a>
     <ul class="no-bullet">
-      <li><a name="toc-Examples-1" href="#Examples-1">2.3.1 Examples</a></li>
+      <li><a name="toc-Examples" href="#Examples">2.3.1 Examples</a></li>
     </ul></li>
     <li><a name="toc-Video-size" href="#Video-size">2.4 Video size</a></li>
     <li><a name="toc-Video-rate" href="#Video-rate">2.5 Video rate</a></li>
@@ -55,8 +55,9 @@ Send bugs and suggestions to <texi2html-bug@nongnu.org>
     <li><a name="toc-Channel-Layout" href="#Channel-Layout">2.8 Channel Layout</a></li>
   </ul></li>
   <li><a name="toc-Expression-Evaluation" href="#Expression-Evaluation">3 Expression Evaluation</a></li>
-  <li><a name="toc-See-Also" href="#See-Also">4 See Also</a></li>
-  <li><a name="toc-Authors" href="#Authors">5 Authors</a></li>
+  <li><a name="toc-OpenCL-Options" href="#OpenCL-Options">4 OpenCL Options</a></li>
+  <li><a name="toc-See-Also" href="#See-Also">5 See Also</a></li>
+  <li><a name="toc-Authors" href="#Authors">6 Authors</a></li>
 </ul>
 </div>
 
@@ -113,8 +114,8 @@ escaped according to the rules defined above.
 <p>The tool &lsquo;<tt>tools/ffescape</tt>&rsquo; in the FFmpeg source tree can be used
 to automatically quote or escape a string in a script.
 </p>
-<a name="Examples"></a>
-<h3 class="subsection"><a href="ffmpeg-utils.html#toc-Examples">2.1.1 Examples</a></h3>
+<a name="Examples-1"></a>
+<h3 class="subsection"><a href="ffmpeg-utils.html#toc-Examples-1">2.1.1 Examples</a></h3>
 
 <ul>
 <li>
@@ -193,8 +194,8 @@ maximum of 2 digits. The <var>m</var> at the end expresses decimal value for
 </p>
 <p>In both expressions, the optional &lsquo;<samp>-</samp>&rsquo; indicates negative duration.
 </p>
-<a name="Examples-1"></a>
-<h3 class="subsection"><a href="ffmpeg-utils.html#toc-Examples-1">2.3.1 Examples</a></h3>
+<a name="Examples"></a>
+<h3 class="subsection"><a href="ffmpeg-utils.html#toc-Examples">2.3.1 Examples</a></h3>
 
 <p>The following examples are all valid time duration:
 </p>
@@ -1466,15 +1467,47 @@ indication of the corresponding powers of 10 and of 2.
 </dl>
 
 
-<a name="See-Also"></a>
-<h1 class="chapter"><a href="ffmpeg-utils.html#toc-See-Also">4 See Also</a></h1>
+<a name="OpenCL-Options"></a>
+<h1 class="chapter"><a href="ffmpeg-utils.html#toc-OpenCL-Options">4 OpenCL Options</a></h1>
 
-<p><a href="ffmpeg.html">ffmpeg</a>, <a href="ffplay.html">ffplay</a>, <a href="ffprobe.html">ffprobe</a>,
+<p>When FFmpeg is configured with <code>--enable-opencl</code>, it is possible
+to set the options for the global OpenCL context.
+</p>
+<p>The list of supported options follows:
+</p>
+<dl compact="compact">
+<dt>&lsquo;<samp>build_options</samp>&rsquo;</dt>
+<dd><p>Set build options used to compile the registered kernels.
+</p>
+<p>See reference &quot;OpenCL Specification Version: 1.2 chapter 5.6.4&quot;.
+</p>
+</dd>
+<dt>&lsquo;<samp>platform_idx</samp>&rsquo;</dt>
+<dd><p>Select the index of the platform to run OpenCL code.
+</p>
+<p>The specified index must be one of the indexes in the device list
+which can be obtained with <code>ffmpeg -opencl_bench</code> or <code>av_opencl_get_device_list()</code>.
+</p>
+</dd>
+<dt>&lsquo;<samp>device_idx</samp>&rsquo;</dt>
+<dd><p>Select the index of the device used to run OpenCL code.
+</p>
+<p>The specified index must be one of the indexes in the device list which
+can be obtained with <code>ffmpeg -opencl_bench</code> or <code>av_opencl_get_device_list()</code>.
+</p>
+</dd>
+</dl>
+
+
+<a name="See-Also"></a>
+<h1 class="chapter"><a href="ffmpeg-utils.html#toc-See-Also">5 See Also</a></h1>
+
+<p><a href="ffmpeg.html">ffmpeg</a>, <a href="ffplay.html">ffplay</a>, <a href="ffprobe.html">ffprobe</a>, <a href="ffserver.html">ffserver</a>,
 <a href="libavutil.html">libavutil</a>
 </p>
 
 <a name="Authors"></a>
-<h1 class="chapter"><a href="ffmpeg-utils.html#toc-Authors">5 Authors</a></h1>
+<h1 class="chapter"><a href="ffmpeg-utils.html#toc-Authors">6 Authors</a></h1>
 
 <p>The FFmpeg developers.
 </p>
