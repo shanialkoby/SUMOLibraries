@@ -1,9 +1,1 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgWrappers/deprecated-dotosg/osgAnimation/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgWrappers/deprecated-dotosg/osgAnimation/CMakeFiles/generate.stamp is up-to-date.
-  Matrix.cpp
-  ReaderWriter.cpp
-  StackedTransform.cpp
-  UpdateMaterial.cpp
-  UpdateMatrixTransform.cpp
-  Generating Code...
-  osgdb_deprecated_osganimation.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_deprecated_osganimation.dll
+﻿  osgdb_deprecated_osganimation.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_deprecated_osganimation.dll

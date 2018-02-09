@@ -1,4 +1,2 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/pvr/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/pvr/CMakeFiles/generate.stamp is up-to-date.
-  ReaderWriterPVR.cpp
+﻿  ReaderWriterPVR.cpp
   osgdb_pvr.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_pvr.dll

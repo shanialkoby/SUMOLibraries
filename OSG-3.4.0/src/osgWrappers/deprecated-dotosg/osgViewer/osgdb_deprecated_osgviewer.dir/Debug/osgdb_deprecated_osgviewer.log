@@ -1,6 +1,1 @@
-﻿  CompositeViewer.cpp
-  LibraryWrapper.cpp
-  View.cpp
-  Viewer.cpp
-  Generating Code...
-  osgdb_deprecated_osgviewer.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_deprecated_osgviewerd.dll
+﻿  osgdb_deprecated_osgviewer.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_deprecated_osgviewerd.dll

@@ -112,7 +112,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\osgViewerd.lib;..\..\lib\osgGAd.lib;opengl32.lib;..\..\lib\osgTextd.lib;..\..\lib\osgDBd.lib;C:\Libraries\3rdPartyLibs\x86\lib\zlibd.lib;..\..\lib\osgUtild.lib;..\..\lib\osgd.lib;..\..\lib\OpenThreadsd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\osgViewerd.lib;..\..\lib\osgGAd.lib;opengl32.lib;..\..\lib\osgTextd.lib;..\..\lib\osgDBd.lib;..\..\..\3rdPartyLibs\x86\lib\zlibd.lib;..\..\lib\osgUtild.lib;..\..\lib\osgd.lib;..\..\lib\OpenThreadsd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -155,7 +155,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\osgViewer.lib;..\..\lib\osgGA.lib;opengl32.lib;..\..\lib\osgText.lib;..\..\lib\osgDB.lib;C:\Libraries\3rdPartyLibs\x86\lib\zlib.lib;..\..\lib\osgUtil.lib;..\..\lib\osg.lib;..\..\lib\OpenThreads.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\osgViewer.lib;..\..\lib\osgGA.lib;opengl32.lib;..\..\lib\osgText.lib;..\..\lib\osgDB.lib;..\..\..\3rdPartyLibs\x86\lib\zlib.lib;..\..\lib\osgUtil.lib;..\..\lib\osg.lib;..\..\lib\OpenThreads.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -198,7 +198,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\osgViewers.lib;..\..\lib\osgGAs.lib;opengl32.lib;..\..\lib\osgTexts.lib;..\..\lib\osgDBs.lib;C:\Libraries\3rdPartyLibs\x86\lib\zlib.lib;..\..\lib\osgUtils.lib;..\..\lib\osgs.lib;..\..\lib\OpenThreadss.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\osgViewers.lib;..\..\lib\osgGAs.lib;opengl32.lib;..\..\lib\osgTexts.lib;..\..\lib\osgDBs.lib;..\..\..\3rdPartyLibs\x86\lib\zlib.lib;..\..\lib\osgUtils.lib;..\..\lib\osgs.lib;..\..\lib\OpenThreadss.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -241,7 +241,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\osgViewerrd.lib;..\..\lib\osgGArd.lib;opengl32.lib;..\..\lib\osgTextrd.lib;..\..\lib\osgDBrd.lib;C:\Libraries\3rdPartyLibs\x86\lib\zlib.lib;..\..\lib\osgUtilrd.lib;..\..\lib\osgrd.lib;..\..\lib\OpenThreadsrd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\osgViewerrd.lib;..\..\lib\osgGArd.lib;opengl32.lib;..\..\lib\osgTextrd.lib;..\..\lib\osgDBrd.lib;..\..\..\3rdPartyLibs\x86\lib\zlib.lib;..\..\lib\osgUtilrd.lib;..\..\lib\osgrd.lib;..\..\lib\OpenThreadsrd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>

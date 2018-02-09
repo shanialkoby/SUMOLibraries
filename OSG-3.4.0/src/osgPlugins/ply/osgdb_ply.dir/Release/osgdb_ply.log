@@ -1,7 +1,1 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/ply/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/ply/CMakeFiles/generate.stamp is up-to-date.
-  ReaderWriterPLY.cpp
-  vertexData.cpp
-  plyfile.cpp
-  Generating Code...
-  osgdb_ply.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_ply.dll
+﻿  osgdb_ply.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_ply.dll

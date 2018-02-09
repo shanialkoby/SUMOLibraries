@@ -1,1 +1,4 @@
-﻿
+﻿  ReaderWriterDDS.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\dds\ReaderWriterDDS.cpp(970): warning C4456: declaration of 'depth' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\dds\ReaderWriterDDS.cpp(435): note: see declaration of 'depth'
+  osgdb_dds.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_dds.dll

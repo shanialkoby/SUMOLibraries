@@ -1,10 +1,1 @@
-﻿  AcrossAllScreens.cpp
-  Config.cpp
-  Keystone.cpp
-  PanoramicSphericalDisplay.cpp
-  SingleScreen.cpp
-  SingleWindow.cpp
-  SphericalDisplay.cpp
-  WoWVxDisplay.cpp
-  Generating Code...
-  osgdb_serializers_osgviewer.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_serializers_osgviewerd.dll
+﻿  osgdb_serializers_osgviewer.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_serializers_osgviewerd.dll

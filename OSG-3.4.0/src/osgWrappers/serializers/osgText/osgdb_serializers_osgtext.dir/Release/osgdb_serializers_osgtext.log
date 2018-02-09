@@ -1,9 +1,1 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgWrappers/serializers/osgText/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgWrappers/serializers/osgText/CMakeFiles/generate.stamp is up-to-date.
-  FadeText.cpp
-  LibraryWrapper.cpp
-  Text.cpp
-  Text3D.cpp
-  TextBase.cpp
-  Generating Code...
-  osgdb_serializers_osgtext.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_serializers_osgtext.dll
+﻿  osgdb_serializers_osgtext.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_serializers_osgtext.dll

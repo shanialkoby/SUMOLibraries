@@ -1,4 +1,2 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/curl/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/curl/CMakeFiles/generate.stamp is up-to-date.
-  ReaderWriterCURL.cpp
+﻿  ReaderWriterCURL.cpp
   osgdb_curl.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_curld.dll

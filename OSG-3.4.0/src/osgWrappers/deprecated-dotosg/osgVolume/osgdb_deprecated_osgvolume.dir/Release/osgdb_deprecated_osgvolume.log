@@ -1,18 +1,1 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgWrappers/deprecated-dotosg/osgVolume/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgWrappers/deprecated-dotosg/osgVolume/CMakeFiles/generate.stamp is up-to-date.
-  CompositeProperty.cpp
-  FixedFunctionTechnique.cpp
-  ImageLayer.cpp
-  Layer.cpp
-  LibraryWrapper.cpp
-  Locator.cpp
-  Property.cpp
-  PropertyAdjustmentCallback.cpp
-  RayTracedTechnique.cpp
-  ScalarProperty.cpp
-  SwitchProperty.cpp
-  TransferFunctionProperty.cpp
-  Volume.cpp
-  VolumeTile.cpp
-  Generating Code...
-  osgdb_deprecated_osgvolume.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_deprecated_osgvolume.dll
+﻿  osgdb_deprecated_osgvolume.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_deprecated_osgvolume.dll

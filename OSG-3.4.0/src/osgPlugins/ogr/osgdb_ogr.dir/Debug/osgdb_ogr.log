@@ -1,1 +1,5 @@
-﻿
+﻿  ReaderWriterOGR.cpp
+C:\Libraries\3rdPartyLibs\x86\include\ogr_feature.h(95): warning C4458: declaration of 'bIgnore' hides class member
+  C:\Libraries\3rdPartyLibs\x86\include\ogr_feature.h(61): note: see declaration of 'OGRFieldDefn::bIgnore'
+     Creating library C:/Libraries/OSG-3.4.0/lib/osgPlugins-3.4.0/osgdb_ogrd.lib and object C:/Libraries/OSG-3.4.0/lib/osgPlugins-3.4.0/osgdb_ogrd.exp
+  osgdb_ogr.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_ogrd.dll
