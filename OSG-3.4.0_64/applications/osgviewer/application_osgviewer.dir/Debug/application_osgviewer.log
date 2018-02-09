@@ -1,4 +1,2 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/applications/osgviewer/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/applications/osgviewer/CMakeFiles/generate.stamp is up-to-date.
-  osgviewer.cpp
+﻿  osgviewer.cpp
   application_osgviewer.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgviewerd.exe

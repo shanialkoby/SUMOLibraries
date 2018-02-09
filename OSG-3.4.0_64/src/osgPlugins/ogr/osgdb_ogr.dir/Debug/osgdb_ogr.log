@@ -1,5 +1,3 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/ogr/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/ogr/CMakeFiles/generate.stamp is up-to-date.
-  ReaderWriterOGR.cpp
+﻿  ReaderWriterOGR.cpp
      Creating library C:/Libraries/OSG-3.4.0_64/lib/osgPlugins-3.4.0/osgdb_ogrd.lib and object C:/Libraries/OSG-3.4.0_64/lib/osgPlugins-3.4.0/osgdb_ogrd.exp
   osgdb_ogr.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_ogrd.dll

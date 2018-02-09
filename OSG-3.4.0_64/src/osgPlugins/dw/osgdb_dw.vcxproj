@@ -112,7 +112,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\osgDBd.lib;..\..\..\lib\osgUtild.lib;opengl32.lib;..\..\..\lib\osgd.lib;..\..\..\lib\OpenThreadsd.lib;C:\Libraries\3rdPartyLibs\x64\lib\zlibd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\lib\osgDBd.lib;..\..\..\lib\osgUtild.lib;opengl32.lib;..\..\..\lib\osgd.lib;..\..\..\lib\OpenThreadsd.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlibd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -155,7 +155,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\osgDB.lib;..\..\..\lib\osgUtil.lib;opengl32.lib;..\..\..\lib\osg.lib;..\..\..\lib\OpenThreads.lib;C:\Libraries\3rdPartyLibs\x64\lib\zlib.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\lib\osgDB.lib;..\..\..\lib\osgUtil.lib;opengl32.lib;..\..\..\lib\osg.lib;..\..\..\lib\OpenThreads.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlib.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -198,7 +198,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\osgDBs.lib;..\..\..\lib\osgUtils.lib;opengl32.lib;..\..\..\lib\osgs.lib;..\..\..\lib\OpenThreadss.lib;C:\Libraries\3rdPartyLibs\x64\lib\zlib.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\lib\osgDBs.lib;..\..\..\lib\osgUtils.lib;opengl32.lib;..\..\..\lib\osgs.lib;..\..\..\lib\OpenThreadss.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlib.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -241,7 +241,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\osgDBrd.lib;..\..\..\lib\osgUtilrd.lib;opengl32.lib;..\..\..\lib\osgrd.lib;..\..\..\lib\OpenThreadsrd.lib;C:\Libraries\3rdPartyLibs\x64\lib\zlib.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\lib\osgDBrd.lib;..\..\..\lib\osgUtilrd.lib;opengl32.lib;..\..\..\lib\osgrd.lib;..\..\..\lib\OpenThreadsrd.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlib.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>

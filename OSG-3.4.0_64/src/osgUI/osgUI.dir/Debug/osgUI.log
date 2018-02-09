@@ -1,24 +1,2 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgUI/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgUI/CMakeFiles/generate.stamp is up-to-date.
-  Widget.cpp
-  ColorPalette.cpp
-  Label.cpp
-  LineEdit.cpp
-  Dialog.cpp
-  Popup.cpp
-  PushButton.cpp
-  ComboBox.cpp
-C:\Libraries\OSG-3.4.0_64\src\osgUI\ComboBox.cpp(280): warning C4456: declaration of 'group' hides previous local declaration
-  C:\Libraries\OSG-3.4.0_64\src\osgUI\ComboBox.cpp(184): note: see declaration of 'group'
-C:\Libraries\OSG-3.4.0_64\src\osgUI\ComboBox.cpp(288): warning C4456: declaration of 'group' hides previous local declaration
-  C:\Libraries\OSG-3.4.0_64\src\osgUI\ComboBox.cpp(184): note: see declaration of 'group'
-  Callbacks.cpp
-  Style.cpp
-  AlignmentSettings.cpp
-  FrameSettings.cpp
-  TabWidget.cpp
-  TextSettings.cpp
-  Validator.cpp
-  Generating Code...
-     Creating library C:/Libraries/OSG-3.4.0_64/lib/osgUId.lib and object C:/Libraries/OSG-3.4.0_64/lib/osgUId.exp
+﻿     Creating library C:/Libraries/OSG-3.4.0_64/lib/osgUId.lib and object C:/Libraries/OSG-3.4.0_64/lib/osgUId.exp
   osgUI.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osg130-osgUId.dll

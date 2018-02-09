@@ -1,6 +1,4 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osg/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osg/CMakeFiles/generate.stamp is up-to-date.
-  AlphaFunc.cpp
+﻿  AlphaFunc.cpp
   AnimationPath.cpp
   ApplicationUsage.cpp
   ArgumentParser.cpp

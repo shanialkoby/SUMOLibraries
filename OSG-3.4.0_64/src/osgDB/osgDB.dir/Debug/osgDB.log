@@ -1,6 +1,4 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgDB/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgDB/CMakeFiles/generate.stamp is up-to-date.
-  ObjectWrapper.cpp
+﻿  ObjectWrapper.cpp
   InputStream.cpp
   OutputStream.cpp
 C:\Libraries\OSG-3.4.0_64\src\osgDB\OutputStream.cpp(519): warning C4456: declaration of 'size' hides previous local declaration

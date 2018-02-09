@@ -1,0 +1,16 @@
+﻿  -- Install configuration: "Debug"
+  CMake Error at cmake_install.cmake:36 (file):
+    file cannot create directory: C:/Program
+    Files/OpenSceneGraph/lib/pkgconfig.  Maybe need administrative privileges.
+  
+  
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: The command "setlocal
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: C:\CMake\bin\cmake.exe -DBUILD_TYPE=Debug -P cmake_install.cmake
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: :cmEnd
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: :cmErrorLevel
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: exit /b %1
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: :cmDone
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(133,5): error MSB3073: :VCEnd" exited with code 1.
