@@ -1,4 +1,7 @@
-﻿  jpeg.lib(jerror.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+﻿  EXIF_Orientation.cpp
+  ReaderWriterJPEG.cpp
+  Generating Code...
+  jpeg.lib(jerror.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
   Generating code
   Finished generating code
   osgdb_jpeg.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_jpeg.dll

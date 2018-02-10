@@ -1,7 +1,1 @@
-﻿  FreeTypeFont.cpp
-  FreeTypeLibrary.cpp
-  ReaderWriterFreeType.cpp
-  Generating Code...
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-freetype250.lib(bdf.obj) : error LNK2019: unresolved external symbol __imp__sprintf referenced in function __bdf_parse_properties
-C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_freetyped.dll : fatal error LNK1120: 1 unresolved externals
+﻿  osgdb_freetype.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_freetyped.dll
