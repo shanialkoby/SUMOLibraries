@@ -1,0 +1,72 @@
+﻿  Building Custom Rule C:/Libraries/3rdPartyLibs/freetype-2.9/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/3rdPartyLibs/freetype-2.9/vc17/CMakeFiles/generate.stamp is up-to-date.
+  autofit.c
+  ftbase.c
+c:\libraries\3rdpartylibs\freetype-2.9\src\base\ftrfork.c(890): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(337): note: see declaration of 'strncpy'
+c:\libraries\3rdpartylibs\freetype-2.9\src\base\ftrfork.c(902): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(89): note: see declaration of 'strcat'
+c:\libraries\3rdpartylibs\freetype-2.9\src\base\ftrfork.c(903): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(89): note: see declaration of 'strcat'
+  ftbbox.c
+  ftbdf.c
+  ftbitmap.c
+  ftcid.c
+  ftfntfmt.c
+  ftfstype.c
+  ftgasp.c
+  ftglyph.c
+  ftgxval.c
+  ftinit.c
+C:\Libraries\3rdPartyLibs\freetype-2.9\src\base\ftinit.c(249): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdlib.h(1199): note: see declaration of 'getenv'
+  ftlcdfil.c
+  ftmm.c
+  ftotval.c
+  ftpatent.c
+  ftpfr.c
+  ftstroke.c
+  ftsynth.c
+  ftsystem.c
+C:\Libraries\3rdPartyLibs\freetype-2.9\src\base\ftsystem.c(240): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+  Generating Code...
+  Compiling...
+  fttype1.c
+  ftwinfnt.c
+  bdf.c
+c:\libraries\3rdpartylibs\freetype-2.9\src\bdf\bdflib.c(1825): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\libraries\3rdpartylibs\freetype-2.9\src\bdf\bdflib.c(1838): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\libraries\3rdpartylibs\freetype-2.9\src\bdf\bdflib.c(2167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\libraries\3rdpartylibs\freetype-2.9\src\bdf\bdflib.c(2175): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+  ftbzip2.c
+  ftcache.c
+  cff.c
+  type1cid.c
+  ftgzip.c
+  ftlzw.c
+  pcf.c
+  pfr.c
+  psaux.c
+  pshinter.c
+  psnames.c
+  raster.c
+  sfnt.c
+c:\libraries\3rdpartylibs\freetype-2.9\src\sfnt\sfdriver.c(914): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+c:\libraries\3rdpartylibs\freetype-2.9\src\sfnt\sfdriver.c(946): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+  smooth.c
+  truetype.c
+  type1.c
+  type42.c
+  Generating Code...
+  Compiling...
+  winfnt.c
+  ftdebug.c
+  Generating Code...
+  freetype.vcxproj -> C:\Libraries\3rdPartyLibs\freetype-2.9\vc17\Debug\freetyped.lib
