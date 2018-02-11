@@ -1,4 +1,0 @@
-﻿  Building Custom Rule C:/Libraries/3rdPartyLibs/zlib-1.2.11/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/3rdPartyLibs/zlib-1.2.11/x86/CMakeFiles/generate.stamp is up-to-date.
-  example.c
-  example.vcxproj -> C:\Libraries\3rdPartyLibs\zlib-1.2.11\x86\Release\example.exe
