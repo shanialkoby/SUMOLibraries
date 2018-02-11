@@ -1,0 +1,12 @@
+﻿  pngunknown.c
+..\..\..\contrib\libtests\pngunknown.c(30): warning C4464: relative include path contains '..'
+  Generating code
+  Finished generating code
+  pngunknown.vcxproj -> C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Release Library\pngunknown.exe
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Release Library\pngunknown.exe discard
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Release Library\pngunknown.exe save
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Release Library\pngunknown.exe if-safe
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Release Library\pngunknown.exe vpAg
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Release Library\pngunknown.exe sTER
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Release Library\pngunknown.exe IDAT
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Release Library\pngunknown.exe sAPI
