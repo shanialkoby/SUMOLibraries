@@ -1,0 +1,19 @@
+﻿  Building Custom Rule C:/Libraries/3rdPartyLibs/libpng-1.6.34_64/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/3rdPartyLibs/libpng-1.6.34_64/CMakeFiles/generate.stamp is up-to-date.
+  png.c
+  pngerror.c
+  pngget.c
+  pngmem.c
+  pngpread.c
+  pngread.c
+  pngrio.c
+  pngrtran.c
+  pngrutil.c
+  pngset.c
+  pngtrans.c
+  pngwio.c
+  pngwrite.c
+  pngwtran.c
+  pngwutil.c
+  Generating Code...
+  png_static.vcxproj -> C:\Libraries\3rdPartyLibs\libpng-1.6.34_64\Debug\libpng16_staticd.lib
