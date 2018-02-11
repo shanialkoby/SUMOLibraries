@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Libraries/3rdPartyLibs/zlib-1.2.11_64/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/3rdPartyLibs/zlib-1.2.11_64/CMakeFiles/generate.stamp is up-to-date.
+  minigzip.c
+C:\Libraries\3rdPartyLibs\zlib-1.2.11_64\test\minigzip.c(503): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  minigzip.vcxproj -> C:\Libraries\3rdPartyLibs\zlib-1.2.11_64\Release\minigzip.exe
