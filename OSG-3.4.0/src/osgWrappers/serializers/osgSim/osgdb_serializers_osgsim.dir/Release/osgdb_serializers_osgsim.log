@@ -1,1 +1,24 @@
-﻿  osgdb_serializers_osgsim.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_serializers_osgsim.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgWrappers/serializers/osgSim/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgWrappers/serializers/osgSim/CMakeFiles/generate.stamp is up-to-date.
+  AzimElevationSector.cpp
+  AzimSector.cpp
+  BlinkSequence.cpp
+  ConeSector.cpp
+  DOFTransform.cpp
+  DirectionalSector.cpp
+  ElevationSector.cpp
+  Impostor.cpp
+  LibraryWrapper.cpp
+  LightPointNode.cpp
+  LightPointSystem.cpp
+  MultiSwitch.cpp
+  ObjectRecordData.cpp
+  OverlayNode.cpp
+  ScalarBar.cpp
+  Sector.cpp
+  SequenceGroup.cpp
+  ShapeAttributeList.cpp
+  SphereSegment.cpp
+  VisibilityGroup.cpp
+  Generating Code...
+  osgdb_serializers_osgsim.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_serializers_osgsim.dll

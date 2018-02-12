@@ -1,2 +1,99 @@
-﻿     Creating library C:/Libraries/OSG-3.4.0/lib/osgUtil.lib and object C:/Libraries/OSG-3.4.0/lib/osgUtil.exp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgUtil/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgUtil/CMakeFiles/generate.stamp is up-to-date.
+  CubeMapGenerator.cpp
+  CullVisitor.cpp
+C:\Libraries\OSG-3.4.0\src\osgUtil\CullVisitor.cpp(1111): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\CullVisitor.cpp(1069): note: see declaration of 'i'
+  DelaunayTriangulator.cpp
+C:\Libraries\OSG-3.4.0\src\osgUtil\DelaunayTriangulator.cpp(939): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\DelaunayTriangulator.cpp(841): note: see declaration of 'i'
+  DisplayRequirementsVisitor.cpp
+  DrawElementTypeSimplifier.cpp
+  EdgeCollector.cpp
+  GLObjectsVisitor.cpp
+  HalfWayMapGenerator.cpp
+  HighlightMapGenerator.cpp
+  IntersectionVisitor.cpp
+  IntersectVisitor.cpp
+  IncrementalCompileOperation.cpp
+C:\Libraries\OSG-3.4.0\src\osgUtil\IncrementalCompileOperation.cpp(680): warning C4458: declaration of '_flushTimeRatio' hides class member
+  C:\Libraries\OSG-3.4.0\include\osgUtil/IncrementalCompileOperation(307): note: see declaration of 'osgUtil::IncrementalCompileOperation::_flushTimeRatio'
+C:\Libraries\OSG-3.4.0\src\osgUtil\IncrementalCompileOperation.cpp(681): warning C4458: declaration of '_conservativeTimeRatio' hides class member
+  C:\Libraries\OSG-3.4.0\include\osgUtil/IncrementalCompileOperation(308): note: see declaration of 'osgUtil::IncrementalCompileOperation::_conservativeTimeRatio'
+  LineSegmentIntersector.cpp
+  MeshOptimizers.cpp
+C:\Libraries\OSG-3.4.0\src\osgUtil\MeshOptimizers.cpp(376): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\MeshOptimizers.cpp(243): note: see declaration of 'itr'
+  Optimizer.cpp
+C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(534): warning C4456: declaration of 'attributes' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(519): note: see declaration of 'attributes'
+C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(2734): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(2703): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(2750): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(2703): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(2766): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(2703): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(3355): warning C4456: declaration of 'x_max' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(3311): note: see declaration of 'x_max'
+C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(4430): warning C4456: declaration of 'titr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(4272): note: see declaration of 'titr'
+C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(4719): warning C4456: declaration of 'verts' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\Optimizer.cpp(4709): note: see declaration of 'verts'
+  PerlinNoise.cpp
+C:\Libraries\OSG-3.4.0\src\osgUtil\PerlinNoise.cpp(238): warning C4458: declaration of 'p' hides class member
+  C:\Libraries\OSG-3.4.0\include\osgUtil/PerlinNoise(72): note: see declaration of 'osgUtil::PerlinNoise::p'
+C:\Libraries\OSG-3.4.0\src\osgUtil\PerlinNoise.cpp(254): warning C4458: declaration of 'p' hides class member
+  C:\Libraries\OSG-3.4.0\include\osgUtil/PerlinNoise(72): note: see declaration of 'osgUtil::PerlinNoise::p'
+C:\Libraries\OSG-3.4.0\src\osgUtil\PerlinNoise.cpp(272): warning C4458: declaration of 'p' hides class member
+  C:\Libraries\OSG-3.4.0\include\osgUtil/PerlinNoise(72): note: see declaration of 'osgUtil::PerlinNoise::p'
+  PlaneIntersector.cpp
+  PolytopeIntersector.cpp
+  PositionalStateContainer.cpp
+  PrintVisitor.cpp
+  Generating Code...
+  Compiling...
+  RayIntersector.cpp
+  RenderBin.cpp
+  RenderLeaf.cpp
+  RenderStage.cpp
+C:\Libraries\OSG-3.4.0\src\osgUtil\RenderStage.cpp(374): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\RenderStage.cpp(250): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osgUtil\RenderStage.cpp(400): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\RenderStage.cpp(250): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osgUtil\RenderStage.cpp(558): warning C4456: declaration of 'status' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\RenderStage.cpp(528): note: see declaration of 'status'
+C:\Libraries\OSG-3.4.0\src\osgUtil\RenderStage.cpp(638): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\RenderStage.cpp(250): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osgUtil\RenderStage.cpp(802): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\RenderStage.cpp(250): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osgUtil\RenderStage.cpp(1108): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\RenderStage.cpp(1047): note: see declaration of 'itr'
+  ReversePrimitiveFunctor.cpp
+  SceneView.cpp
+  ShaderGen.cpp
+  Simplifier.cpp
+  SmoothingVisitor.cpp
+C:\Libraries\OSG-3.4.0\src\osgUtil\SmoothingVisitor.cpp(524): warning C4456: declaration of 'tri' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\SmoothingVisitor.cpp(484): note: see declaration of 'tri'
+  SceneGraphBuilder.cpp
+  StateGraph.cpp
+  Statistics.cpp
+  TangentSpaceGenerator.cpp
+  Tessellator.cpp
+  TransformAttributeFunctor.cpp
+  TransformCallback.cpp
+  tri_stripper.cpp
+  policy.cpp
+  connectivity_graph.cpp
+  TriStripVisitor.cpp
+C:\Libraries\OSG-3.4.0\src\osgUtil\TriStripVisitor.cpp(391): warning C4456: declaration of 'itr' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\TriStripVisitor.cpp(234): note: see declaration of 'itr'
+C:\Libraries\OSG-3.4.0\src\osgUtil\TriStripVisitor.cpp(443): warning C4456: declaration of 'indices' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgUtil\TriStripVisitor.cpp(263): note: see declaration of 'indices'
+  Generating Code...
+  Compiling...
+  UpdateVisitor.cpp
+  Version.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0/lib/osgUtil.lib and object C:/Libraries/OSG-3.4.0/lib/osgUtil.exp
   osgUtil.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osg130-osgUtil.dll

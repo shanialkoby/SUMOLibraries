@@ -1,1 +1,54 @@
-﻿  osgdb_serializers_osgparticle.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_serializers_osgparticled.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgWrappers/serializers/osgParticle/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgWrappers/serializers/osgParticle/CMakeFiles/generate.stamp is up-to-date.
+  AccelOperator.cpp
+  AngularAccelOperator.cpp
+  AngularDampingOperator.cpp
+  BounceOperator.cpp
+  BoxPlacer.cpp
+  CenteredPlacer.cpp
+  CompositePlacer.cpp
+  ConnectedParticleSystem.cpp
+  ConstantRateCounter.cpp
+  Counter.cpp
+  DampingOperator.cpp
+  DomainOperator.cpp
+  Emitter.cpp
+  ExplosionDebrisEffect.cpp
+  ExplosionEffect.cpp
+  ExplosionOperator.cpp
+  FireEffect.cpp
+  FluidFrictionOperator.cpp
+  FluidProgram.cpp
+  ForceOperator.cpp
+  Generating Code...
+  Compiling...
+  Interpolator.cpp
+  LibraryWrapper.cpp
+  LinearInterpolator.cpp
+  ModularEmitter.cpp
+  ModularProgram.cpp
+  MultiSegmentPlacer.cpp
+  Operator.cpp
+  OrbitOperator.cpp
+  Particle.cpp
+  ParticleEffect.cpp
+  ParticleProcessor.cpp
+  ParticleSystem.cpp
+  ParticleSystemUpdater.cpp
+  Placer.cpp
+  PointPlacer.cpp
+  PrecipitationEffect.cpp
+  Program.cpp
+  RadialShooter.cpp
+  RandomRateCounter.cpp
+  SectorPlacer.cpp
+  Generating Code...
+  Compiling...
+  SegmentPlacer.cpp
+  Shooter.cpp
+  SinkOperator.cpp
+  SmokeEffect.cpp
+  SmokeTrailEffect.cpp
+  VariableRateCounter.cpp
+  Generating Code...
+  osgdb_serializers_osgparticle.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_serializers_osgparticled.dll

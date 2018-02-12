@@ -1,2 +1,4 @@
-﻿  ReaderWriterTGZ.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/tgz/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/tgz/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterTGZ.cpp
   osgdb_tgz.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_tgzd.dll

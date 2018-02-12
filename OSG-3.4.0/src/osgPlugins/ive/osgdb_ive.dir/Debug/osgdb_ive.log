@@ -1,10 +1,4 @@
-﻿  AlphaFunc.cpp
-  AnimationPathCallback.cpp
-  AnimationPath.cpp
-  AnisotropicLighting.cpp
-  AutoTransform.cpp
-  AzimElevationSector.cpp
-  AzimSector.cpp
+﻿  AzimSector.cpp
   Billboard.cpp
   BlendColor.cpp
   BlendEquation.cpp
@@ -18,8 +12,6 @@
   ClipPlane.cpp
   ClusterCullingCallback.cpp
   ColorMask.cpp
-  Generating Code...
-  Compiling...
   CompositeLayer.cpp
   ConeSector.cpp
   ConvexPlanarOccluder.cpp
@@ -28,28 +20,30 @@ C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\ConvexPlanarOccluder.cpp(68): warning 
   ConvexPlanarPolygon.cpp
   CoordinateSystemNode.cpp
   CullFace.cpp
+  Generating Code...
+  Compiling...
+  DOFTransform.cpp
   DataInputStream.cpp
   DataOutputStream.cpp
   Depth.cpp
   DirectionalSector.cpp
-  DOFTransform.cpp
-  Drawable.cpp
   DrawArrayLengths.cpp
   DrawArrays.cpp
   DrawElementsUByte.cpp
   DrawElementsUInt.cpp
   DrawElementsUShort.cpp
+  Drawable.cpp
   Effect.cpp
   ElevationSector.cpp
   EllipsoidModel.cpp
-  Generating Code...
-  Compiling...
   Exception.cpp
   FadeText.cpp
   Fog.cpp
   FragmentProgram.cpp
   FrontFace.cpp
   Geode.cpp
+  Generating Code...
+  Compiling...
   Geometry.cpp
   Group.cpp
   HeightFieldLayer.cpp
@@ -59,6 +53,7 @@ C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\Image.cpp(72): warning C4456: declarat
   ImageLayer.cpp
   ImageSequence.cpp
   Impostor.cpp
+  LOD.cpp
   Layer.cpp
   Light.cpp
   LightModel.cpp
@@ -66,16 +61,15 @@ C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\Image.cpp(72): warning C4456: declarat
   LightPointNode.cpp
   LightSource.cpp
   LineStipple.cpp
-  Generating Code...
-  Compiling...
   LineWidth.cpp
   Locator.cpp
-  LOD.cpp
   Material.cpp
   MatrixTransform.cpp
-  Multisample.cpp
   MultiSwitch.cpp
+  Generating Code...
+  Compiling...
   MultiTextureControl.cpp
+  Multisample.cpp
   Node.cpp
   Object.cpp
   OccluderNode.cpp
@@ -88,8 +82,6 @@ C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\Image.cpp(72): warning C4456: declarat
   PolygonStipple.cpp
   PositionAttitudeTransform.cpp
   PrimitiveSet.cpp
-  Generating Code...
-  Compiling...
   Program.cpp
   ProxyNode.cpp
 C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\ProxyNode.cpp(208): warning C4456: declaration of 'node' hides previous local declaration
@@ -98,10 +90,12 @@ C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\ProxyNode.cpp(208): warning C4456: dec
   Scissor.cpp
   Scribe.cpp
   Sequence.cpp
+  Generating Code...
+  Compiling...
   ShadeModel.cpp
   Shader.cpp
-  ShapeAttributeList.cpp
   Shape.cpp
+  ShapeAttributeList.cpp
   ShapeDrawable.cpp
   SpecularHighlights.cpp
   StateSet.cpp
@@ -111,20 +105,20 @@ C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\ProxyNode.cpp(208): warning C4456: dec
   SwitchLayer.cpp
   Terrain.cpp
   TerrainTile.cpp
-  TexEnvCombine.cpp
-  Generating Code...
-  Compiling...
   TexEnv.cpp
+  TexEnvCombine.cpp
   TexGen.cpp
   TexGenNode.cpp
   TexMat.cpp
-  Text3D.cpp
   Text.cpp
+  Text3D.cpp
+  Generating Code...
+  Compiling...
+  Texture.cpp
   Texture1D.cpp
   Texture2D.cpp
   Texture2DArray.cpp
   Texture3D.cpp
-  Texture.cpp
   TextureCubeMap.cpp
   TextureRectangle.cpp
   Transform.cpp
@@ -132,18 +126,18 @@ C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\ProxyNode.cpp(208): warning C4456: dec
   VertexProgram.cpp
   Viewport.cpp
   VisibilityGroup.cpp
+  Volume.cpp
   VolumeCompositeLayer.cpp
   VolumeCompositeProperty.cpp
-  Generating Code...
-  Compiling...
-  VolumeSwitchProperty.cpp
-  VolumeScalarProperty.cpp
-  VolumeTransferFunctionProperty.cpp
-  VolumePropertyAdjustmentCallback.cpp
-  Volume.cpp
   VolumeImageLayer.cpp
   VolumeLayer.cpp
   VolumeLocator.cpp
+  VolumePropertyAdjustmentCallback.cpp
+  VolumeScalarProperty.cpp
+  Generating Code...
+  Compiling...
+  VolumeSwitchProperty.cpp
   VolumeTile.cpp
+  VolumeTransferFunctionProperty.cpp
   Generating Code...
   osgdb_ive.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_ived.dll

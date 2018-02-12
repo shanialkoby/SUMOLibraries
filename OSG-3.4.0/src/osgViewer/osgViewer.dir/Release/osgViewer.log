@@ -1,2 +1,46 @@
-﻿     Creating library C:/Libraries/OSG-3.4.0/lib/osgViewer.lib and object C:/Libraries/OSG-3.4.0/lib/osgViewer.exp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgViewer/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgViewer/CMakeFiles/generate.stamp is up-to-date.
+  AcrossAllScreens.cpp
+  PanoramicSphericalDisplay.cpp
+C:\Libraries\OSG-3.4.0\src\osgViewer\config\PanoramicSphericalDisplay.cpp(273): warning C4456: declaration of 'buffer' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgViewer\config\PanoramicSphericalDisplay.cpp(227): note: see declaration of 'buffer'
+  SingleScreen.cpp
+  SingleWindow.cpp
+  SphericalDisplay.cpp
+C:\Libraries\OSG-3.4.0\src\osgViewer\config\SphericalDisplay.cpp(389): warning C4456: declaration of 'buffer' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgViewer\config\SphericalDisplay.cpp(249): note: see declaration of 'buffer'
+  WoWVxDisplay.cpp
+C:\Libraries\OSG-3.4.0\src\osgViewer\config\WoWVxDisplay.cpp(258): warning C4456: declaration of 'buffer' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgViewer\config\WoWVxDisplay.cpp(96): note: see declaration of 'buffer'
+  CompositeViewer.cpp
+  GraphicsWindow.cpp
+  HelpHandler.cpp
+  Keystone.cpp
+  Renderer.cpp
+C:\Libraries\OSG-3.4.0\src\osgViewer\Renderer.cpp(231): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Libraries\OSG-3.4.0\src\osgViewer\Renderer.cpp(235): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  Scene.cpp
+  ScreenCaptureHandler.cpp
+  StatsHandler.cpp
+  Version.cpp
+  View.cpp
+C:\Libraries\OSG-3.4.0\src\osgViewer\View.cpp(1961): warning C4457: declaration of 'camera' hides function parameter
+  C:\Libraries\OSG-3.4.0\src\osgViewer\View.cpp(1371): note: see declaration of 'camera'
+  Viewer.cpp
+  ViewerBase.cpp
+C:\Libraries\OSG-3.4.0\src\osgViewer\ViewerBase.cpp(61): warning C4589: Constructor of abstract class 'osgViewer::ViewerBase' ignores initializer for virtual base class 'osg::Object'
+  C:\Libraries\OSG-3.4.0\src\osgViewer\ViewerBase.cpp(61): note: virtual base classes are only initialized by the most-derived type
+C:\Libraries\OSG-3.4.0\src\osgViewer\ViewerBase.cpp(67): warning C4589: Constructor of abstract class 'osgViewer::ViewerBase' ignores initializer for virtual base class 'osg::Object'
+  C:\Libraries\OSG-3.4.0\src\osgViewer\ViewerBase.cpp(67): note: virtual base classes are only initialized by the most-derived type
+  ViewerEventHandlers.cpp
+  GraphicsWindowWin32.cpp
+C:\Libraries\OSG-3.4.0\src\osgViewer\GraphicsWindowWin32.cpp(1690): warning C4838: conversion from 'int' to 'DWORD' requires a narrowing conversion
+C:\Libraries\OSG-3.4.0\src\osgViewer\GraphicsWindowWin32.cpp(1690): warning C4838: conversion from 'unsigned int' to 'BYTE' requires a narrowing conversion
+C:\Libraries\OSG-3.4.0\src\osgViewer\GraphicsWindowWin32.cpp(2736): warning C4457: declaration of 'lParam' hides function parameter
+  C:\Libraries\OSG-3.4.0\src\osgViewer\GraphicsWindowWin32.cpp(2508): note: see declaration of 'lParam'
+  Generating Code...
+  Compiling...
+  PixelBufferWin32.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0/lib/osgViewer.lib and object C:/Libraries/OSG-3.4.0/lib/osgViewer.exp
   osgViewer.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osg130-osgViewer.dll

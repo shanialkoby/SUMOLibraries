@@ -1,1 +1,18 @@
-﻿  osgdb_dxf.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_dxf.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/dxf/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/dxf/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterDXF.cpp
+  DXFWriterNodeVisitor.cpp
+  aci.cpp
+  dxfBlock.cpp
+  dxfEntity.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\dxf\dxfEntity.cpp(501): warning C4456: declaration of 'm' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\dxf\dxfEntity.cpp(478): note: see declaration of 'm'
+C:\Libraries\OSG-3.4.0\src\osgPlugins\dxf\dxfEntity.cpp(564): warning C4456: declaration of 'm' hides previous local declaration
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\dxf\dxfEntity.cpp(478): note: see declaration of 'm'
+  dxfFile.cpp
+  dxfReader.cpp
+  dxfSection.cpp
+  dxfTable.cpp
+  scene.cpp
+  Generating Code...
+  osgdb_dxf.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_dxf.dll

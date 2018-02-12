@@ -1,1 +1,2 @@
-﻿  application_osgviewer.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgviewerd.exe
+﻿  osgviewer.cpp
+  application_osgviewer.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgviewerd.exe

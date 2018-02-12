@@ -1,2 +1,4 @@
-﻿  ReaderWriterPNM.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/pnm/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/pnm/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterPNM.cpp
   osgdb_pnm.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_pnm.dll

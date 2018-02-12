@@ -1,1 +1,7 @@
-﻿  osgdb_dot.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_dotd.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/dot/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/dot/CMakeFiles/generate.stamp is up-to-date.
+  SimpleDotVisitor.cpp
+  BaseDotVisitor.cpp
+  ReaderWriterDOT.cpp
+  Generating Code...
+  osgdb_dot.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_dotd.dll

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;..\..\..\..\3rdPartyLibs\zlib-1.2.11;..\..\..\..\3rdPartyLibs\libpng-1.6.34;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -112,7 +112,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\osgDBd.lib;..\..\..\lib\osgUtild.lib;..\..\..\..\3rdPartyLibs\x64\lib\libpng16d.lib;..\..\..\..\3rdPartyLibs\zlib-1.2.11\contrib\vstudio\vc15\x64\ZlibStatDebug\zlibstat.lib;opengl32.lib;..\..\..\lib\osgd.lib;..\..\..\lib\OpenThreadsd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\lib\osgDBd.lib;..\..\..\lib\osgUtild.lib;..\..\..\..\3rdPartyLibs\x64\lib\libpng16d.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlibd.lib;opengl32.lib;..\..\..\lib\osgd.lib;..\..\..\lib\OpenThreadsd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -127,7 +127,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;..\..\..\..\3rdPartyLibs\zlib-1.2.11;..\..\..\..\3rdPartyLibs\libpng-1.6.34;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4706;4127;4100</DisableSpecificWarnings>
@@ -140,8 +140,7 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSG_CPP_EXCEPTIONS_AVAILABLE;CMAKE_INTDIR="Release";osgdb_png_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat>
-      </DebugInformationFormat>
+      <DebugInformationFormat></DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSG_CPP_EXCEPTIONS_AVAILABLE;CMAKE_INTDIR=\"Release\";osgdb_png_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -156,7 +155,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\osgDB.lib;..\..\..\lib\osgUtil.lib;..\..\..\..\3rdPartyLibs\x64\lib\libpng16.lib;..\..\..\..\3rdPartyLibs\zlib-1.2.11\contrib\vstudio\vc15\x64\ZlibStatRelease\zlibstat.lib;opengl32.lib;..\..\..\lib\osg.lib;..\..\..\lib\OpenThreads.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\lib\osgDB.lib;..\..\..\lib\osgUtil.lib;..\..\..\..\3rdPartyLibs\x64\lib\libpng16.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlib.lib;opengl32.lib;..\..\..\lib\osg.lib;..\..\..\lib\OpenThreads.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -171,7 +170,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;..\..\..\..\3rdPartyLibs\zlib-1.2.11;..\..\..\..\3rdPartyLibs\libpng-1.6.34;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4706;4127;4100</DisableSpecificWarnings>
@@ -184,8 +183,7 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSG_CPP_EXCEPTIONS_AVAILABLE;CMAKE_INTDIR="MinSizeRel";osgdb_png_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat>
-      </DebugInformationFormat>
+      <DebugInformationFormat></DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;OSG_CPP_EXCEPTIONS_AVAILABLE;CMAKE_INTDIR=\"MinSizeRel\";osgdb_png_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -200,7 +198,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\osgDBs.lib;..\..\..\lib\osgUtils.lib;..\..\..\..\3rdPartyLibs\x64\lib\libpng16.lib;..\..\..\..\3rdPartyLibs\zlib-1.2.11\contrib\vstudio\vc15\x64\ZlibStatRelease\zlibstat.lib;opengl32.lib;..\..\..\lib\osgs.lib;..\..\..\lib\OpenThreadss.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\lib\osgDBs.lib;..\..\..\lib\osgUtils.lib;..\..\..\..\3rdPartyLibs\x64\lib\libpng16.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlib.lib;opengl32.lib;..\..\..\lib\osgs.lib;..\..\..\lib\OpenThreadss.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -215,7 +213,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;..\..\..\..\3rdPartyLibs\zlib-1.2.11;..\..\..\..\3rdPartyLibs\libpng-1.6.34;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -243,7 +241,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\osgDBrd.lib;..\..\..\lib\osgUtilrd.lib;..\..\..\..\3rdPartyLibs\x64\lib\libpng16.lib;..\..\..\..\3rdPartyLibs\zlib-1.2.11\contrib\vstudio\vc15\x64\ZlibStatRelease\zlibstat.lib;opengl32.lib;..\..\..\lib\osgrd.lib;..\..\..\lib\OpenThreadsrd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\lib\osgDBrd.lib;..\..\..\lib\osgUtilrd.lib;..\..\..\..\3rdPartyLibs\x64\lib\libpng16.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlib.lib;opengl32.lib;..\..\..\lib\osgrd.lib;..\..\..\lib\OpenThreadsrd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -313,8 +311,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\png\ReaderWriterPNG.cpp" />
-    <ResourceCompile Include="C:\Libraries\OSG-3.4.0_64\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc" />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\png\ReaderWriterPNG.cpp"  />
+    <ResourceCompile Include="C:\Libraries\OSG-3.4.0_64\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc"  />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Libraries\OSG-3.4.0_64\ZERO_CHECK.vcxproj">

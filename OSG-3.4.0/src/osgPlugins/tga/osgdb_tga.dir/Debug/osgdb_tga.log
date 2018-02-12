@@ -1,2 +1,4 @@
-﻿  ReaderWriterTGA.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/tga/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/tga/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterTGA.cpp
   osgdb_tga.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_tgad.dll

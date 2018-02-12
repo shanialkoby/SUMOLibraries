@@ -1,2 +1,11 @@
-﻿     Creating library C:/Libraries/OSG-3.4.0/lib/OpenThreads.lib and object C:/Libraries/OSG-3.4.0/lib/OpenThreads.exp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/OpenThreads/win32/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/OpenThreads/win32/CMakeFiles/generate.stamp is up-to-date.
+  WIN32Condition.cpp
+  Win32Mutex.cpp
+  Win32Thread.cpp
+  Win32ThreadBarrier.cpp
+  Version.cpp
+  Atomic.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0/lib/OpenThreads.lib and object C:/Libraries/OSG-3.4.0/lib/OpenThreads.exp
   OpenThreads.vcxproj -> C:\Libraries\OSG-3.4.0\bin\ot20-OpenThreads.dll

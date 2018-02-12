@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;..\..\..\..\3rdPartyLibs\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -112,7 +112,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\osgSimd.lib;..\..\..\lib\osgFXd.lib;..\..\..\lib\osgTextd.lib;..\..\..\lib\osgTerraind.lib;..\..\..\lib\osgVolumed.lib;..\..\..\..\3rdPartyLibs\zlib-1.2.11\contrib\vstudio\vc15\x64\ZlibStatDebug\zlibstat.lib;opengl32.lib;..\..\..\lib\osgGAd.lib;..\..\..\lib\osgDBd.lib;..\..\..\..\3rdPartyLibs\zlib-1.2.11\contrib\vstudio\vc15\x64\ZlibStatDebug\zlibstat.lib;..\..\..\lib\osgUtild.lib;..\..\..\lib\osgd.lib;..\..\..\lib\OpenThreadsd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\lib\osgSimd.lib;..\..\..\lib\osgFXd.lib;..\..\..\lib\osgTextd.lib;..\..\..\lib\osgTerraind.lib;..\..\..\lib\osgVolumed.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlibd.lib;opengl32.lib;..\..\..\lib\osgGAd.lib;..\..\..\lib\osgDBd.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlibd.lib;..\..\..\lib\osgUtild.lib;..\..\..\lib\osgd.lib;..\..\..\lib\OpenThreadsd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -127,7 +127,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;..\..\..\..\3rdPartyLibs\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4706;4127;4100</DisableSpecificWarnings>
@@ -140,8 +140,7 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;USE_ZLIB;CMAKE_INTDIR="Release";osgdb_ive_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat>
-      </DebugInformationFormat>
+      <DebugInformationFormat></DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;USE_ZLIB;CMAKE_INTDIR=\"Release\";osgdb_ive_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -156,7 +155,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\osgSim.lib;..\..\..\lib\osgFX.lib;..\..\..\lib\osgText.lib;..\..\..\lib\osgTerrain.lib;..\..\..\lib\osgVolume.lib;..\..\..\..\3rdPartyLibs\zlib-1.2.11\contrib\vstudio\vc15\x64\ZlibStatRelease\zlibstat.lib;opengl32.lib;..\..\..\lib\osgGA.lib;..\..\..\lib\osgDB.lib;..\..\..\..\3rdPartyLibs\zlib-1.2.11\contrib\vstudio\vc15\x64\ZlibStatRelease\zlibstat.lib;..\..\..\lib\osgUtil.lib;..\..\..\lib\osg.lib;..\..\..\lib\OpenThreads.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\lib\osgSim.lib;..\..\..\lib\osgFX.lib;..\..\..\lib\osgText.lib;..\..\..\lib\osgTerrain.lib;..\..\..\lib\osgVolume.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlib.lib;opengl32.lib;..\..\..\lib\osgGA.lib;..\..\..\lib\osgDB.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlib.lib;..\..\..\lib\osgUtil.lib;..\..\..\lib\osg.lib;..\..\..\lib\OpenThreads.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -171,7 +170,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;..\..\..\..\3rdPartyLibs\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4706;4127;4100</DisableSpecificWarnings>
@@ -184,8 +183,7 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;USE_ZLIB;CMAKE_INTDIR="MinSizeRel";osgdb_ive_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat>
-      </DebugInformationFormat>
+      <DebugInformationFormat></DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;USE_ZLIB;CMAKE_INTDIR=\"MinSizeRel\";osgdb_ive_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -200,7 +198,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\osgSims.lib;..\..\..\lib\osgFXs.lib;..\..\..\lib\osgTexts.lib;..\..\..\lib\osgTerrains.lib;..\..\..\lib\osgVolumes.lib;..\..\..\..\3rdPartyLibs\zlib-1.2.11\contrib\vstudio\vc15\x64\ZlibStatRelease\zlibstat.lib;opengl32.lib;..\..\..\lib\osgGAs.lib;..\..\..\lib\osgDBs.lib;..\..\..\..\3rdPartyLibs\zlib-1.2.11\contrib\vstudio\vc15\x64\ZlibStatRelease\zlibstat.lib;..\..\..\lib\osgUtils.lib;..\..\..\lib\osgs.lib;..\..\..\lib\OpenThreadss.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\lib\osgSims.lib;..\..\..\lib\osgFXs.lib;..\..\..\lib\osgTexts.lib;..\..\..\lib\osgTerrains.lib;..\..\..\lib\osgVolumes.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlib.lib;opengl32.lib;..\..\..\lib\osgGAs.lib;..\..\..\lib\osgDBs.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlib.lib;..\..\..\lib\osgUtils.lib;..\..\..\lib\osgs.lib;..\..\..\lib\OpenThreadss.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -215,7 +213,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;..\..\..\..\3rdPartyLibs\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Libraries\OSG-3.4.0_64\include;..\..\..\..\3rdPartyLibs\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -243,7 +241,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\osgSimrd.lib;..\..\..\lib\osgFXrd.lib;..\..\..\lib\osgTextrd.lib;..\..\..\lib\osgTerrainrd.lib;..\..\..\lib\osgVolumerd.lib;..\..\..\..\3rdPartyLibs\zlib-1.2.11\contrib\vstudio\vc15\x64\ZlibStatRelease\zlibstat.lib;opengl32.lib;..\..\..\lib\osgGArd.lib;..\..\..\lib\osgDBrd.lib;..\..\..\..\3rdPartyLibs\zlib-1.2.11\contrib\vstudio\vc15\x64\ZlibStatRelease\zlibstat.lib;..\..\..\lib\osgUtilrd.lib;..\..\..\lib\osgrd.lib;..\..\..\lib\OpenThreadsrd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\..\lib\osgSimrd.lib;..\..\..\lib\osgFXrd.lib;..\..\..\lib\osgTextrd.lib;..\..\..\lib\osgTerrainrd.lib;..\..\..\lib\osgVolumerd.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlib.lib;opengl32.lib;..\..\..\lib\osgGArd.lib;..\..\..\lib\osgDBrd.lib;..\..\..\..\3rdPartyLibs\x64\lib\zlib.lib;..\..\..\lib\osgUtilrd.lib;..\..\..\lib\osgrd.lib;..\..\..\lib\OpenThreadsrd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -313,136 +311,136 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AlphaFunc.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AnimationPathCallback.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AnimationPath.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AnisotropicLighting.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AutoTransform.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AzimElevationSector.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AzimSector.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Billboard.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\BlendColor.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\BlendEquation.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\BlendFunc.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\BlinkSequence.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\BumpMapping.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Camera.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\CameraView.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Cartoon.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ClipNode.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ClipPlane.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ClusterCullingCallback.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ColorMask.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\CompositeLayer.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ConeSector.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ConvexPlanarOccluder.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ConvexPlanarPolygon.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\CoordinateSystemNode.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\CullFace.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DataInputStream.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DataOutputStream.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Depth.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DirectionalSector.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DOFTransform.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Drawable.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DrawArrayLengths.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DrawArrays.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DrawElementsUByte.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DrawElementsUInt.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DrawElementsUShort.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Effect.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ElevationSector.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\EllipsoidModel.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Exception.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\FadeText.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Fog.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\FragmentProgram.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\FrontFace.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Geode.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Geometry.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Group.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\HeightFieldLayer.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Image.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ImageLayer.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ImageSequence.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Impostor.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Layer.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Light.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LightModel.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LightPoint.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LightPointNode.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LightSource.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LineStipple.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LineWidth.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Locator.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LOD.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Material.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\MatrixTransform.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Multisample.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\MultiSwitch.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\MultiTextureControl.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Node.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Object.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\OccluderNode.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\OcclusionQueryNode.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PagedLOD.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Point.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PointSprite.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PolygonMode.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PolygonOffset.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PolygonStipple.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PositionAttitudeTransform.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PrimitiveSet.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Program.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ProxyNode.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ReaderWriterIVE.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Scissor.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Scribe.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Sequence.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ShadeModel.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Shader.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ShapeAttributeList.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Shape.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ShapeDrawable.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\SpecularHighlights.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\StateSet.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Stencil.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\StencilTwoSided.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Switch.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\SwitchLayer.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Terrain.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TerrainTile.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TexEnvCombine.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TexEnv.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TexGen.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TexGenNode.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TexMat.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Text3D.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Text.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Texture1D.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Texture2D.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Texture2DArray.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Texture3D.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Texture.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TextureCubeMap.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TextureRectangle.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Transform.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Uniform.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VertexProgram.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Viewport.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VisibilityGroup.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeCompositeLayer.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeCompositeProperty.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeSwitchProperty.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeScalarProperty.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeTransferFunctionProperty.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumePropertyAdjustmentCallback.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Volume.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeImageLayer.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeLayer.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeLocator.cpp" />
-    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeTile.cpp" />
-    <ResourceCompile Include="C:\Libraries\OSG-3.4.0_64\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc" />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AlphaFunc.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AnimationPathCallback.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AnimationPath.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AnisotropicLighting.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AutoTransform.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AzimElevationSector.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AzimSector.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Billboard.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\BlendColor.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\BlendEquation.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\BlendFunc.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\BlinkSequence.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\BumpMapping.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Camera.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\CameraView.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Cartoon.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ClipNode.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ClipPlane.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ClusterCullingCallback.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ColorMask.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\CompositeLayer.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ConeSector.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ConvexPlanarOccluder.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ConvexPlanarPolygon.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\CoordinateSystemNode.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\CullFace.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DataInputStream.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DataOutputStream.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Depth.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DirectionalSector.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DOFTransform.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Drawable.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DrawArrayLengths.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DrawArrays.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DrawElementsUByte.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DrawElementsUInt.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\DrawElementsUShort.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Effect.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ElevationSector.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\EllipsoidModel.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Exception.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\FadeText.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Fog.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\FragmentProgram.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\FrontFace.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Geode.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Geometry.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Group.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\HeightFieldLayer.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Image.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ImageLayer.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ImageSequence.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Impostor.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Layer.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Light.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LightModel.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LightPoint.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LightPointNode.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LightSource.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LineStipple.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LineWidth.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Locator.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\LOD.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Material.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\MatrixTransform.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Multisample.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\MultiSwitch.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\MultiTextureControl.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Node.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Object.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\OccluderNode.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\OcclusionQueryNode.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PagedLOD.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Point.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PointSprite.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PolygonMode.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PolygonOffset.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PolygonStipple.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PositionAttitudeTransform.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\PrimitiveSet.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Program.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ProxyNode.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ReaderWriterIVE.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Scissor.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Scribe.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Sequence.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ShadeModel.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Shader.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ShapeAttributeList.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Shape.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ShapeDrawable.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\SpecularHighlights.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\StateSet.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Stencil.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\StencilTwoSided.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Switch.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\SwitchLayer.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Terrain.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TerrainTile.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TexEnvCombine.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TexEnv.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TexGen.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TexGenNode.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TexMat.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Text3D.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Text.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Texture1D.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Texture2D.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Texture2DArray.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Texture3D.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Texture.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TextureCubeMap.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\TextureRectangle.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Transform.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Uniform.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VertexProgram.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Viewport.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VisibilityGroup.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeCompositeLayer.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeCompositeProperty.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeSwitchProperty.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeScalarProperty.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeTransferFunctionProperty.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumePropertyAdjustmentCallback.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\Volume.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeImageLayer.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeLayer.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeLocator.cpp"  />
+    <ClCompile Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\VolumeTile.cpp"  />
+    <ResourceCompile Include="C:\Libraries\OSG-3.4.0_64\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc"  />
     <ClInclude Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AlphaFunc.h" />
     <ClInclude Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AnimationPathCallback.h" />
     <ClInclude Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\AnimationPath.h" />

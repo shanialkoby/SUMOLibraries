@@ -1,1 +1,9 @@
-﻿  osgdb_osgjs.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_osgjsd.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/osgjs/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/osgjs/CMakeFiles/generate.stamp is up-to-date.
+  Animation.cpp
+  Base64.cpp
+  JSON_Objects.cpp
+  ReaderWriterJSON.cpp
+  WriteVisitor.cpp
+  Generating Code...
+  osgdb_osgjs.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_osgjsd.dll

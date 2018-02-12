@@ -1,2 +1,4 @@
-﻿  ReaderWriterBMP.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/bmp/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/bmp/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterBMP.cpp
   osgdb_bmp.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_bmp.dll

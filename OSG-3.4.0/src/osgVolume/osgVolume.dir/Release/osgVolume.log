@@ -1,2 +1,17 @@
-﻿     Creating library C:/Libraries/OSG-3.4.0/lib/osgVolume.lib and object C:/Libraries/OSG-3.4.0/lib/osgVolume.exp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgVolume/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgVolume/CMakeFiles/generate.stamp is up-to-date.
+  FixedFunctionTechnique.cpp
+  Layer.cpp
+  Locator.cpp
+  MultipassTechnique.cpp
+  Property.cpp
+  RayTracedTechnique.cpp
+  Version.cpp
+  Volume.cpp
+  VolumeScene.cpp
+  VolumeSettings.cpp
+  VolumeTechnique.cpp
+  VolumeTile.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0/lib/osgVolume.lib and object C:/Libraries/OSG-3.4.0/lib/osgVolume.exp
   osgVolume.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osg130-osgVolume.dll

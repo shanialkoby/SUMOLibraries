@@ -1,1 +1,7 @@
-﻿  osgdb_obj.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_objd.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/obj/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/obj/CMakeFiles/generate.stamp is up-to-date.
+  OBJWriterNodeVisitor.cpp
+  ReaderWriterOBJ.cpp
+  obj.cpp
+  Generating Code...
+  osgdb_obj.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_objd.dll

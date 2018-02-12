@@ -1,4 +1,6 @@
-﻿  ReaderWriterTIFF.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/tiff/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/tiff/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterTIFF.cpp
 C:\Libraries\OSG-3.4.0\src\osgPlugins\tiff\ReaderWriterTIFF.cpp(225): warning C4457: declaration of 'i' hides function parameter
   C:\Libraries\OSG-3.4.0\src\osgPlugins\tiff\ReaderWriterTIFF.cpp(176): note: see declaration of 'i'
   osgdb_tiff.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_tiff.dll

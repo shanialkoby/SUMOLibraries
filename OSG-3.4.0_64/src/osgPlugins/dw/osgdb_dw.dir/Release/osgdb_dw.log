@@ -1,1 +1,8 @@
-﻿  osgdb_dw.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_dw.dll
+﻿  ReaderWriterDW.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\dw\ReaderWriterDW.cpp(240): warning C4458: declaration of 'nrm' hides class member
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\dw\ReaderWriterDW.cpp(349): note: see declaration of '_face::nrm'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\dw\ReaderWriterDW.cpp(642): warning C4458: declaration of 'mx' hides class member
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\dw\ReaderWriterDW.cpp(666): note: see declaration of '_dwobj::mx'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\dw\ReaderWriterDW.cpp(909): warning C4456: declaration of 'rgb' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\dw\ReaderWriterDW.cpp(904): note: see declaration of 'rgb'
+  osgdb_dw.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_dw.dll

@@ -1,1 +1,15 @@
-﻿  osgdb_cfg.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_cfg.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/cfg/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/cfg/CMakeFiles/generate.stamp is up-to-date.
+  CameraConfig.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\cfg\CameraConfig.cpp(301): warning C4457: declaration of 'name' hides function parameter
+  C:\Libraries\OSG-3.4.0\src\osgPlugins\cfg\CameraConfig.cpp(291): note: see declaration of 'name'
+  Camera.cpp
+C:\Libraries\OSG-3.4.0\src\osgPlugins\cfg\Camera.cpp(280): warning C4458: declaration of '_matrix' hides class member
+  c:\libraries\osg-3.4.0\src\osgplugins\cfg\Camera.h(164): note: see declaration of 'osgProducer::Camera::Lens::_matrix'
+  ConfigLexer.cpp
+  ConfigParser.cpp
+  ReaderWriterCFG.cpp
+  RenderSurface.cpp
+  VisualChooser.cpp
+  Generating Code...
+  osgdb_cfg.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_cfg.dll

@@ -1,2 +1,5 @@
-﻿     Creating library C:/Libraries/OSG-3.4.0_64/lib/osgPlugins-3.4.0/osgdb_gdal.lib and object C:/Libraries/OSG-3.4.0_64/lib/osgPlugins-3.4.0/osgdb_gdal.exp
+﻿  ReaderWriterGDAL.cpp
+  DataSetLayer.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0_64/lib/osgPlugins-3.4.0/osgdb_gdal.lib and object C:/Libraries/OSG-3.4.0_64/lib/osgPlugins-3.4.0/osgdb_gdal.exp
   osgdb_gdal.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_gdal.dll
