@@ -1,10 +1,10 @@
+CMakeFiles
+.vs
 *.obj
 *.tlog
+*.pdb
 *.ilk
 *.db
 *.suo
 *.db-shm
 *.db-wal
-.vs/
-CMakeFiles/
-CMakeFiles/
