@@ -185,6 +185,7 @@
       <OutputFile>..\..\..\lib\FOXDLLD-1.6.dll</OutputFile>
       <ImportLibrary>.\..\..\..\lib\FOXDLLD-1.6.lib</ImportLibrary>
       <AdditionalDependencies>opengl32.lib;glu32.lib;comctl32.lib;wsock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ProgramDatabaseFile>.\..\..\..\lib\FOXDLLD-1.6.pdb</ProgramDatabaseFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -270,6 +271,7 @@
       <OutputFile>..\..\..\lib\FOXDLL-1.6.dll</OutputFile>
       <ImportLibrary>.\..\..\..\lib\FOXDLL-1.6.lib</ImportLibrary>
       <AdditionalDependencies>opengl32.lib;glu32.lib;comctl32.lib;wsock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ProgramDatabaseFile>.\..\..\..\lib\FOXDLL-1.6.pdb</ProgramDatabaseFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

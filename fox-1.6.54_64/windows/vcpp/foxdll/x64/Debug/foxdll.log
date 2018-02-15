@@ -1,60 +1,680 @@
-﻿  Microsoft (R) C/C++-Optimierungscompiler Version 19.12.25834 für x64
-  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+﻿  Microsoft (R) C/C++ Optimizing Compiler Version 19.12.25835 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /I..\..\..\include /Zi /W3 /WX- /diagnostics:classic /Od /D WIN32 /D _DEBUG /D _WINDOWS /D UNICODE /D _USRDLL /D FOXDLL /D FOXDLL_EXPORTS /D HAVE_GL_H /D HAVE_GLU_H /D _VC80_UPGRADE=0x0600 /D _WINDLL /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo".\Debug\\" /Fd".\Debug\vc141.pdb" /Gd /TP /errorReport:prompt ..\..\..\src\FX4Splitter.cpp ..\..\..\src\fxascii.cpp ..\..\..\src\FXComboBox.cpp ..\..\..\src\FXCP862Codec.cpp ..\..\..\src\FXDirBox.cpp ..\..\..\src\FXFileDict.cpp ..\..\..\src\FXGLObject.cpp ..\..\..\src\FXId.cpp ..\..\..\src\FXMat3d.cpp ..\..\..\src\FXMessageBox.cpp ..\..\..\src\FXPrintDialog.cpp ..\..\..\src\FXRex.cpp ..\..\..\src\FXSpheref.cpp ..\..\..\src\FXTextField.cpp ..\..\..\src\FXURL.cpp
+  cl /c /I..\..\..\include /Zi /W3 /WX- /diagnostics:classic /Od /D WIN32 /D _DEBUG /D _WINDOWS /D UNICODE /D _USRDLL /D FOXDLL /D FOXDLL_EXPORTS /D HAVE_GL_H /D HAVE_GLU_H /D _VC80_UPGRADE=0x0600 /D _WINDLL /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo".\Debug\\" /Fd".\Debug\vc141.pdb" /Gd /TP /errorReport:prompt ..\..\..\src\FX4Splitter.cpp ..\..\..\src\FX7Segment.cpp ..\..\..\src\FX885910Codec.cpp ..\..\..\src\FX885911Codec.cpp ..\..\..\src\FX885913Codec.cpp ..\..\..\src\FX885914Codec.cpp ..\..\..\src\FX885915Codec.cpp ..\..\..\src\FX885916Codec.cpp ..\..\..\src\FX88591Codec.cpp ..\..\..\src\FX88592Codec.cpp ..\..\..\src\FX88593Codec.cpp ..\..\..\src\FX88594Codec.cpp ..\..\..\src\FX88595Codec.cpp ..\..\..\src\FX88596Codec.cpp ..\..\..\src\FX88597Codec.cpp ..\..\..\src\FX88598Codec.cpp ..\..\..\src\FX88599Codec.cpp ..\..\..\src\FXAccelTable.cpp ..\..\..\src\FXApp.cpp ..\..\..\src\FXArrowButton.cpp ..\..\..\src\fxascii.cpp ..\..\..\src\FXBitmap.cpp ..\..\..\src\FXBitmapFrame.cpp ..\..\..\src\FXBitmapView.cpp ..\..\..\src\FXBMPIcon.cpp ..\..\..\src\FXBMPImage.cpp ..\..\..\src\fxbmpio.cpp ..\..\..\src\FXButton.cpp ..\..\..\src\FXBZFileStream.cpp ..\..\..\src\FXCanvas.cpp ..\..\..\src\FXCheckButton.cpp ..\..\..\src\FXChoiceBox.cpp ..\..\..\src\FXColorBar.cpp ..\..\..\src\FXColorDialog.cpp ..\..\..\src\FXColorList.cpp ..\..\..\src\FXColorNames.cpp ..\..\..\src\FXColorRing.cpp ..\..\..\src\FXColorSelector.cpp ..\..\..\src\FXColorWell.cpp ..\..\..\src\FXColorWheel.cpp ..\..\..\src\FXComboBox.cpp ..\..\..\src\FXComposeContext.cpp ..\..\..\src\FXComposite.cpp ..\..\..\src\FXCP1250Codec.cpp ..\..\..\src\FXCP1251Codec.cpp ..\..\..\src\FXCP1252Codec.cpp ..\..\..\src\FXCP1253Codec.cpp ..\..\..\src\FXCP1254Codec.cpp ..\..\..\src\FXCP1255Codec.cpp ..\..\..\src\FXCP1256Codec.cpp ..\..\..\src\FXCP1257Codec.cpp ..\..\..\src\FXCP1258Codec.cpp ..\..\..\src\FXCP437Codec.cpp ..\..\..\src\FXCP850Codec.cpp ..\..\..\src\FXCP852Codec.cpp ..\..\..\src\FXCP855Codec.cpp ..\..\..\src\FXCP856Codec.cpp ..\..\..\src\FXCP857Codec.cpp ..\..\..\src\FXCP860Codec.cpp ..\..\..\src\FXCP861Codec.cpp ..\..\..\src\FXCP862Codec.cpp ..\..\..\src\FXCP863Codec.cpp ..\..\..\src\FXCP864Codec.cpp ..\..\..\src\FXCP865Codec.cpp ..\..\..\src\FXCP866Codec.cpp ..\..\..\src\FXCP869Codec.cpp ..\..\..\src\FXCP874Codec.cpp ..\..\..\src\FXCURCursor.cpp ..\..\..\src\FXCursor.cpp ..\..\..\src\FXDataTarget.cpp ..\..\..\src\FXDate.cpp ..\..\..\src\FXDC.cpp ..\..\..\src\FXDCPrint.cpp ..\..\..\src\FXDCWindow.cpp ..\..\..\src\FXDebugTarget.cpp ..\..\..\src\FXDelegator.cpp ..\..\..\src\FXDial.cpp ..\..\..\src\FXDialogBox.cpp ..\..\..\src\FXDict.cpp ..\..\..\src\FXDir.cpp ..\..\..\src\FXDirBox.cpp ..\..\..\src\FXDirDialog.cpp ..\..\..\src\FXDirList.cpp ..\..\..\src\FXDirSelector.cpp ..\..\..\src\FXDLL.cpp ..\..\..\src\FXDockBar.cpp ..\..\..\src\FXDockHandler.cpp ..\..\..\src\FXDockSite.cpp ..\..\..\src\FXDockTitle.cpp ..\..\..\src\FXDocument.cpp ..\..\..\src\FXDragCorner.cpp ..\..\..\src\FXDrawable.cpp ..\..\..\src\FXDriveBox.cpp ..\..\..\src\FXException.cpp ..\..\..\src\FXExpression.cpp ..\..\..\src\FXExtentd.cpp ..\..\..\src\FXExtentf.cpp ..\..\..\src\fxezquantize.cpp ..\..\..\src\FXFile.cpp ..\..\..\src\FXFileDialog.cpp ..\..\..\src\FXFileDict.cpp ..\..\..\src\FXFileList.cpp ..\..\..\src\fxfilematch.cpp ..\..\..\src\FXFileSelector.cpp ..\..\..\src\FXFileStream.cpp ..\..\..\src\FXFoldingList.cpp ..\..\..\src\FXFont.cpp ..\..\..\src\FXFontDialog.cpp ..\..\..\src\FXFontSelector.cpp ..\..\..\src\FXFrame.cpp ..\..\..\src\fxfsquantize.cpp ..\..\..\src\FXGIFCursor.cpp ..\..\..\src\FXGIFIcon.cpp ..\..\..\src\FXGIFImage.cpp ..\..\..\src\fxgifio.cpp ..\..\..\src\FXGLCanvas.cpp ..\..\..\src\FXGLCone.cpp ..\..\..\src\FXGLContext.cpp ..\..\..\src\FXGLCube.cpp ..\..\..\src\FXGLCylinder.cpp ..\..\..\src\FXGLObject.cpp ..\..\..\src\FXGLShape.cpp ..\..\..\src\FXGLSphere.cpp ..\..\..\src\FXGLTriangleMesh.cpp ..\..\..\src\FXGLViewer.cpp ..\..\..\src\FXGLVisual.cpp ..\..\..\src\FXGradientBar.cpp ..\..\..\src\FXGroupBox.cpp ..\..\..\src\FXGUISignal.cpp ..\..\..\src\FXGZFileStream.cpp ..\..\..\src\FXHash.cpp ..\..\..\src\FXHeader.cpp ..\..\..\src\FXHorizontalFrame.cpp ..\..\..\src\FXICOIcon.cpp ..\..\..\src\FXICOImage.cpp ..\..\..\src\fxicoio.cpp ..\..\..\src\FXIcon.cpp ..\..\..\src\FXIconDict.cpp ..\..\..\src\FXIconList.cpp ..\..\..\src\FXIconSource.cpp ..\..\..\src\FXId.cpp ..\..\..\src\FXIFFIcon.cpp ..\..\..\src\FXIFFImage.cpp ..\..\..\src\fxiffio.cpp ..\..\..\src\FXImage.cpp ..\..\..\src\FXImageFrame.cpp ..\..\..\src\FXImageView.cpp ..\..\..\src\FXInputDialog.cpp ..\..\..\src\FXIO.cpp ..\..\..\src\fxjpegio.cpp ..\..\..\src\FXJPGIcon.cpp ..\..\..\src\FXJPGImage.cpp ..\..\..\src\fxkeyboard.cpp ..\..\..\src\fxkeysym.cpp ..\..\..\src\FXKnob.cpp ..\..\..\src\FXKOI8RCodec.cpp ..\..\..\src\FXLabel.cpp ..\..\..\src\FXList.cpp ..\..\..\src\FXListBox.cpp ..\..\..\src\FXMainWindow.cpp ..\..\..\src\FXMat3d.cpp ..\..\..\src\FXMat3f.cpp ..\..\..\src\FXMat4d.cpp ..\..\..\src\FXMat4f.cpp ..\..\..\src\FXMatrix.cpp ..\..\..\src\FXMDIButton.cpp ..\..\..\src\FXMDIChild.cpp ..\..\..\src\FXMDIClient.cpp ..\..\..\src\FXMemMap.cpp ..\..\..\src\FXMemoryStream.cpp ..\..\..\src\FXMenuBar.cpp ..\..\..\src\FXMenuButton.cpp ..\..\..\src\FXMenuCaption.cpp ..\..\..\src\FXMenuCascade.cpp ..\..\..\src\FXMenuCheck.cpp ..\..\..\src\FXMenuCommand.cpp ..\..\..\src\FXMenuPane.cpp ..\..\..\src\FXMenuRadio.cpp ..\..\..\src\FXMenuSeparator.cpp ..\..\..\src\FXMenuTitle.cpp ..\..\..\src\FXMessageBox.cpp ..\..\..\src\FXObject.cpp ..\..\..\src\FXObjectList.cpp ..\..\..\src\FXOptionMenu.cpp ..\..\..\src\FXPacker.cpp ..\..\..\src\fxparsegeometry.cpp ..\..\..\src\FXPath.cpp ..\..\..\src\FXPCXIcon.cpp ..\..\..\src\FXPCXImage.cpp ..\..\..\src\fxpcxio.cpp ..\..\..\src\FXPicker.cpp ..\..\..\src\FXPipe.cpp ..\..\..\src\FXPNGIcon.cpp ..\..\..\src\FXPNGImage.cpp ..\..\..\src\fxpngio.cpp ..\..\..\src\FXPoint.cpp ..\..\..\src\FXPopup.cpp ..\..\..\src\FXPPMIcon.cpp ..\..\..\src\FXPPMImage.cpp ..\..\..\src\fxppmio.cpp ..\..\..\src\FXPrintDialog.cpp ..\..\..\src\fxpriv.cpp ..\..\..\src\FXProgressBar.cpp ..\..\..\src\FXProgressDialog.cpp ..\..\..\src\fxpsio.cpp ..\..\..\src\FXQuatd.cpp ..\..\..\src\FXQuatf.cpp ..\..\..\src\FXRadioButton.cpp ..\..\..\src\FXRanged.cpp ..\..\..\src\FXRangef.cpp ..\..\..\src\FXRASIcon.cpp ..\..\..\src\FXRASImage.cpp ..\..\..\src\fxrasio.cpp ..\..\..\src\FXRealSlider.cpp ..\..\..\src\FXRealSpinner.cpp ..\..\..\src\FXRecentFiles.cpp ..\..\..\src\FXRectangle.cpp ..\..\..\src\FXRegion.cpp ..\..\..\src\FXRegistry.cpp ..\..\..\src\FXReplaceDialog.cpp ..\..\..\src\FXRex.cpp ..\..\..\src\FXRGBIcon.cpp ..\..\..\src\FXRGBImage.cpp ..\..\..\src\fxrgbio.cpp ..\..\..\src\FXRootWindow.cpp ..\..\..\src\FXRuler.cpp ..\..\..\src\FXRulerView.cpp ..\..\..\src\FXScrollArea.cpp ..\..\..\src\FXScrollBar.cpp ..\..\..\src\FXScrollPane.cpp ..\..\..\src\FXScrollWindow.cpp ..\..\..\src\FXSearchDialog.cpp ..\..\..\src\FXSeparator.cpp ..\..\..\src\FXSettings.cpp ..\..\..\src\FXShell.cpp ..\..\..\src\FXShutter.cpp ..\..\..\src\FXSize.cpp ..\..\..\src\FXSlider.cpp ..\..\..\src\FXSocket.cpp ..\..\..\src\FXSphered.cpp ..\..\..\src\FXSpheref.cpp ..\..\..\src\FXSpinner.cpp ..\..\..\src\FXSplashWindow.cpp ..\..\..\src\FXSplitter.cpp ..\..\..\src\FXSpring.cpp ..\..\..\src\FXStat.cpp ..\..\..\src\FXStatusBar.cpp ..\..\..\src\FXStatusLine.cpp ..\..\..\src\FXStream.cpp ..\..\..\src\FXString.cpp ..\..\..\src\FXStringDict.cpp ..\..\..\src\FXSwitcher.cpp ..\..\..\src\FXSystem.cpp ..\..\..\src\FXTabBar.cpp ..\..\..\src\FXTabBook.cpp ..\..\..\src\FXTabItem.cpp ..\..\..\src\FXTable.cpp ..\..\..\src\fxtargaio.cpp ..\..\..\src\FXText.cpp ..\..\..\src\FXTextCodec.cpp ..\..\..\src\FXTextField.cpp ..\..\..\src\FXTGAIcon.cpp ..\..\..\src\FXTGAImage.cpp ..\..\..\src\FXThread.cpp ..\..\..\src\FXTIFIcon.cpp ..\..\..\src\FXTIFImage.cpp ..\..\..\src\fxtifio.cpp ..\..\..\src\FXToggleButton.cpp ..\..\..\src\FXToolBar.cpp ..\..\..\src\FXToolBarGrip.cpp ..\..\..\src\FXToolBarShell.cpp ..\..\..\src\FXToolBarTab.cpp ..\..\..\src\FXToolTip.cpp ..\..\..\src\FXTopWindow.cpp ..\..\..\src\FXTranslator.cpp ..\..\..\src\FXTreeList.cpp ..\..\..\src\FXTreeListBox.cpp ..\..\..\src\FXTriStateButton.cpp ..\..\..\src\FXUndoList.cpp ..\..\..\src\fxunicode.cpp ..\..\..\src\FXURL.cpp ..\..\..\src\FXUTF16Codec.cpp ..\..\..\src\FXUTF32Codec.cpp ..\..\..\src\FXUTF8Codec.cpp ..\..\..\src\fxutils.cpp ..\..\..\src\FXVec2d.cpp ..\..\..\src\FXVec2f.cpp ..\..\..\src\FXVec3d.cpp ..\..\..\src\FXVec3f.cpp ..\..\..\src\FXVec4d.cpp ..\..\..\src\FXVec4f.cpp ..\..\..\src\FXVerticalFrame.cpp ..\..\..\src\FXVisual.cpp ..\..\..\src\FXWindow.cpp ..\..\..\src\FXWizard.cpp ..\..\..\src\fxwuquantize.cpp ..\..\..\src\FXXBMIcon.cpp ..\..\..\src\FXXBMImage.cpp ..\..\..\src\fxxbmio.cpp ..\..\..\src\FXXPMIcon.cpp ..\..\..\src\FXXPMImage.cpp ..\..\..\src\fxxpmio.cpp ..\..\..\src\icons.cpp ..\..\..\src\strtoll.cpp
   
   FX4Splitter.cpp
+  FX7Segment.cpp
+  FX885910Codec.cpp
+  FX885911Codec.cpp
+  FX885913Codec.cpp
+  FX885914Codec.cpp
+  FX885915Codec.cpp
+  FX885916Codec.cpp
+  FX88591Codec.cpp
+  FX88592Codec.cpp
+  FX88593Codec.cpp
+  FX88594Codec.cpp
+  FX88595Codec.cpp
+  FX88596Codec.cpp
+  FX88597Codec.cpp
+  FX88598Codec.cpp
+  FX88599Codec.cpp
+  FXAccelTable.cpp
+..\..\..\src\FXAccelTable.cpp(338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXAccelTable.cpp(349): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  FXApp.cpp
+..\..\..\src\FXApp.cpp(3280): warning C4244: '=': conversion from 'LONG' to 'FX::FXushort', possible loss of data
+..\..\..\src\FXApp.cpp(3462): warning C4996: 'GetVersionExW': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
+..\..\..\src\FXApp.cpp(3737): warning C4244: 'argument': conversion from 'FX::FXuval' to 'UINT', possible loss of data
+..\..\..\src\FXApp.cpp(4202): warning C4244: '=': conversion from 'FX::FXuval' to 'FX::FXDragType', possible loss of data
+  FXArrowButton.cpp
+  Generating Code...
+  Compiling...
   fxascii.cpp
+  FXBitmap.cpp
+  FXBitmapFrame.cpp
+  FXBitmapView.cpp
+  FXBMPIcon.cpp
+  FXBMPImage.cpp
+  fxbmpio.cpp
+  FXButton.cpp
+  FXBZFileStream.cpp
+  FXCanvas.cpp
+  FXCheckButton.cpp
+  FXChoiceBox.cpp
+C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: 'FX::FXList::items': class 'FX::FXObjectListOf<FX::FXListItem>' needs to have dll-interface to be used by clients of class 'FX::FXList'
+  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: see declaration of 'FX::FXObjectListOf<FX::FXListItem>'
+  FXColorBar.cpp
+  FXColorDialog.cpp
+  FXColorList.cpp
+c:\libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: 'FX::FXList::items': class 'FX::FXObjectListOf<FX::FXListItem>' needs to have dll-interface to be used by clients of class 'FX::FXList'
+  c:\libraries\fox-1.6.54_64\include\FXList.h(153): note: see declaration of 'FX::FXObjectListOf<FX::FXListItem>'
+  FXColorNames.cpp
+..\..\..\src\FXColorNames.cpp(744): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\FXColorNames.cpp(747): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\FXColorNames.cpp(750): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\FXColorNames.cpp(753): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\FXColorNames.cpp(756): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\FXColorNames.cpp(759): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\FXColorNames.cpp(762): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\FXColorNames.cpp(787): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXColorNames.cpp(792): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+..\..\..\src\FXColorNames.cpp(796): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  FXColorRing.cpp
+..\..\..\src\FXColorRing.cpp(263): warning C4244: '=': conversion from 'double' to 'FX::FXfloat', possible loss of data
+..\..\..\src\FXColorRing.cpp(293): warning C4244: 'argument': conversion from 'double' to 'FX::FXfloat', possible loss of data
+..\..\..\src\FXColorRing.cpp(329): warning C4244: 'return': conversion from 'double' to 'FX::FXfloat', possible loss of data
+..\..\..\src\FXColorRing.cpp(335): warning C4244: 'initializing': conversion from 'double' to 'FX::FXfloat', possible loss of data
+  FXColorSelector.cpp
+c:\libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: 'FX::FXList::items': class 'FX::FXObjectListOf<FX::FXListItem>' needs to have dll-interface to be used by clients of class 'FX::FXList'
+  c:\libraries\fox-1.6.54_64\include\FXList.h(153): note: see declaration of 'FX::FXObjectListOf<FX::FXListItem>'
+  FXColorWell.cpp
+..\..\..\src\FXColorWell.cpp(352): warning C4267: 'argument': conversion from 'size_t' to 'FX::FXuint', possible loss of data
+..\..\..\src\FXColorWell.cpp(402): warning C4267: 'argument': conversion from 'size_t' to 'FX::FXuint', possible loss of data
+  FXColorWheel.cpp
+..\..\..\src\FXColorWheel.cpp(154): warning C4244: 'initializing': conversion from 'double' to 'FX::FXfloat', possible loss of data
+..\..\..\src\FXColorWheel.cpp(170): warning C4244: '=': conversion from 'double' to 'FX::FXfloat', possible loss of data
+  Generating Code...
+  Compiling...
   FXComboBox.cpp
-C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: "FX::FXList::items": class "FX::FXObjectListOf<FX::FXListItem>" erfordert eine DLL-Schnittstelle, die von Clients von class "FX::FXList" verwendet wird
-  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: Siehe Deklaration von "FX::FXObjectListOf<FX::FXListItem>"
+C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: 'FX::FXList::items': class 'FX::FXObjectListOf<FX::FXListItem>' needs to have dll-interface to be used by clients of class 'FX::FXList'
+  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: see declaration of 'FX::FXObjectListOf<FX::FXListItem>'
+  FXComposeContext.cpp
+  FXComposite.cpp
+  FXCP1250Codec.cpp
+  FXCP1251Codec.cpp
+  FXCP1252Codec.cpp
+  FXCP1253Codec.cpp
+  FXCP1254Codec.cpp
+  FXCP1255Codec.cpp
+  FXCP1256Codec.cpp
+  FXCP1257Codec.cpp
+  FXCP1258Codec.cpp
+  FXCP437Codec.cpp
+  FXCP850Codec.cpp
+  FXCP852Codec.cpp
+  FXCP855Codec.cpp
+  FXCP856Codec.cpp
+  FXCP857Codec.cpp
+  FXCP860Codec.cpp
+  FXCP861Codec.cpp
+  Generating Code...
+  Compiling...
   FXCP862Codec.cpp
+  FXCP863Codec.cpp
+  FXCP864Codec.cpp
+  FXCP865Codec.cpp
+  FXCP866Codec.cpp
+  FXCP869Codec.cpp
+  FXCP874Codec.cpp
+  FXCURCursor.cpp
+  FXCursor.cpp
+..\..\..\src\FXCursor.cpp(145): warning C4996: 'GetVersionExW': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
+..\..\..\src\FXCursor.cpp(149): warning C4996: 'GetVersionExW': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
+  FXDataTarget.cpp
+  FXDate.cpp
+  FXDC.cpp
+  FXDCPrint.cpp
+..\..\..\src\FXDCPrint.cpp(215): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\..\..\src\FXDCPrint.cpp(223): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  FXDCWindow.cpp
+..\..\..\src\FXDCWindow.cpp(1736): warning C4018: '<=': signed/unsigned mismatch
+..\..\..\src\FXDCWindow.cpp(1749): warning C4018: '<=': signed/unsigned mismatch
+  FXDebugTarget.cpp
+  FXDelegator.cpp
+  FXDial.cpp
+  FXDialogBox.cpp
+  FXDict.cpp
+  FXDir.cpp
+..\..\..\src\FXDir.cpp(101): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(176): note: see declaration of 'wcsncat'
+  Generating Code...
+  Compiling...
   FXDirBox.cpp
+  FXDirDialog.cpp
+  FXDirList.cpp
+  FXDirSelector.cpp
+C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: 'FX::FXList::items': class 'FX::FXObjectListOf<FX::FXListItem>' needs to have dll-interface to be used by clients of class 'FX::FXList'
+  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: see declaration of 'FX::FXObjectListOf<FX::FXListItem>'
+  FXDLL.cpp
+  FXDockBar.cpp
+  FXDockHandler.cpp
+  FXDockSite.cpp
+  FXDockTitle.cpp
+  FXDocument.cpp
+  FXDragCorner.cpp
+  FXDrawable.cpp
+  FXDriveBox.cpp
+C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: 'FX::FXList::items': class 'FX::FXObjectListOf<FX::FXListItem>' needs to have dll-interface to be used by clients of class 'FX::FXList'
+  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: see declaration of 'FX::FXObjectListOf<FX::FXListItem>'
+..\..\..\src\FXDriveBox.cpp(261): warning C4244: 'argument': conversion from 'FX::FXival' to 'FX::FXint', possible loss of data
+..\..\..\src\FXDriveBox.cpp(262): warning C4244: 'argument': conversion from 'FX::FXival' to 'FX::FXint', possible loss of data
+..\..\..\src\FXDriveBox.cpp(263): warning C4244: 'argument': conversion from 'FX::FXival' to 'FX::FXint', possible loss of data
+..\..\..\src\FXDriveBox.cpp(271): warning C4244: 'argument': conversion from 'FX::FXival' to 'FX::FXint', possible loss of data
+  FXException.cpp
+  FXExpression.cpp
+..\..\..\src\FXExpression.cpp(970): warning C4244: '=': conversion from '__int64' to 'FX::FXint', possible loss of data
+  FXExtentd.cpp
+  FXExtentf.cpp
+  fxezquantize.cpp
+  FXFile.cpp
+  FXFileDialog.cpp
+  Generating Code...
+  Compiling...
   FXFileDict.cpp
+  FXFileList.cpp
+C:\Libraries\fox-1.6.54_64\include\FXHeader.h(192): warning C4251: 'FX::FXHeader::items': class 'FX::FXObjectListOf<FX::FXHeaderItem>' needs to have dll-interface to be used by clients of class 'FX::FXHeader'
+  C:\Libraries\fox-1.6.54_64\include\FXHeader.h(167): note: see declaration of 'FX::FXObjectListOf<FX::FXHeaderItem>'
+C:\Libraries\fox-1.6.54_64\include\FXIconList.h(199): warning C4251: 'FX::FXIconList::items': class 'FX::FXObjectListOf<FX::FXIconItem>' needs to have dll-interface to be used by clients of class 'FX::FXIconList'
+  C:\Libraries\fox-1.6.54_64\include\FXIconList.h(172): note: see declaration of 'FX::FXObjectListOf<FX::FXIconItem>'
+  fxfilematch.cpp
+  FXFileSelector.cpp
+C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: 'FX::FXList::items': class 'FX::FXObjectListOf<FX::FXListItem>' needs to have dll-interface to be used by clients of class 'FX::FXList'
+  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: see declaration of 'FX::FXObjectListOf<FX::FXListItem>'
+C:\Libraries\fox-1.6.54_64\include\FXHeader.h(192): warning C4251: 'FX::FXHeader::items': class 'FX::FXObjectListOf<FX::FXHeaderItem>' needs to have dll-interface to be used by clients of class 'FX::FXHeader'
+  C:\Libraries\fox-1.6.54_64\include\FXHeader.h(167): note: see declaration of 'FX::FXObjectListOf<FX::FXHeaderItem>'
+C:\Libraries\fox-1.6.54_64\include\FXIconList.h(199): warning C4251: 'FX::FXIconList::items': class 'FX::FXObjectListOf<FX::FXIconItem>' needs to have dll-interface to be used by clients of class 'FX::FXIconList'
+  C:\Libraries\fox-1.6.54_64\include\FXIconList.h(172): note: see declaration of 'FX::FXObjectListOf<FX::FXIconItem>'
+  FXFileStream.cpp
+  FXFoldingList.cpp
+C:\Libraries\fox-1.6.54_64\include\FXHeader.h(192): warning C4251: 'FX::FXHeader::items': class 'FX::FXObjectListOf<FX::FXHeaderItem>' needs to have dll-interface to be used by clients of class 'FX::FXHeader'
+  C:\Libraries\fox-1.6.54_64\include\FXHeader.h(167): note: see declaration of 'FX::FXObjectListOf<FX::FXHeaderItem>'
+  FXFont.cpp
+..\..\..\src\FXFont.cpp(330): warning C4244: '=': conversion from 'LONG' to 'FX::FXushort', possible loss of data
+..\..\..\src\FXFont.cpp(441): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+..\..\..\src\FXFont.cpp(1805): warning C4018: '<=': signed/unsigned mismatch
+..\..\..\src\FXFont.cpp(2113): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+..\..\..\src\FXFont.cpp(2661): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+  FXFontDialog.cpp
+  FXFontSelector.cpp
+C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: 'FX::FXList::items': class 'FX::FXObjectListOf<FX::FXListItem>' needs to have dll-interface to be used by clients of class 'FX::FXList'
+  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: see declaration of 'FX::FXObjectListOf<FX::FXListItem>'
+..\..\..\src\FXFontSelector.cpp(225): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+..\..\..\src\FXFontSelector.cpp(264): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+..\..\..\src\FXFontSelector.cpp(432): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+  FXFrame.cpp
+  fxfsquantize.cpp
+  FXGIFCursor.cpp
+  FXGIFIcon.cpp
+  FXGIFImage.cpp
+  fxgifio.cpp
+  FXGLCanvas.cpp
+  FXGLCone.cpp
+c:\libraries\fox-1.6.54_64\include\FXGLObject.h(90): warning C4251: 'FX::FXGLGroup::list': class 'FX::FXObjectListOf<FX::FXGLObject>' needs to have dll-interface to be used by clients of class 'FX::FXGLGroup'
+  c:\libraries\fox-1.6.54_64\include\FXGLObject.h(83): note: see declaration of 'FX::FXObjectListOf<FX::FXGLObject>'
+  FXGLContext.cpp
+  FXGLCube.cpp
+c:\libraries\fox-1.6.54_64\include\FXGLObject.h(90): warning C4251: 'FX::FXGLGroup::list': class 'FX::FXObjectListOf<FX::FXGLObject>' needs to have dll-interface to be used by clients of class 'FX::FXGLGroup'
+  c:\libraries\fox-1.6.54_64\include\FXGLObject.h(83): note: see declaration of 'FX::FXObjectListOf<FX::FXGLObject>'
+  FXGLCylinder.cpp
+c:\libraries\fox-1.6.54_64\include\FXGLObject.h(90): warning C4251: 'FX::FXGLGroup::list': class 'FX::FXObjectListOf<FX::FXGLObject>' needs to have dll-interface to be used by clients of class 'FX::FXGLGroup'
+  c:\libraries\fox-1.6.54_64\include\FXGLObject.h(83): note: see declaration of 'FX::FXObjectListOf<FX::FXGLObject>'
+  Generating Code...
+  Compiling...
   FXGLObject.cpp
-C:\Libraries\fox-1.6.54_64\include\FXGLObject.h(90): warning C4251: "FX::FXGLGroup::list": class "FX::FXObjectListOf<FX::FXGLObject>" erfordert eine DLL-Schnittstelle, die von Clients von class "FX::FXGLGroup" verwendet wird
-  C:\Libraries\fox-1.6.54_64\include\FXGLObject.h(83): note: Siehe Deklaration von "FX::FXObjectListOf<FX::FXGLObject>"
+C:\Libraries\fox-1.6.54_64\include\FXGLObject.h(90): warning C4251: 'FX::FXGLGroup::list': class 'FX::FXObjectListOf<FX::FXGLObject>' needs to have dll-interface to be used by clients of class 'FX::FXGLGroup'
+  C:\Libraries\fox-1.6.54_64\include\FXGLObject.h(83): note: see declaration of 'FX::FXObjectListOf<FX::FXGLObject>'
+  FXGLShape.cpp
+c:\libraries\fox-1.6.54_64\include\FXGLObject.h(90): warning C4251: 'FX::FXGLGroup::list': class 'FX::FXObjectListOf<FX::FXGLObject>' needs to have dll-interface to be used by clients of class 'FX::FXGLGroup'
+  c:\libraries\fox-1.6.54_64\include\FXGLObject.h(83): note: see declaration of 'FX::FXObjectListOf<FX::FXGLObject>'
+  FXGLSphere.cpp
+c:\libraries\fox-1.6.54_64\include\FXGLObject.h(90): warning C4251: 'FX::FXGLGroup::list': class 'FX::FXObjectListOf<FX::FXGLObject>' needs to have dll-interface to be used by clients of class 'FX::FXGLGroup'
+  c:\libraries\fox-1.6.54_64\include\FXGLObject.h(83): note: see declaration of 'FX::FXObjectListOf<FX::FXGLObject>'
+  FXGLTriangleMesh.cpp
+c:\libraries\fox-1.6.54_64\include\FXGLObject.h(90): warning C4251: 'FX::FXGLGroup::list': class 'FX::FXObjectListOf<FX::FXGLObject>' needs to have dll-interface to be used by clients of class 'FX::FXGLGroup'
+  c:\libraries\fox-1.6.54_64\include\FXGLObject.h(83): note: see declaration of 'FX::FXObjectListOf<FX::FXGLObject>'
+  FXGLViewer.cpp
+C:\Libraries\fox-1.6.54_64\include\FXGLObject.h(90): warning C4251: 'FX::FXGLGroup::list': class 'FX::FXObjectListOf<FX::FXGLObject>' needs to have dll-interface to be used by clients of class 'FX::FXGLGroup'
+  C:\Libraries\fox-1.6.54_64\include\FXGLObject.h(83): note: see declaration of 'FX::FXObjectListOf<FX::FXGLObject>'
+  FXGLVisual.cpp
+  FXGradientBar.cpp
+  FXGroupBox.cpp
+  FXGUISignal.cpp
+  FXGZFileStream.cpp
+  FXHash.cpp
+  FXHeader.cpp
+C:\Libraries\fox-1.6.54_64\include\FXHeader.h(192): warning C4251: 'FX::FXHeader::items': class 'FX::FXObjectListOf<FX::FXHeaderItem>' needs to have dll-interface to be used by clients of class 'FX::FXHeader'
+  C:\Libraries\fox-1.6.54_64\include\FXHeader.h(167): note: see declaration of 'FX::FXObjectListOf<FX::FXHeaderItem>'
+  FXHorizontalFrame.cpp
+  FXICOIcon.cpp
+  FXICOImage.cpp
+  fxicoio.cpp
+  FXIcon.cpp
+  FXIconDict.cpp
+  FXIconList.cpp
+C:\Libraries\fox-1.6.54_64\include\FXHeader.h(192): warning C4251: 'FX::FXHeader::items': class 'FX::FXObjectListOf<FX::FXHeaderItem>' needs to have dll-interface to be used by clients of class 'FX::FXHeader'
+  C:\Libraries\fox-1.6.54_64\include\FXHeader.h(167): note: see declaration of 'FX::FXObjectListOf<FX::FXHeaderItem>'
+C:\Libraries\fox-1.6.54_64\include\FXIconList.h(199): warning C4251: 'FX::FXIconList::items': class 'FX::FXObjectListOf<FX::FXIconItem>' needs to have dll-interface to be used by clients of class 'FX::FXIconList'
+  C:\Libraries\fox-1.6.54_64\include\FXIconList.h(172): note: see declaration of 'FX::FXObjectListOf<FX::FXIconItem>'
+  FXIconSource.cpp
+  Generating Code...
+  Compiling...
   FXId.cpp
+  FXIFFIcon.cpp
+  FXIFFImage.cpp
+  fxiffio.cpp
+  FXImage.cpp
+  FXImageFrame.cpp
+  FXImageView.cpp
+  FXInputDialog.cpp
+..\..\..\src\FXInputDialog.cpp(146): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\FXInputDialog.cpp(155): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+  FXIO.cpp
+  fxjpegio.cpp
+  FXJPGIcon.cpp
+  FXJPGImage.cpp
+  fxkeyboard.cpp
+..\..\..\src\fxkeyboard.cpp(370): warning C4244: 'argument': conversion from 'WPARAM' to 'UINT', possible loss of data
+..\..\..\src\fxkeyboard.cpp(392): warning C4996: 'GetVersionExA': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433): note: see declaration of 'GetVersionExA'
+  fxkeysym.cpp
+  FXKnob.cpp
+  FXKOI8RCodec.cpp
+  FXLabel.cpp
+  FXList.cpp
+C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: 'FX::FXList::items': class 'FX::FXObjectListOf<FX::FXListItem>' needs to have dll-interface to be used by clients of class 'FX::FXList'
+  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: see declaration of 'FX::FXObjectListOf<FX::FXListItem>'
+  FXListBox.cpp
+C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: 'FX::FXList::items': class 'FX::FXObjectListOf<FX::FXListItem>' needs to have dll-interface to be used by clients of class 'FX::FXList'
+  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: see declaration of 'FX::FXObjectListOf<FX::FXListItem>'
+  FXMainWindow.cpp
+  Generating Code...
+  Compiling...
   FXMat3d.cpp
+  FXMat3f.cpp
+  FXMat4d.cpp
+  FXMat4f.cpp
+  FXMatrix.cpp
+  FXMDIButton.cpp
+  FXMDIChild.cpp
+  FXMDIClient.cpp
+C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: 'FX::FXList::items': class 'FX::FXObjectListOf<FX::FXListItem>' needs to have dll-interface to be used by clients of class 'FX::FXList'
+  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: see declaration of 'FX::FXObjectListOf<FX::FXListItem>'
+  FXMemMap.cpp
+  FXMemoryStream.cpp
+  FXMenuBar.cpp
+  FXMenuButton.cpp
+  FXMenuCaption.cpp
+  FXMenuCascade.cpp
+  FXMenuCheck.cpp
+  FXMenuCommand.cpp
+  FXMenuPane.cpp
+  FXMenuRadio.cpp
+  FXMenuSeparator.cpp
+  FXMenuTitle.cpp
+  Generating Code...
+  Compiling...
   FXMessageBox.cpp
+  FXObject.cpp
+..\..\..\src\FXObject.cpp(103): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  FXObjectList.cpp
+  FXOptionMenu.cpp
+  FXPacker.cpp
+  fxparsegeometry.cpp
+  FXPath.cpp
+  FXPCXIcon.cpp
+  FXPCXImage.cpp
+  fxpcxio.cpp
+  FXPicker.cpp
+  FXPipe.cpp
+  FXPNGIcon.cpp
+  FXPNGImage.cpp
+  fxpngio.cpp
+  FXPoint.cpp
+  FXPopup.cpp
+  FXPPMIcon.cpp
+  FXPPMImage.cpp
+  fxppmio.cpp
+..\..\..\src\fxppmio.cpp(216): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  Generating Code...
+  Compiling...
   FXPrintDialog.cpp
-C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: "FX::FXList::items": class "FX::FXObjectListOf<FX::FXListItem>" erfordert eine DLL-Schnittstelle, die von Clients von class "FX::FXList" verwendet wird
-  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: Siehe Deklaration von "FX::FXObjectListOf<FX::FXListItem>"
+C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: 'FX::FXList::items': class 'FX::FXObjectListOf<FX::FXListItem>' needs to have dll-interface to be used by clients of class 'FX::FXList'
+  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: see declaration of 'FX::FXObjectListOf<FX::FXListItem>'
 ..\..\..\src\FXPrintDialog.cpp(338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
 ..\..\..\src\FXPrintDialog.cpp(364): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
-..\..\..\src\FXPrintDialog.cpp(475): warning C4996: 'GetVersionExW': wurde als veraltet deklariert
-  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442): note: Siehe Deklaration von "GetVersionExW"
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXPrintDialog.cpp(475): warning C4996: 'GetVersionExW': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
 ..\..\..\src\FXPrintDialog.cpp(942): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: Siehe Deklaration von "sprintf"
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  fxpriv.cpp
+  FXProgressBar.cpp
+..\..\..\src\FXProgressBar.cpp(212): warning C4267: '=': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXProgressBar.cpp(262): warning C4267: '=': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXProgressBar.cpp(317): warning C4267: '=': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXProgressBar.cpp(211): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXProgressBar.cpp(261): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXProgressBar.cpp(316): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  FXProgressDialog.cpp
+  fxpsio.cpp
+..\..\..\src\fxpsio.cpp(55): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1396): note: see declaration of '_vsnprintf'
+  FXQuatd.cpp
+  FXQuatf.cpp
+  FXRadioButton.cpp
+  FXRanged.cpp
+  FXRangef.cpp
+  FXRASIcon.cpp
+  FXRASImage.cpp
+  fxrasio.cpp
+  FXRealSlider.cpp
+  FXRealSpinner.cpp
+  FXRecentFiles.cpp
+..\..\..\src\FXRecentFiles.cpp(86): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXRecentFiles.cpp(94): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXRecentFiles.cpp(108): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXRecentFiles.cpp(112): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXRecentFiles.cpp(126): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXRecentFiles.cpp(131): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXRecentFiles.cpp(157): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXRecentFiles.cpp(173): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  FXRectangle.cpp
+  FXRegion.cpp
+  FXRegistry.cpp
+..\..\..\src\FXRegistry.cpp(146): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+..\..\..\src\FXRegistry.cpp(584): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  FXReplaceDialog.cpp
+  Generating Code...
+  Compiling...
   FXRex.cpp
-..\..\..\src\FXRex.cpp(1026): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(1027): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(1161): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(1162): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(1170): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(1178): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(1189): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(1200): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(1202): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(1214): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(1215): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(1228): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(1230): warning C4244: "Argument": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(1892): warning C4244: "=": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(2290): warning C4244: "=": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(2307): warning C4244: "=": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(2441): warning C4244: "=": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(2442): warning C4244: "=": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
-..\..\..\src\FXRex.cpp(2629): warning C4244: "=": Konvertierung von "__int64" in "FX::FXint", möglicher Datenverlust
+..\..\..\src\FXRex.cpp(1026): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(1027): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(1161): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(1162): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(1170): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(1178): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(1189): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(1200): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(1202): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(1214): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(1215): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(1228): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(1230): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(1892): warning C4244: '=': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(2290): warning C4244: '=': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(2307): warning C4244: '=': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(2441): warning C4244: '=': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(2442): warning C4244: '=': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXRex.cpp(2629): warning C4244: '=': conversion from '__int64' to 'FX::FXint', possible loss of data
+  FXRGBIcon.cpp
+  FXRGBImage.cpp
+  fxrgbio.cpp
+..\..\..\src\fxrgbio.cpp(142): warning C4244: '=': conversion from 'FX::FXlong' to 'FX::FXint', possible loss of data
+  FXRootWindow.cpp
+  FXRuler.cpp
+  FXRulerView.cpp
+  FXScrollArea.cpp
+  FXScrollBar.cpp
+  FXScrollPane.cpp
+  FXScrollWindow.cpp
+  FXSearchDialog.cpp
+  FXSeparator.cpp
+  FXSettings.cpp
+..\..\..\src\FXSettings.cpp(129): warning C4244: '=': conversion from 'FX::FXival' to 'FX::FXint', possible loss of data
+..\..\..\src\FXSettings.cpp(220): warning C4267: 'initializing': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXSettings.cpp(475): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\FXSettings.cpp(478): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\FXSettings.cpp(496): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\FXSettings.cpp(499): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\FXSettings.cpp(516): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\FXSettings.cpp(573): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1396): note: see declaration of '_vsnprintf'
+..\..\..\src\FXSettings.cpp(606): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXSettings.cpp(622): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXSettings.cpp(638): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  FXShell.cpp
+  FXShutter.cpp
+  FXSize.cpp
+  FXSlider.cpp
+  FXSocket.cpp
+  FXSphered.cpp
+  Generating Code...
+  Compiling...
   FXSpheref.cpp
+  FXSpinner.cpp
+  FXSplashWindow.cpp
+  FXSplitter.cpp
+  FXSpring.cpp
+  FXStat.cpp
+..\..\..\src\FXStat.cpp(225): warning C4244: '=': conversion from 'time_t' to 'FX::FXTime', possible loss of data
+..\..\..\src\FXStat.cpp(226): warning C4244: '=': conversion from 'time_t' to 'FX::FXTime', possible loss of data
+..\..\..\src\FXStat.cpp(227): warning C4244: '=': conversion from 'time_t' to 'FX::FXTime', possible loss of data
+..\..\..\src\FXStat.cpp(214): warning C4101: 'sfi': unreferenced local variable
+..\..\..\src\FXStat.cpp(303): warning C4244: '=': conversion from 'time_t' to 'FX::FXTime', possible loss of data
+..\..\..\src\FXStat.cpp(304): warning C4244: '=': conversion from 'time_t' to 'FX::FXTime', possible loss of data
+..\..\..\src\FXStat.cpp(305): warning C4244: '=': conversion from 'time_t' to 'FX::FXTime', possible loss of data
+..\..\..\src\FXStat.cpp(292): warning C4101: 'sfi': unreferenced local variable
+..\..\..\src\FXStat.cpp(374): warning C4244: '=': conversion from 'time_t' to 'FX::FXTime', possible loss of data
+..\..\..\src\FXStat.cpp(375): warning C4244: '=': conversion from 'time_t' to 'FX::FXTime', possible loss of data
+..\..\..\src\FXStat.cpp(376): warning C4244: '=': conversion from 'time_t' to 'FX::FXTime', possible loss of data
+  FXStatusBar.cpp
+  FXStatusLine.cpp
+  FXStream.cpp
+..\..\..\src\FXStream.cpp(156): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+..\..\..\src\FXStream.cpp(188): warning C4267: 'argument': conversion from 'size_t' to 'unsigned long', possible loss of data
+..\..\..\src\FXStream.cpp(832): warning C4267: '=': conversion from 'size_t' to 'FX::FXuint', possible loss of data
+  FXString.cpp
+..\..\..\src\FXString.cpp(100): warning C4267: 'return': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXString.cpp(2354): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1396): note: see declaration of '_vsnprintf'
+..\..\..\src\FXString.cpp(2443): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXString.cpp(2459): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXString.cpp(2477): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXString.cpp(2493): warning C4244: 'argument': conversion from '__int64' to 'FX::FXint', possible loss of data
+..\..\..\src\FXString.cpp(2828): warning C4018: '<': signed/unsigned mismatch
+  FXStringDict.cpp
+  FXSwitcher.cpp
+  FXSystem.cpp
+..\..\..\src\FXSystem.cpp(85): warning C4267: 'initializing': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXSystem.cpp(85): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+..\..\..\src\FXSystem.cpp(124): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXSystem.cpp(143): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\FXSystem.cpp(310): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+..\..\..\src\FXSystem.cpp(358): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+..\..\..\src\FXSystem.cpp(359): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+..\..\..\src\FXSystem.cpp(360): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+..\..\..\src\FXSystem.cpp(361): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+..\..\..\src\FXSystem.cpp(362): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+..\..\..\src\FXSystem.cpp(363): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(255): note: see declaration of 'strncat'
+  FXTabBar.cpp
+  FXTabBook.cpp
+  FXTabItem.cpp
+  FXTable.cpp
+C:\Libraries\fox-1.6.54_64\include\FXHeader.h(192): warning C4251: 'FX::FXHeader::items': class 'FX::FXObjectListOf<FX::FXHeaderItem>' needs to have dll-interface to be used by clients of class 'FX::FXHeader'
+  C:\Libraries\fox-1.6.54_64\include\FXHeader.h(167): note: see declaration of 'FX::FXObjectListOf<FX::FXHeaderItem>'
+C:\Libraries\fox-1.6.54_64\include\FXList.h(172): warning C4251: 'FX::FXList::items': class 'FX::FXObjectListOf<FX::FXListItem>' needs to have dll-interface to be used by clients of class 'FX::FXList'
+  C:\Libraries\fox-1.6.54_64\include\FXList.h(153): note: see declaration of 'FX::FXObjectListOf<FX::FXListItem>'
+..\..\..\src\FXTable.cpp(1438): warning C4267: '=': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXTable.cpp(1439): warning C4267: '=': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXTable.cpp(1493): warning C4267: '=': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXTable.cpp(1494): warning C4267: '=': conversion from 'size_t' to 'FX::FXint', possible loss of data
+  fxtargaio.cpp
+  FXText.cpp
+..\..\..\src\FXText.cpp(3330): warning C4267: 'initializing': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXText.cpp(3393): warning C4267: 'initializing': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXText.cpp(4673): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  FXTextCodec.cpp
+..\..\..\src\FXTextCodec.cpp(305): warning C4267: 'argument': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXTextCodec.cpp(333): warning C4267: 'argument': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXTextCodec.cpp(401): warning C4267: 'argument': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXTextCodec.cpp(429): warning C4267: 'argument': conversion from 'size_t' to 'FX::FXint', possible loss of data
+  Generating Code...
+  Compiling...
   FXTextField.cpp
-..\..\..\src\FXTextField.cpp(1652): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "FX::FXint", Datenverlust möglich
-..\..\..\src\FXTextField.cpp(1684): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "FX::FXint", Datenverlust möglich
+..\..\..\src\FXTextField.cpp(1652): warning C4267: 'initializing': conversion from 'size_t' to 'FX::FXint', possible loss of data
+..\..\..\src\FXTextField.cpp(1684): warning C4267: 'initializing': conversion from 'size_t' to 'FX::FXint', possible loss of data
+  FXTGAIcon.cpp
+  FXTGAImage.cpp
+  FXThread.cpp
+..\..\..\src\FXThread.cpp(674): warning C4244: 'argument': conversion from 'FX::FXlong' to 'DWORD', possible loss of data
+..\..\..\src\FXThread.cpp(822): warning C4244: 'argument': conversion from 'FX::FXlong' to 'DWORD', possible loss of data
+..\..\..\src\FXThread.cpp(830): warning C4244: 'argument': conversion from 'FX::FXlong' to 'DWORD', possible loss of data
+..\..\..\src\FXThread.cpp(836): warning C4312: 'type cast': conversion from 'DWORD' to 'FX::FXThreadID' of greater size
+  FXTIFIcon.cpp
+  FXTIFImage.cpp
+  fxtifio.cpp
+  FXToggleButton.cpp
+  FXToolBar.cpp
+  FXToolBarGrip.cpp
+  FXToolBarShell.cpp
+  FXToolBarTab.cpp
+  FXToolTip.cpp
+..\..\..\src\FXToolTip.cpp(141): warning C4244: 'argument': conversion from '__int64' to 'FX::FXuint', possible loss of data
+..\..\..\src\FXToolTip.cpp(186): warning C4244: 'argument': conversion from '__int64' to 'FX::FXuint', possible loss of data
+  FXTopWindow.cpp
+  FXTranslator.cpp
+  FXTreeList.cpp
+  FXTreeListBox.cpp
+  FXTriStateButton.cpp
+  FXUndoList.cpp
+  fxunicode.cpp
+  Generating Code...
+  Compiling...
   FXURL.cpp
-  Code wird generiert...
-C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Libraries\fox-1.6.54_64\windows\vcpp\x64\Debug\foxdll.dll) entspricht nicht dem OutputFile-Eigenschaftswert (C:\Libraries\fox-1.6.54_64\lib\FOXDLLD-1.6.dll) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
-C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(foxdll) entspricht nicht dem OutputFile-Eigenschaftswert (FOXDLLD-1.6) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
-     Bibliothek ".\..\..\..\lib\FOXDLLD-1.6.lib" und Objekt ".\..\..\..\lib\FOXDLLD-1.6.exp" werden erstellt.
+  FXUTF16Codec.cpp
+  FXUTF32Codec.cpp
+  FXUTF8Codec.cpp
+  fxutils.cpp
+..\..\..\src\fxutils.cpp(171): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\fxutils.cpp(196): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1396): note: see declaration of '_vsnprintf'
+..\..\..\src\fxutils.cpp(226): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1396): note: see declaration of '_vsnprintf'
+..\..\..\src\fxutils.cpp(258): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1396): note: see declaration of '_vsnprintf'
+..\..\..\src\fxutils.cpp(289): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1396): note: see declaration of '_vsnprintf'
+  FXVec2d.cpp
+  FXVec2f.cpp
+  FXVec3d.cpp
+  FXVec3f.cpp
+  FXVec4d.cpp
+  FXVec4f.cpp
+  FXVerticalFrame.cpp
+  FXVisual.cpp
+  FXWindow.cpp
+..\..\..\src\FXWindow.cpp(1357): warning C4312: 'type cast': conversion from 'LONG' to 'LPCTSTR' of greater size
+..\..\..\src\FXWindow.cpp(1482): warning C4312: 'type cast': conversion from 'LONG' to 'LPCTSTR' of greater size
+..\..\..\src\FXWindow.cpp(3073): warning C4312: 'type cast': conversion from 'LONG' to 'LPCTSTR' of greater size
+  FXWizard.cpp
+  fxwuquantize.cpp
+  FXXBMIcon.cpp
+  FXXBMImage.cpp
+  fxxbmio.cpp
+..\..\..\src\fxxbmio.cpp(126): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\fxxbmio.cpp(135): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\fxxbmio.cpp(136): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\fxxbmio.cpp(196): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\fxxbmio.cpp(200): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\fxxbmio.cpp(205): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\fxxbmio.cpp(207): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\fxxbmio.cpp(212): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\fxxbmio.cpp(227): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  FXXPMIcon.cpp
+  Generating Code...
+  Compiling...
+  FXXPMImage.cpp
+  fxxpmio.cpp
+..\..\..\src\fxxpmio.cpp(139): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\fxxpmio.cpp(165): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(86): note: see declaration of 'strcat'
+..\..\..\src\fxxpmio.cpp(180): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+..\..\..\src\fxxpmio.cpp(236): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\src\fxxpmio.cpp(262): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(86): note: see declaration of 'strcat'
+..\..\..\src\fxxpmio.cpp(277): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+..\..\..\src\fxxpmio.cpp(360): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\fxxpmio.cpp(369): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\..\src\fxxpmio.cpp(373): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  icons.cpp
+  strtoll.cpp
+..\..\..\src\strtoll.cpp(71): warning C4273: 'strtoll': inconsistent dll linkage
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(534): note: see previous definition of 'strtoll'
+..\..\..\src\strtoll.cpp(112): warning C4307: '+': integral constant overflow
+..\..\..\src\strtoll.cpp(149): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+..\..\..\src\strtoll.cpp(167): warning C4273: 'strtoull': inconsistent dll linkage
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(564): note: see previous definition of 'strtoull'
+..\..\..\src\strtoll.cpp(246): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  Generating Code...
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Libraries\fox-1.6.54_64\windows\vcpp\x64\Debug\foxdll.dll) does not match the Linker's OutputFile property value (C:\Libraries\fox-1.6.54_64\lib\FOXDLLD-1.6.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(foxdll) does not match the Linker's OutputFile property value (FOXDLLD-1.6). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library .\..\..\..\lib\FOXDLLD-1.6.lib and object .\..\..\..\lib\FOXDLLD-1.6.exp
   foxdll.vcxproj -> C:\Libraries\fox-1.6.54_64\windows\vcpp\x64\Debug\foxdll.dll
