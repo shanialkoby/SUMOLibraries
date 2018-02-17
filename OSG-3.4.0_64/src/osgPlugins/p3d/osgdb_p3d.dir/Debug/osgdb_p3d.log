@@ -1,1 +1,6 @@
-﻿  osgdb_p3d.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_p3dd.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/p3d/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/p3d/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterP3D.cpp
+  ReaderWriterPaths.cpp
+  Generating Code...
+  osgdb_p3d.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_p3dd.dll

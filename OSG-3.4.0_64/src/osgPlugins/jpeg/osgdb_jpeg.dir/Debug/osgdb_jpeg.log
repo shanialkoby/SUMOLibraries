@@ -1,4 +1,6 @@
-﻿  EXIF_Orientation.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/jpeg/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/jpeg/CMakeFiles/generate.stamp is up-to-date.
+  EXIF_Orientation.cpp
   ReaderWriterJPEG.cpp
   Generating Code...
   jpegd.lib(jerror.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance

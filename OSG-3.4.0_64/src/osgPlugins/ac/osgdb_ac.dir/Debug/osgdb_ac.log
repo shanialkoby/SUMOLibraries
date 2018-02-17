@@ -1,1 +1,9 @@
-﻿  osgdb_ac.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_acd.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/ac/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/ac/CMakeFiles/generate.stamp is up-to-date.
+  Exception.cpp
+  Geode.cpp
+  ac3d.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ac\ac3d.cpp(1276): warning C4456: declaration of 'token' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ac\ac3d.cpp(1191): note: see declaration of 'token'
+  Generating Code...
+  osgdb_ac.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_acd.dll

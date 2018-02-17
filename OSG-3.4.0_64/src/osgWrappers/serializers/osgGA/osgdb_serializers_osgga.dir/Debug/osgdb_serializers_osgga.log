@@ -1,1 +1,17 @@
-﻿  osgdb_serializers_osgga.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_serializers_osggad.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgGA/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgGA/CMakeFiles/generate.stamp is up-to-date.
+  AnimationPathManipulator.cpp
+  DriveManipulator.cpp
+  EventVisitor.cpp
+  FlightManipulator.cpp
+  GUIEventAdapter.cpp
+  KeySwitchMatrixManipulator.cpp
+  MultiTouchTrackballManipulator.cpp
+  StateSetManipulator.cpp
+  TerrainManipulator.cpp
+  TouchData.cpp
+  TrackballManipulator.cpp
+  UFOManipulator.cpp
+  Widget.cpp
+  Generating Code...
+  osgdb_serializers_osgga.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_serializers_osggad.dll

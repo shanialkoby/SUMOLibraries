@@ -1,1 +1,8 @@
-﻿  osgdb_deprecated_osgtext.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_deprecated_osgtextd.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgWrappers/deprecated-dotosg/osgText/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgWrappers/deprecated-dotosg/osgText/CMakeFiles/generate.stamp is up-to-date.
+  IO_Text.cpp
+  IO_Text3D.cpp
+  IO_TextBase.cpp
+  LibraryWrapper.cpp
+  Generating Code...
+  osgdb_deprecated_osgtext.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_deprecated_osgtextd.dll

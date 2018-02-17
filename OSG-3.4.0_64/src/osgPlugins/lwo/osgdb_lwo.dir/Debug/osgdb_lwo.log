@@ -1,1 +1,71 @@
-﻿
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/lwo/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/lwo/CMakeFiles/generate.stamp is up-to-date.
+  Block.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Block.cpp(63): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Block.cpp(59): note: see declaration of 'i'
+  Clip.cpp
+  Converter.cpp
+  Object.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(123): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(139): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(149): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(159): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(169): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(179): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(189): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(199): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(211): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(252): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(257): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(262): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(276): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(286): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(296): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(306): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(109): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(374): warning C4456: declaration of 'axis' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(347): note: see declaration of 'axis'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(380): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Object.cpp(341): note: see declaration of 'i'
+  old_lw.cpp
+  old_Lwo2.cpp
+  old_Lwo2Layer.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\old_Lwo2Layer.cpp(320): warning C4456: declaration of 'd' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\old_Lwo2Layer.cpp(303): note: see declaration of 'd'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\old_Lwo2Layer.cpp(377): warning C4456: declaration of 'd' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\old_Lwo2Layer.cpp(357): note: see declaration of 'd'
+  Polygon.cpp
+  ReaderWriterLWO.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\ReaderWriterLWO.cpp(76): warning C4456: declaration of 'result' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\ReaderWriterLWO.cpp(72): note: see declaration of 'result'
+  Surface.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Surface.cpp(297): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Surface.cpp(291): note: see declaration of 'i'
+  Tessellator.cpp
+  Unit.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Unit.cpp(112): warning C4456: declaration of 'j' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Unit.cpp(108): note: see declaration of 'j'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Unit.cpp(119): warning C4456: declaration of 'j' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Unit.cpp(108): note: see declaration of 'j'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Unit.cpp(126): warning C4456: declaration of 'j' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Unit.cpp(108): note: see declaration of 'j'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Unit.cpp(133): warning C4456: declaration of 'j' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lwo\Unit.cpp(108): note: see declaration of 'j'
+  VertexMap.cpp
+  Generating Code...
+  osgdb_lwo.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_lwod.dll

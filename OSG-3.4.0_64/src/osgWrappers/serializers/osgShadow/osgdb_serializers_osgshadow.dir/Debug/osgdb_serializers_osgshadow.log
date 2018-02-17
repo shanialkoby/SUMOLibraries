@@ -1,1 +1,21 @@
-﻿  osgdb_serializers_osgshadow.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_serializers_osgshadowd.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgShadow/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgShadow/CMakeFiles/generate.stamp is up-to-date.
+  DebugShadowMap.cpp
+  LibraryWrapper.cpp
+  LightSpacePerspectiveShadowMapCB.cpp
+  LightSpacePerspectiveShadowMapDB.cpp
+  LightSpacePerspectiveShadowMapVB.cpp
+  MinimalCullBoundsShadowMap.cpp
+  MinimalDrawBoundsShadowMap.cpp
+  MinimalShadowMap.cpp
+  ParallelSplitShadowMap.cpp
+  ShadowMap.cpp
+  ShadowTechnique.cpp
+  ShadowTexture.cpp
+  ShadowVolume.cpp
+  ShadowedScene.cpp
+  SoftShadowMap.cpp
+  StandardShadowMap.cpp
+  ViewDependentShadowTechnique.cpp
+  Generating Code...
+  osgdb_serializers_osgshadow.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_serializers_osgshadowd.dll

@@ -1,1 +1,8 @@
-﻿  application_osgconv.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgconvd.exe
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/applications/osgconv/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/applications/osgconv/CMakeFiles/generate.stamp is up-to-date.
+  OrientationConverter.cpp
+  osgconv.cpp
+C:\Libraries\OSG-3.4.0_64\applications\osgconv\osgconv.cpp(819): warning C4456: declaration of 'ext' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\applications\osgconv\osgconv.cpp(581): note: see declaration of 'ext'
+  Generating Code...
+  application_osgconv.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgconvd.exe

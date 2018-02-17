@@ -1,4 +1,6 @@
-﻿  ReaderWriterDW.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/dw/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/dw/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterDW.cpp
 C:\Libraries\OSG-3.4.0_64\src\osgPlugins\dw\ReaderWriterDW.cpp(240): warning C4458: declaration of 'nrm' hides class member
   C:\Libraries\OSG-3.4.0_64\src\osgPlugins\dw\ReaderWriterDW.cpp(349): note: see declaration of '_face::nrm'
 C:\Libraries\OSG-3.4.0_64\src\osgPlugins\dw\ReaderWriterDW.cpp(642): warning C4458: declaration of 'mx' hides class member

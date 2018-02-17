@@ -1,2 +1,34 @@
-﻿     Creating library C:/Libraries/OSG-3.4.0_64/lib/osgParticled.lib and object C:/Libraries/OSG-3.4.0_64/lib/osgParticled.exp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgParticle/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgParticle/CMakeFiles/generate.stamp is up-to-date.
+  ConnectedParticleSystem.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgParticle\ConnectedParticleSystem.cpp(161): warning C4456: declaration of 'nextPos' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgParticle\ConnectedParticleSystem.cpp(150): note: see declaration of 'nextPos'
+C:\Libraries\OSG-3.4.0_64\src\osgParticle\ConnectedParticleSystem.cpp(201): warning C4456: declaration of 'nextPos' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgParticle\ConnectedParticleSystem.cpp(190): note: see declaration of 'nextPos'
+  Emitter.cpp
+  ExplosionDebrisEffect.cpp
+  ExplosionEffect.cpp
+  FireEffect.cpp
+  FluidFrictionOperator.cpp
+  FluidProgram.cpp
+  ModularEmitter.cpp
+  ModularProgram.cpp
+  MultiSegmentPlacer.cpp
+  Particle.cpp
+  ParticleEffect.cpp
+  ParticleProcessor.cpp
+  ParticleSystem.cpp
+  ParticleSystemUpdater.cpp
+  PrecipitationEffect.cpp
+  Program.cpp
+  SmokeEffect.cpp
+  SmokeTrailEffect.cpp
+  Version.cpp
+  Generating Code...
+  Compiling...
+  DomainOperator.cpp
+  BounceOperator.cpp
+  SinkOperator.cpp
+  Generating Code...
+     Creating library C:/Libraries/OSG-3.4.0_64/lib/osgParticled.lib and object C:/Libraries/OSG-3.4.0_64/lib/osgParticled.exp
   osgParticle.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osg130-osgParticled.dll

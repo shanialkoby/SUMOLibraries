@@ -112,7 +112,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\osgUId.lib;..\..\lib\osgWidgetd.lib;..\..\lib\osgManipulatord.lib;..\..\lib\osgVolumed.lib;..\..\lib\osgFXd.lib;opengl32.lib;..\..\lib\osgViewerd.lib;..\..\lib\osgTextd.lib;..\..\lib\osgGAd.lib;..\..\lib\osgDBd.lib;..\..\lib\osgUtild.lib;..\..\..\3rdPartyLibs\x64\lib\zlibd.lib;..\..\lib\osgd.lib;..\..\lib\OpenThreadsd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\osgUId.lib;..\..\lib\osgWidgetd.lib;..\..\lib\osgManipulatord.lib;..\..\lib\osgVolumed.lib;..\..\lib\osgFXd.lib;opengl32.lib;..\..\lib\osgViewerd.lib;..\..\lib\osgTextd.lib;..\..\lib\osgGAd.lib;..\..\lib\osgDBd.lib;..\..\lib\osgUtild.lib;C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\x64\Debug\zlib.lib;..\..\lib\osgd.lib;..\..\lib\OpenThreadsd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -155,7 +155,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\osgUI.lib;..\..\lib\osgWidget.lib;..\..\lib\osgManipulator.lib;..\..\lib\osgVolume.lib;..\..\lib\osgFX.lib;opengl32.lib;..\..\lib\osgViewer.lib;..\..\lib\osgText.lib;..\..\lib\osgGA.lib;..\..\lib\osgDB.lib;..\..\lib\osgUtil.lib;..\..\..\3rdPartyLibs\x64\lib\zlib.lib;..\..\lib\osg.lib;..\..\lib\OpenThreads.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\osgUI.lib;..\..\lib\osgWidget.lib;..\..\lib\osgManipulator.lib;..\..\lib\osgVolume.lib;..\..\lib\osgFX.lib;opengl32.lib;..\..\lib\osgViewer.lib;..\..\lib\osgText.lib;..\..\lib\osgGA.lib;..\..\lib\osgDB.lib;..\..\lib\osgUtil.lib;C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\x64\Release\zlib.lib;..\..\lib\osg.lib;..\..\lib\OpenThreads.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -198,7 +198,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\osgUIs.lib;..\..\lib\osgWidgets.lib;..\..\lib\osgManipulators.lib;..\..\lib\osgVolumes.lib;..\..\lib\osgFXs.lib;opengl32.lib;..\..\lib\osgViewers.lib;..\..\lib\osgTexts.lib;..\..\lib\osgGAs.lib;..\..\lib\osgDBs.lib;..\..\lib\osgUtils.lib;..\..\..\3rdPartyLibs\x64\lib\zlib.lib;..\..\lib\osgs.lib;..\..\lib\OpenThreadss.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\osgUIs.lib;..\..\lib\osgWidgets.lib;..\..\lib\osgManipulators.lib;..\..\lib\osgVolumes.lib;..\..\lib\osgFXs.lib;opengl32.lib;..\..\lib\osgViewers.lib;..\..\lib\osgTexts.lib;..\..\lib\osgGAs.lib;..\..\lib\osgDBs.lib;..\..\lib\osgUtils.lib;C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\x64\Release\zlib.lib;..\..\lib\osgs.lib;..\..\lib\OpenThreadss.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -241,7 +241,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\osgUIrd.lib;..\..\lib\osgWidgetrd.lib;..\..\lib\osgManipulatorrd.lib;..\..\lib\osgVolumerd.lib;..\..\lib\osgFXrd.lib;opengl32.lib;..\..\lib\osgViewerrd.lib;..\..\lib\osgTextrd.lib;..\..\lib\osgGArd.lib;..\..\lib\osgDBrd.lib;..\..\lib\osgUtilrd.lib;..\..\..\3rdPartyLibs\x64\lib\zlib.lib;..\..\lib\osgrd.lib;..\..\lib\OpenThreadsrd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\osgUIrd.lib;..\..\lib\osgWidgetrd.lib;..\..\lib\osgManipulatorrd.lib;..\..\lib\osgVolumerd.lib;..\..\lib\osgFXrd.lib;opengl32.lib;..\..\lib\osgViewerrd.lib;..\..\lib\osgTextrd.lib;..\..\lib\osgGArd.lib;..\..\lib\osgDBrd.lib;..\..\lib\osgUtilrd.lib;C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\x64\Release\zlib.lib;..\..\lib\osgrd.lib;..\..\lib\OpenThreadsrd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>

@@ -1,1 +1,28 @@
-﻿  osgdb_deprecated_osgterrain.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_deprecated_osgterraind.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgWrappers/deprecated-dotosg/osgTerrain/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgWrappers/deprecated-dotosg/osgTerrain/CMakeFiles/generate.stamp is up-to-date.
+  CompositeLayer.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\CompositeLayer.cpp(101): warning C4456: declaration of 'readObject' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\CompositeLayer.cpp(53): note: see declaration of 'readObject'
+  GeometryTechnique.cpp
+  HeightFieldLayer.cpp
+  ImageLayer.cpp
+  Layer.cpp
+  LibraryWrapper.cpp
+  Locator.cpp
+  SwitchLayer.cpp
+  Terrain.cpp
+  TerrainTile.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\TerrainTile.cpp(58): warning C4456: declaration of 'readObject' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\TerrainTile.cpp(34): note: see declaration of 'readObject'
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\TerrainTile.cpp(59): warning C4456: declaration of 'locator' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\TerrainTile.cpp(46): note: see declaration of 'locator'
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\TerrainTile.cpp(91): warning C4456: declaration of 'readObject' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\TerrainTile.cpp(58): note: see declaration of 'readObject'
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\TerrainTile.cpp(128): warning C4456: declaration of 'readObject' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\TerrainTile.cpp(34): note: see declaration of 'readObject'
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\TerrainTile.cpp(129): warning C4456: declaration of 'locator' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\TerrainTile.cpp(46): note: see declaration of 'locator'
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\TerrainTile.cpp(163): warning C4456: declaration of 'readObject' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osgTerrain\TerrainTile.cpp(128): note: see declaration of 'readObject'
+  Generating Code...
+  osgdb_deprecated_osgterrain.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_deprecated_osgterraind.dll

@@ -1,1 +1,8 @@
-﻿  osgdb_osg.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_osgd.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/osg/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/osg/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterOSG.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\osg\ReaderWriterOSG.cpp(257): warning C4459: declaration of 'NodeList' hides global declaration
+  C:\Libraries\OSG-3.4.0_64\include\osg/Group(22): note: see declaration of 'osg::NodeList'
+  ReaderWriterOSG2.cpp
+  Generating Code...
+  osgdb_osg.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_osgd.dll

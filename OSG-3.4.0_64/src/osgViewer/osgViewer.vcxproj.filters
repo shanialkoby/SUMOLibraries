@@ -118,14 +118,14 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files\api">
+      <UniqueIdentifier>{EAD900A4-B947-356B-87C2-BB7C1CA4A83E}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{29A82576-0467-3E0F-914C-5CA8B15FB8C1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{2C1F2B13-BA14-36B4-B5AD-56B355D1CA2C}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\api">
-      <UniqueIdentifier>{EAD900A4-B947-356B-87C2-BB7C1CA4A83E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

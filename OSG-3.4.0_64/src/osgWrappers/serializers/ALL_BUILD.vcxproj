@@ -192,6 +192,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{C07EA9C4-5B65-3487-B33A-A4311777646B}</Project>
       <Name>osgdb_cfg</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\curl\osgdb_curl.vcxproj">
+      <Project>{30A8009D-31F4-3247-B239-718FADD47B7E}</Project>
+      <Name>osgdb_curl</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\dds\osgdb_dds.vcxproj">
       <Project>{6CCFD2C8-C64C-3274-8B27-B8E7F81528D4}</Project>
       <Name>osgdb_dds</Name>
@@ -251,6 +255,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\dxf\osgdb_dxf.vcxproj">
       <Project>{B79CDE8D-1F38-3755-8208-7726DB059D72}</Project>
       <Name>osgdb_dxf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\freetype\osgdb_freetype.vcxproj">
+      <Project>{AC3086FE-7212-303C-928F-5256DE6FF05E}</Project>
+      <Name>osgdb_freetype</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\gdal\osgdb_gdal.vcxproj">
       <Project>{CEB37668-301F-3C73-A746-ABE2C5C9584C}</Project>
