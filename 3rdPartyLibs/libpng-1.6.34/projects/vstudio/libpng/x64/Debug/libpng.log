@@ -1,0 +1,22 @@
+﻿  png.c
+  pngerror.c
+  pngget.c
+  pngmem.c
+  pngpread.c
+  pngread.c
+  pngrio.c
+  pngrtran.c
+  pngrutil.c
+  pngset.c
+  pngtrans.c
+  pngwio.c
+  pngwrite.c
+  pngwtran.c
+  pngwutil.c
+     Creating library C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\x64\Debug\libpng16.lib and object C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\x64\Debug\libpng16.exp
+  Generating code
+  0 of 518 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  libpng.vcxproj -> C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\x64\Debug\libpng16.dll

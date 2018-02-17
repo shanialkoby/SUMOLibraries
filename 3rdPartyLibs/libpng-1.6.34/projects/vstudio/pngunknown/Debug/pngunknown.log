@@ -1,0 +1,9 @@
+﻿  pngunknown.c
+  pngunknown.vcxproj -> C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Debug\pngunknown.exe
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Debug\pngunknown.exe discard
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Debug\pngunknown.exe save
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Debug\pngunknown.exe if-safe
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Debug\pngunknown.exe vpAg
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Debug\pngunknown.exe sTER
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Debug\pngunknown.exe IDAT
+  PASS: C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Debug\pngunknown.exe sAPI
