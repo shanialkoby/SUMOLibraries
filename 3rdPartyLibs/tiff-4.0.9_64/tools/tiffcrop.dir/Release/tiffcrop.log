@@ -1,0 +1,132 @@
+﻿  Building Custom Rule C:/Libraries/3rdPartyLibs/tiff-4.0.9_64/tools/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/3rdPartyLibs/tiff-4.0.9_64/tools/CMakeFiles/generate.stamp is up-to-date.
+  tiffcrop.c
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(779): warning C4244: 'initializing': conversion from 'tmsize_t' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1213): warning C4244: 'function': conversion from 'tsize_t' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1240): warning C4244: 'initializing': conversion from 'tmsize_t' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1762): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1769): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1776): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1783): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1977): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1716): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1718): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1721): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1748): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1750): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1800): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(337): note: see declaration of 'strncpy'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1806): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(337): note: see declaration of 'strncpy'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1830): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1832): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1909): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1911): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(1975): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2079): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2081): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2128): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2132): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(337): note: see declaration of 'strncpy'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2140): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(337): note: see declaration of 'strncpy'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2144): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(337): note: see declaration of 'strncpy'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2156): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(265): note: see declaration of 'strncat'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2302): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2321): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2313): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2332): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2502): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2539): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2574): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2576): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2611): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2613): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2647): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(2649): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(3114): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(3116): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(3118): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(3495): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(3497): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(3499): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(3689): warning C4244: '=': conversion from 'tmsize_t' to 'int32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(3690): warning C4244: '=': conversion from 'tsize_t' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(3678): warning C4244: 'initializing': conversion from 'tmsize_t' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(3819): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(3824): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(3925): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(3931): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4037): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4043): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4164): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4166): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4168): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4174): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4180): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4211): warning C4244: 'function': conversion from 'uint64' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4213): warning C4244: 'function': conversion from 'uint64' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4214): warning C4244: 'function': conversion from 'uint64' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4344): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4349): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4449): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4455): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4561): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4567): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4689): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4691): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4693): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4699): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4705): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4736): warning C4244: 'function': conversion from 'uint64' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4738): warning C4244: 'function': conversion from 'uint64' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4739): warning C4244: 'function': conversion from 'uint64' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4850): warning C4244: '=': conversion from 'tmsize_t' to 'int32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4962): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(337): note: see declaration of 'strncpy'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(4978): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(5073): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(5492): warning C4244: '=': conversion from 'double' to 'int32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(5519): warning C4244: '=': conversion from 'double' to 'int32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(5921): warning C4244: '=': conversion from 'tmsize_t' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(6023): warning C4244: '=': conversion from 'tmsize_t' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(6028): warning C4244: '=': conversion from 'tmsize_t' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(6067): warning C4244: '=': conversion from 'tmsize_t' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(7270): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(7264): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(7411): warning C4244: '=': conversion from 'tsize_t' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(7513): warning C4244: '=': conversion from 'tsize_t' to 'uint32', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(7950): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(7944): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(8337): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(8339): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(8341): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(8945): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(8947): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffcrop.c(8949): warning C4244: '=': conversion from 'uint64' to 'uint8', possible loss of data
+  tiffcrop.vcxproj -> C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\Release\tiffcrop.exe

@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Libraries/3rdPartyLibs/tiff-4.0.9_64/tools/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/3rdPartyLibs/tiff-4.0.9_64/tools/CMakeFiles/generate.stamp is up-to-date.
+  tiffset.c
+C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\tiffset.c(318): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+  tiffset.vcxproj -> C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\tools\Release\tiffset.exe

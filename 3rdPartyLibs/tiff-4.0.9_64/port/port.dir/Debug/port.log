@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Libraries/3rdPartyLibs/tiff-4.0.9_64/port/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/3rdPartyLibs/tiff-4.0.9_64/port/CMakeFiles/generate.stamp is up-to-date.
+  dummy.c
+  getopt.c
+  strcasecmp.c
+  Generating Code...
+  port.vcxproj -> C:\Libraries\3rdPartyLibs\tiff-4.0.9_64\port\Debug\portd.lib
