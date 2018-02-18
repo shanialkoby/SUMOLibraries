@@ -1,0 +1,25 @@
+﻿  tiffdump.c
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\tiffdump.c(144): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(516): note: see declaration of 'open'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\tiffdump.c(155): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(459): note: see declaration of 'close'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\tiffdump.c(175): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(523): note: see declaration of 'read'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\tiffdump.c(198): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(523): note: see declaration of 'read'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\tiffdump.c(211): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(523): note: see declaration of 'read'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\tiffdump.c(476): warning C4244: 'function': conversion from 'uint64' to 'tmsize_t', possible loss of data
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\tiffdump.c(317): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(523): note: see declaration of 'read'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\tiffdump.c(326): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(523): note: see declaration of 'read'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\tiffdump.c(344): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(523): note: see declaration of 'read'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\tiffdump.c(360): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(523): note: see declaration of 'read'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\tiffdump.c(366): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(523): note: see declaration of 'read'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\tiffdump.c(486): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(523): note: see declaration of 'read'
+  tiffdump.vcxproj -> C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\Debug\tiffdump.exe

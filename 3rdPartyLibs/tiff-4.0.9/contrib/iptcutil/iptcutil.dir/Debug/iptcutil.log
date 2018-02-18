@@ -1,0 +1,18 @@
+﻿  iptcutil.c
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\contrib\iptcutil\iptcutil.c(159): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\contrib\iptcutil\iptcutil.c(169): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\contrib\iptcutil\iptcutil.c(183): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(565): note: see declaration of 'strnicmp'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\contrib\iptcutil\iptcutil.c(185): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\contrib\iptcutil\iptcutil.c(433): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\contrib\iptcutil\iptcutil.c(435): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\contrib\iptcutil\iptcutil.c(444): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\contrib\iptcutil\iptcutil.c(446): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+  iptcutil.vcxproj -> C:\Libraries\3rdPartyLibs\tiff-4.0.9\contrib\iptcutil\Debug\iptcutil.exe

@@ -1,0 +1,4 @@
+﻿  ascii_tag.c
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\ascii_tag.c(165): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+  ascii_tag.vcxproj -> C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\Debug\ascii_tag.exe

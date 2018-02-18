@@ -1,0 +1,19 @@
+﻿  Building Custom Rule C:/Libraries/3rdPartyLibs/tiff-4.0.9/test/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/3rdPartyLibs/tiff-4.0.9/test/CMakeFiles/generate.stamp is up-to-date.
+  strip_rw.c
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\strip_rw.c(89): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\strip_rw.c(105): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\strip_rw.c(131): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\strip_rw.c(148): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\strip_rw.c(153): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+  strip.c
+  test_arrays.c
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\test_arrays.c(254): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\test_arrays.c(375): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  Generating Code...
+  strip_rw.vcxproj -> C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\Release\strip_rw.exe

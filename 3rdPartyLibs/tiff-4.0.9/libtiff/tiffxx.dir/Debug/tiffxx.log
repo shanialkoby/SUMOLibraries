@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Libraries/3rdPartyLibs/tiff-4.0.9/libtiff/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/3rdPartyLibs/tiff-4.0.9/libtiff/CMakeFiles/generate.stamp is up-to-date.
+  tif_stream.cxx
+  tiffxx.vcxproj -> C:\Libraries\3rdPartyLibs\tiff-4.0.9\libtiff\Debug\tiffxxd.dll

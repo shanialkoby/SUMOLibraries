@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Libraries/3rdPartyLibs/tiff-4.0.9/test/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/3rdPartyLibs/tiff-4.0.9/test/CMakeFiles/generate.stamp is up-to-date.
+  raw_decode.c
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\raw_decode.c(179): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\raw_decode.c(180): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\raw_decode.c(181): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\raw_decode.c(172): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdlib.h(1199): note: see declaration of 'getenv'
+  raw_decode.vcxproj -> C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\Release\raw_decode.exe

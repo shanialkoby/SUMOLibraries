@@ -1,0 +1,5 @@
+﻿  rgb2ycbcr.c
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\rgb2ycbcr.c(80): warning C4013: 'getopt' undefined; assuming extern returning int
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\rgb2ycbcr.c(382): warning C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(394): note: see declaration of 'setbuf'
+  rgb2ycbcr.vcxproj -> C:\Libraries\3rdPartyLibs\tiff-4.0.9\tools\Debug\rgb2ycbcr.exe

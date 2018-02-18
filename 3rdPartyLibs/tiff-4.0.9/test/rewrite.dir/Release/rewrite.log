@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Libraries/3rdPartyLibs/tiff-4.0.9/test/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/3rdPartyLibs/tiff-4.0.9/test/CMakeFiles/generate.stamp is up-to-date.
+  rewrite_tag.c
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\rewrite_tag.c(125): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\rewrite_tag.c(307): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(380): note: see declaration of 'unlink'
+  rewrite.vcxproj -> C:\Libraries\3rdPartyLibs\tiff-4.0.9\test\Release\rewrite.exe

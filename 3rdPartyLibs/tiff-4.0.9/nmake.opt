@@ -64,7 +64,7 @@ LOGLUV_SUPPORT	= 1
 JPEG_SUPPORT	= 1
 JPEGDIR 	= C:\Libraries\3rdPartyLibs\jpeg-9c
 JPEG_INCLUDE	= -I$(JPEGDIR)
-JPEG_LIB 	= C:\Libraries\3rdPartyLibs\jpeg-9c\Release/jpeg.lib
+JPEG_LIB 	= C:\Libraries\3rdPartyLibs\jpeg-9c\Release\jpeg.lib
 
 #
 # Uncomment and edit following lines to enable ZIP support
@@ -87,7 +87,7 @@ ZLIB_LIB 	= C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\Release\zli
 # Uncomment following line to enable Pixar log-format algorithm
 # (Zlib required).
 #
-#PIXARLOG_SUPPORT = 1
+PIXARLOG_SUPPORT = 1
 
 #
 # Comment out the following lines to disable strip chopping
