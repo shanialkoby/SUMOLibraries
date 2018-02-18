@@ -1,1 +1,12 @@
-﻿  osgdb_serializers_osgviewer.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_serializers_osgviewer.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgViewer/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgViewer/CMakeFiles/generate.stamp is up-to-date.
+  AcrossAllScreens.cpp
+  Config.cpp
+  Keystone.cpp
+  PanoramicSphericalDisplay.cpp
+  SingleScreen.cpp
+  SingleWindow.cpp
+  SphericalDisplay.cpp
+  WoWVxDisplay.cpp
+  Generating Code...
+  osgdb_serializers_osgviewer.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_serializers_osgviewer.dll

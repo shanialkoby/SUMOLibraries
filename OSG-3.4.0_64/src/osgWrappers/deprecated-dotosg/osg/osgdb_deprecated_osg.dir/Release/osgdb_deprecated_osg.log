@@ -1,1 +1,116 @@
-﻿  osgdb_deprecated_osg.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_deprecated_osg.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgWrappers/deprecated-dotosg/osg/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgWrappers/deprecated-dotosg/osg/CMakeFiles/generate.stamp is up-to-date.
+  AlphaFunc.cpp
+  AnimationPath.cpp
+  AutoTransform.cpp
+  Billboard.cpp
+  BlendColor.cpp
+  BlendEquation.cpp
+  BlendFunc.cpp
+  Box.cpp
+  Camera.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\Camera.cpp(181): warning C4456: declaration of 'attribute' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\Camera.cpp(73): note: see declaration of 'attribute'
+  CameraView.cpp
+  Capsule.cpp
+  ClearNode.cpp
+  ClipControl.cpp
+  ClipNode.cpp
+  ClipPlane.cpp
+  ClusterCullingCallback.cpp
+  ColorMask.cpp
+  ColorMatrix.cpp
+  CompositeShape.cpp
+  Cone.cpp
+  Generating Code...
+  Compiling...
+  ConvexPlanarOccluder.cpp
+  CoordinateSystemNode.cpp
+  CullFace.cpp
+  Cylinder.cpp
+  Depth.cpp
+  Drawable.cpp
+  EllipsoidModel.cpp
+  Fog.cpp
+  FragmentProgram.cpp
+  FrontFace.cpp
+  Geode.cpp
+  Geometry.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\Geometry.cpp(816): warning C4456: declaration of 'uniqueID' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\Geometry.cpp(808): note: see declaration of 'uniqueID'
+  Group.cpp
+  HeightField.cpp
+  Image.cpp
+  ImageSequence.cpp
+  LOD.cpp
+  LibraryWrapper.cpp
+  Light.cpp
+  LightModel.cpp
+  Generating Code...
+  Compiling...
+  LightSource.cpp
+  LineStipple.cpp
+  LineWidth.cpp
+  Material.cpp
+  Matrix.cpp
+  MatrixTransform.cpp
+  Node.cpp
+  NodeCallback.cpp
+  Object.cpp
+  OccluderNode.cpp
+  OcclusionQueryNode.cpp
+  PagedLOD.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\PagedLOD.cpp(40): warning C4456: declaration of 'path' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\PagedLOD.cpp(31): note: see declaration of 'path'
+  Point.cpp
+  PointSprite.cpp
+  PolygonMode.cpp
+  PolygonOffset.cpp
+  PositionAttitudeTransform.cpp
+  Program.cpp
+  Projection.cpp
+  ProxyNode.cpp
+  Generating Code...
+  Compiling...
+  Scissor.cpp
+  Sequence.cpp
+  ShadeModel.cpp
+  Shader.cpp
+  ShapeDrawable.cpp
+  Sphere.cpp
+  StateAttribute.cpp
+  StateSet.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\StateSet.cpp(504): warning C4456: declaration of 'readingMode' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\StateSet.cpp(415): note: see declaration of 'readingMode'
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\StateSet.cpp(505): warning C4456: declaration of 'value' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\StateSet.cpp(416): note: see declaration of 'value'
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\StateSet.cpp(538): warning C4456: declaration of 'attribute' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\StateSet.cpp(477): note: see declaration of 'attribute'
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\StateSet.cpp(644): warning C4456: declaration of 'ml' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\StateSet.cpp(600): note: see declaration of 'ml'
+C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\StateSet.cpp(664): warning C4456: declaration of 'sl' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgWrappers\deprecated-dotosg\osg\StateSet.cpp(625): note: see declaration of 'sl'
+  Stencil.cpp
+  Switch.cpp
+  TessellationHints.cpp
+  TexEnv.cpp
+  TexEnvCombine.cpp
+  TexEnvFilter.cpp
+  TexGen.cpp
+  TexGenNode.cpp
+  TexMat.cpp
+  Texture.cpp
+  Texture1D.cpp
+  Texture2D.cpp
+  Generating Code...
+  Compiling...
+  Texture3D.cpp
+  TextureCubeMap.cpp
+  TextureRectangle.cpp
+  TransferFunction.cpp
+  Transform.cpp
+  Uniform.cpp
+  VertexProgram.cpp
+  Viewport.cpp
+  Generating Code...
+  osgdb_deprecated_osg.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_deprecated_osg.dll

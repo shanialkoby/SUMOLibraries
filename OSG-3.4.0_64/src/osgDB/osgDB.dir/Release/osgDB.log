@@ -1,4 +1,6 @@
-﻿  ObjectWrapper.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgDB/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgDB/CMakeFiles/generate.stamp is up-to-date.
+  ObjectWrapper.cpp
   InputStream.cpp
   OutputStream.cpp
 C:\Libraries\OSG-3.4.0_64\src\osgDB\OutputStream.cpp(519): warning C4456: declaration of 'size' hides previous local declaration
@@ -73,5 +75,8 @@ C:\Libraries\OSG-3.4.0_64\src\osgDB\Registry.cpp(1107): warning C4456: declarati
 C:\Libraries\OSG-3.4.0_64\src\osgDB\XmlParser.cpp(524): warning C4458: declaration of 'contents' hides class member
   C:\Libraries\OSG-3.4.0_64\include\osgDB/XmlParser(61): note: see declaration of 'osgDB::XmlNode::contents'
   Generating Code...
+  zlib.lib(deflate.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
      Creating library C:/Libraries/OSG-3.4.0_64/lib/osgDB.lib and object C:/Libraries/OSG-3.4.0_64/lib/osgDB.exp
+  Generating code
+  Finished generating code
   osgDB.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osg130-osgDB.dll

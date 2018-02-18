@@ -1,1 +1,18 @@
-﻿  osgdb_serializers_osgterrain.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_serializers_osgterrain.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgTerrain/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgTerrain/CMakeFiles/generate.stamp is up-to-date.
+  CompositeLayer.cpp
+  ContourLayer.cpp
+  DisplacementMappingTechnique.cpp
+  GeometryTechnique.cpp
+  HeightFieldLayer.cpp
+  ImageLayer.cpp
+  Layer.cpp
+  LibraryWrapper.cpp
+  Locator.cpp
+  ProxyLayer.cpp
+  SwitchLayer.cpp
+  Terrain.cpp
+  TerrainTechnique.cpp
+  TerrainTile.cpp
+  Generating Code...
+  osgdb_serializers_osgterrain.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_serializers_osgterrain.dll

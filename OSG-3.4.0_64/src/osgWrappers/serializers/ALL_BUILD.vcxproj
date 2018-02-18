@@ -488,6 +488,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{0805FD32-36B5-3566-BE90-DA78B3794532}</Project>
       <Name>osgdb_tgz</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\tiff\osgdb_tiff.vcxproj">
+      <Project>{E691EF18-163E-3AAE-BF5F-A3B4E7E7FAD2}</Project>
+      <Name>osgdb_tiff</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Libraries\OSG-3.4.0_64\src\osgPlugins\trans\osgdb_trans.vcxproj">
       <Project>{4FE13811-2ECC-3FA3-B8AD-A69184760A40}</Project>
       <Name>osgdb_trans</Name>

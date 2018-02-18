@@ -1,1 +1,79 @@
-﻿  osgdb_lua.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_lua.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/lua/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/lua/CMakeFiles/generate.stamp is up-to-date.
+  LuaScriptEngine.cpp
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1383): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1368): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1384): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1368): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1385): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1368): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1386): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1368): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1387): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1368): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1388): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1368): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1389): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1368): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1390): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1368): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1461): warning C4457: declaration of 'i' hides function parameter
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1448): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1462): warning C4457: declaration of 'i' hides function parameter
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1448): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1463): warning C4457: declaration of 'i' hides function parameter
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1448): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1464): warning C4457: declaration of 'i' hides function parameter
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1448): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1465): warning C4457: declaration of 'i' hides function parameter
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1448): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1466): warning C4457: declaration of 'i' hides function parameter
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1448): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1467): warning C4457: declaration of 'i' hides function parameter
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1448): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1468): warning C4457: declaration of 'i' hides function parameter
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1448): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1504): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1489): note: see declaration of 'i'
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1508): warning C4456: declaration of 'i' hides previous local declaration
+  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\LuaScriptEngine.cpp(1489): note: see declaration of 'i'
+  ReaderWriterLua.cpp
+  Generating Code...
+  lapi.c
+  lcode.c
+  lctype.c
+  ldebug.c
+  ldo.c
+C:\Libraries\OSG-3.4.0_64\src\osgPlugins\lua\lua-5.2.3\src\ldo.c(79): warning C4324: 'lua_longjmp': structure was padded due to alignment specifier
+  ldump.c
+  lfunc.c
+  lgc.c
+  llex.c
+  lmem.c
+  lobject.c
+  lopcodes.c
+  lparser.c
+  lstate.c
+  lstring.c
+  ltable.c
+  ltm.c
+  lundump.c
+  lvm.c
+  lzio.c
+  Generating Code...
+c:\libraries\osg-3.4.0_64\src\osgplugins\lua\lua-5.2.3\src\lapi.c(1110): warning C4702: unreachable code
+  Compiling...
+  lauxlib.c
+  lbaselib.c
+  lbitlib.c
+  lcorolib.c
+  ldblib.c
+  liolib.c
+  lmathlib.c
+  loslib.c
+  lstrlib.c
+  ltablib.c
+  loadlib.c
+  linit.c
+  Generating Code...
+  osgdb_lua.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_lua.dll

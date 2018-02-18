@@ -1,4 +1,6 @@
-﻿  AlphaFunc.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/ive/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/ive/CMakeFiles/generate.stamp is up-to-date.
+  AlphaFunc.cpp
   AnimationPathCallback.cpp
   AnimationPath.cpp
   AnisotropicLighting.cpp
@@ -146,4 +148,7 @@ C:\Libraries\OSG-3.4.0_64\src\osgPlugins\ive\ProxyNode.cpp(208): warning C4456: 
   VolumeLocator.cpp
   VolumeTile.cpp
   Generating Code...
+  zlib.lib(inflate.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+  Generating code
+  Finished generating code
   osgdb_ive.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_ive.dll

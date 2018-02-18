@@ -1,1 +1,13 @@
-﻿  osgdb_serializers_osgfx.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_serializers_osgfx.dll
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgFX/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgFX/CMakeFiles/generate.stamp is up-to-date.
+  AnisotropicLighting.cpp
+  BumpMapping.cpp
+  Cartoon.cpp
+  Effect.cpp
+  LibraryWrapper.cpp
+  MultiTextureControl.cpp
+  Outline.cpp
+  Scribe.cpp
+  SpecularHighlights.cpp
+  Generating Code...
+  osgdb_serializers_osgfx.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_serializers_osgfx.dll
