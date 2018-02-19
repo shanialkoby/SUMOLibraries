@@ -1,6 +1,4 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgWrappers/deprecated-dotosg/osgVolume/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgWrappers/deprecated-dotosg/osgVolume/CMakeFiles/generate.stamp is up-to-date.
-  CompositeProperty.cpp
+﻿  CompositeProperty.cpp
   FixedFunctionTechnique.cpp
   ImageLayer.cpp
   Layer.cpp

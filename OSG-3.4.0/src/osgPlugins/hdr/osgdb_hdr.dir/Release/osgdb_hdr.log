@@ -1,7 +1,1 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/hdr/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/hdr/CMakeFiles/generate.stamp is up-to-date.
-  ReaderWriterHDR.cpp
-  hdrloader.cpp
-  hdrwriter.cpp
-  Generating Code...
-  osgdb_hdr.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_hdr.dll
+﻿

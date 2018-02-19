@@ -1,6 +1,4 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgWrappers/deprecated-dotosg/osgParticle/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgWrappers/deprecated-dotosg/osgParticle/CMakeFiles/generate.stamp is up-to-date.
-  IO_AccelOperator.cpp
+﻿  IO_AccelOperator.cpp
   IO_AngularAccelOperator.cpp
   IO_AngularDampingOperator.cpp
   IO_BounceOperator.cpp

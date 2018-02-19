@@ -1,5 +1,9 @@
-﻿  Box.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgWidget/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgWidget/CMakeFiles/generate.stamp is up-to-date.
+  Box.cpp
   Browser.cpp
+  PdfReader.cpp
+  VncClient.cpp
   Canvas.cpp
   Frame.cpp
   Input.cpp
@@ -32,14 +36,12 @@ C:\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\include\xut
           ]
   Label.cpp
   Lua.cpp
-  PdfReader.cpp
   Python.cpp
   StyleManager.cpp
   Table.cpp
   Util.cpp
   Version.cpp
   ViewerEventHandlers.cpp
-  VncClient.cpp
   Widget.cpp
   Window.cpp
 C:\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\include\algorithm(1007): warning C4244: '=': conversion from 'int' to 'char', possible loss of data

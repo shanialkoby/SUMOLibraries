@@ -1,4 +1,6 @@
-﻿  AcrossAllScreens.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgWrappers/serializers/osgViewer/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgWrappers/serializers/osgViewer/CMakeFiles/generate.stamp is up-to-date.
+  AcrossAllScreens.cpp
   Config.cpp
   Keystone.cpp
   PanoramicSphericalDisplay.cpp

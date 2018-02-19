@@ -1,9 +1,7 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/gles/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/gles/CMakeFiles/generate.stamp is up-to-date.
-  ReaderWriterGLES.cpp
+﻿  IndexMeshVisitor.cpp
   OpenGLESGeometryOptimizer.cpp
+  ReaderWriterGLES.cpp
   TriangleStripVisitor.cpp
-  IndexMeshVisitor.cpp
   UnIndexMeshVisitor.cpp
   forsythtriangleorderoptimizer.cpp
   Generating Code...

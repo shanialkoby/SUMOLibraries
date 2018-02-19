@@ -75,5 +75,8 @@ C:\Libraries\OSG-3.4.0\src\osgDB\Registry.cpp(1107): warning C4456: declaration 
 C:\Libraries\OSG-3.4.0\src\osgDB\XmlParser.cpp(524): warning C4458: declaration of 'contents' hides class member
   C:\Libraries\OSG-3.4.0\include\osgDB/XmlParser(61): note: see declaration of 'osgDB::XmlNode::contents'
   Generating Code...
+  zlib.lib(deflate.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
      Creating library C:/Libraries/OSG-3.4.0/lib/osgDB.lib and object C:/Libraries/OSG-3.4.0/lib/osgDB.exp
+  Generating code
+  Finished generating code
   osgDB.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osg130-osgDB.dll

@@ -1,4 +1,6 @@
-﻿  CameraConfig.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/cfg/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/cfg/CMakeFiles/generate.stamp is up-to-date.
+  CameraConfig.cpp
 C:\Libraries\OSG-3.4.0\src\osgPlugins\cfg\CameraConfig.cpp(301): warning C4457: declaration of 'name' hides function parameter
   C:\Libraries\OSG-3.4.0\src\osgPlugins\cfg\CameraConfig.cpp(291): note: see declaration of 'name'
   Camera.cpp

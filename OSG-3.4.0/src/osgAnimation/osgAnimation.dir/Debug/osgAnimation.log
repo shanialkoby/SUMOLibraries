@@ -1,4 +1,6 @@
-﻿  Action.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgAnimation/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgAnimation/CMakeFiles/generate.stamp is up-to-date.
+  Action.cpp
   ActionAnimation.cpp
   ActionBlendIn.cpp
   ActionBlendOut.cpp
@@ -29,13 +31,13 @@ C:\Libraries\OSG-3.4.0\src\osgAnimation\RigTransformHardware.cpp(84): warning C4
   StackedScaleElement.cpp
   StackedTransform.cpp
   StackedTranslateElement.cpp
+  StatsVisitor.cpp
   StatsHandler.cpp
 C:\Libraries\OSG-3.4.0\src\osgAnimation\StatsHandler.cpp(93): warning C4458: declaration of '_pos' hides class member
   C:\Libraries\OSG-3.4.0\src\osgAnimation\StatsHandler.cpp(103): note: see declaration of 'osgAnimation::StatsGraph::_pos'
-  StatsVisitor.cpp
   Target.cpp
-  Timeline.cpp
   TimelineAnimationManager.cpp
+  Timeline.cpp
   UpdateBone.cpp
   UpdateMaterial.cpp
   UpdateMatrixTransform.cpp

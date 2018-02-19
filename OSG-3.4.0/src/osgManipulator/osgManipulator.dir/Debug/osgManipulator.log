@@ -1,4 +1,6 @@
-﻿  AntiSquish.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgManipulator/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgManipulator/CMakeFiles/generate.stamp is up-to-date.
+  AntiSquish.cpp
   Command.cpp
   Constraint.cpp
   Dragger.cpp

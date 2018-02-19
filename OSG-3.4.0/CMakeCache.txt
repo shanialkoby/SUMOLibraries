@@ -186,10 +186,10 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
 //If set, runtime paths are not added when installing shared libraries,
 // but are added when building.
-CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
+CMAKE_SKIP_INSTALL_RPATH:BOOL=OFF
 
 //If set, runtime paths are not added when using shared libraries.
-CMAKE_SKIP_RPATH:BOOL=NO
+CMAKE_SKIP_RPATH:BOOL=OFF
 
 //Flags used by the linker during the creation of static libraries.
 CMAKE_STATIC_LINKER_FLAGS:STRING=/machine:X86
@@ -210,7 +210,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
-CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
 
 //Path to a library.
 COLLADA_BOOST_FILESYSTEM_LIBRARY:FILEPATH=COLLADA_BOOST_FILESYSTEM_LIBRARY-NOTFOUND
@@ -236,8 +236,7 @@ COLLADA_DYNAMIC_LIBRARY_DEBUG:FILEPATH=COLLADA_DYNAMIC_LIBRARY_DEBUG-NOTFOUND
 //Path to a file.
 COLLADA_INCLUDE_DIR:PATH=COLLADA_INCLUDE_DIR-NOTFOUND
 
-//Path to a library.
-COLLADA_LIBXML_LIBRARY:FILEPATH=COLLADA_LIBXML_LIBRARY-NOTFOUND
+COLLADA_LIBXML_LIBRARY:FILEPATH=C:/Libraries/proj_gdal-1911_64/lib/libxml2.lib
 
 //Path to a library.
 COLLADA_MINIZIP_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/x86/lib/minizip.lib
@@ -263,7 +262,7 @@ COLLADA_STATIC_LIBRARY:FILEPATH=COLLADA_STATIC_LIBRARY-NOTFOUND
 //Path to a library.
 COLLADA_STATIC_LIBRARY_DEBUG:FILEPATH=COLLADA_STATIC_LIBRARY_DEBUG-NOTFOUND
 
-COLLADA_ZLIB_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/x86/lib/zlib.lib
+COLLADA_ZLIB_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Release/zlib.lib
 
 //Path to a file.
 CURL_INCLUDE_DIR:PATH=C:/Libraries/3rdPartyLibs/x86/include
@@ -415,17 +414,17 @@ FFMPEG_ROOT:PATH=
 FFMPEG_STDINT_INCLUDE_DIR:PATH=FFMPEG_STDINT_INCLUDE_DIR-NOTFOUND
 
 //Path to a file.
-FREETYPE_INCLUDE_DIR:PATH=C:/Libraries/3rdPartyLibs/x86/include
+FREETYPE_INCLUDE_DIR:PATH=C:\Libraries\3rdPartyLibs\freetype-2.9\include
 
-FREETYPE_INCLUDE_DIR_freetype2:PATH=C:/Libraries/3rdPartyLibs/x86/include
+FREETYPE_INCLUDE_DIR_freetype2:PATH=C:/Libraries/3rdPartyLibs/freetype-2.9/include
 
-FREETYPE_INCLUDE_DIR_ft2build:PATH=C:/Libraries/3rdPartyLibs/x86/include
-
-//Path to a library.
-FREETYPE_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/x86/lib/freetype250.lib
+FREETYPE_INCLUDE_DIR_ft2build:PATH=C:/Libraries/3rdPartyLibs/freetype-2.9/include
 
 //Path to a library.
-FREETYPE_LIBRARY_DEBUG:FILEPATH=FREETYPE_LIBRARY_DEBUG-NOTFOUND
+FREETYPE_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/freetype-2.9/objs/Win32/Debug/freetype.lib
+
+//Path to a library.
+FREETYPE_LIBRARY_DEBUG:FILEPATH=C:/Libraries/3rdPartyLibs/freetype-2.9/objs/Win32/Release/freetype.lib
 
 //Path to a file.
 GDAL_INCLUDE_DIR:PATH=C:/Libraries/3rdPartyLibs/x86/include
@@ -434,7 +433,7 @@ GDAL_INCLUDE_DIR:PATH=C:/Libraries/3rdPartyLibs/x86/include
 GDAL_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/x86/lib/gdal_i.lib
 
 //Path to a library.
-GDAL_LIBRARY_DEBUG:FILEPATH=GDAL_LIBRARY_DEBUG-NOTFOUND
+GDAL_LIBRARY_DEBUG:FILEPATH=C:/Libraries/3rdPartyLibs/x86/lib/gdal_i.lib
 
 //Path to a file.
 GIFLIB_INCLUDE_DIR:PATH=C:/Libraries/3rdPartyLibs/x86/include
@@ -547,13 +546,13 @@ JASPER_LIBRARY_DEBUG:FILEPATH=JASPER_LIBRARY_DEBUG-NOTFOUND
 JASPER_LIBRARY_RELEASE:FILEPATH=JASPER_LIBRARY_RELEASE-NOTFOUND
 
 //Path to a file.
-JPEG_INCLUDE_DIR:PATH=C:/Libraries/3rdPartyLibs/x86/include
+JPEG_INCLUDE_DIR:PATH=C:\Libraries\3rdPartyLibs\jpeg-9c
 
 //Path to a library.
-JPEG_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/x86/lib/jpeg.lib
+JPEG_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/jpeg-9c/Release/jpeg.lib
 
 //Path to a library.
-JPEG_LIBRARY_DEBUG:FILEPATH=C:/Libraries/3rdPartyLibs/x86/lib/jpegd.lib
+JPEG_LIBRARY_DEBUG:FILEPATH=C:/Libraries/3rdPartyLibs/jpeg-9c/Release/jpeg.lib
 
 //Path to a library.
 LIBLASC_LIBRARY:FILEPATH=LIBLASC_LIBRARY-NOTFOUND
@@ -583,16 +582,18 @@ LIBVNCSERVER_INCLUDE_DIR:PATH=LIBVNCSERVER_INCLUDE_DIR-NOTFOUND
 LIBVNCSERVER_LIBRARY:FILEPATH=LIBVNCSERVER_LIBRARY-NOTFOUND
 
 //Path to a file.
-LIBXML2_INCLUDE_DIR:PATH=LIBXML2_INCLUDE_DIR-NOTFOUND
+LIBXML2_INCLUDE_DIR:PATH=C:/Libraries/proj_gdal-1911_64/include
+
+LIBXML2_LIBRARIES:FILEPATH=C:/Libraries/proj_gdal-1911_64/lib/libxml2.lib
 
 //Path to a library.
-LIBXML2_LIBRARY:FILEPATH=LIBXML2_LIBRARY-NOTFOUND
+LIBXML2_LIBRARY:FILEPATH=C:/Libraries/proj_gdal-1911_64/lib/libxml2.lib
 
 //Path to a library.
-LIBXML2_LIBRARY_DEBUG:FILEPATH=LIBXML2_LIBRARY_DEBUG-NOTFOUND
+LIBXML2_LIBRARY_DEBUG:FILEPATH=C:/Libraries/proj_gdal-1911_64/lib/libxml2.lib
 
-//Path to a program.
-LIBXML2_XMLLINT_EXECUTABLE:FILEPATH=LIBXML2_XMLLINT_EXECUTABLE-NOTFOUND
+//Path to xmllint executable
+LIBXML2_XMLLINT_EXECUTABLE:FILEPATH=C:/Libraries/3rdPartyLibs/x86/bin/xmllint.exe
 
 //Enable project grouping in VS
 MSVC_BUILD_USE_SOLUTION_FOLDERS:BOOL=ON
@@ -827,15 +828,15 @@ PERFORMER_LIBRARY:FILEPATH=PERFORMER_LIBRARY-NOTFOUND
 PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 
 //Path to a file.
-PNG_INCLUDE_DIR:PATH=C:/Libraries/3rdPartyLibs/x86/include
+PNG_INCLUDE_DIR:PATH=C:\Libraries\3rdPartyLibs\libpng-1.6.34
 
 //Path to a library.
-PNG_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/x86/lib/libpng16.lib
+PNG_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Release/libpng16.lib
 
 //Path to a library.
-PNG_LIBRARY_DEBUG:FILEPATH=C:/Libraries/3rdPartyLibs/x86/lib/libpng16d.lib
+PNG_LIBRARY_DEBUG:FILEPATH=C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Debug/libpng16.lib
 
-PNG_PNG_INCLUDE_DIR:FILEPATH=C:/Libraries/3rdPartyLibs/x86/include
+PNG_PNG_INCLUDE_DIR:FILEPATH=C:\Libraries\3rdPartyLibs\libpng-1.6.34
 
 //path to Qt3 include directory
 QT_INCLUDE_DIR:PATH=QT_INCLUDE_DIR-NOTFOUND
@@ -880,13 +881,13 @@ SDLMAIN_LIBRARY:FILEPATH=SDLMAIN_LIBRARY-NOTFOUND
 SDL_INCLUDE_DIR:PATH=SDL_INCLUDE_DIR-NOTFOUND
 
 //Path to a file.
-TIFF_INCLUDE_DIR:PATH=C:/Libraries/3rdPartyLibs/x86/include
+TIFF_INCLUDE_DIR:PATH=C:\Libraries\3rdPartyLibs\tiff-4.0.9\libtiff
 
 //Path to a library.
-TIFF_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/x86/lib/libtiff_i.lib
+TIFF_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/tiff-4.0.9/libtiff/Release/tiff.lib
 
 //Path to a library.
-TIFF_LIBRARY_DEBUG:FILEPATH=TIFF_LIBRARY_DEBUG-NOTFOUND
+TIFF_LIBRARY_DEBUG:FILEPATH=C:/Libraries/3rdPartyLibs/tiff-4.0.9/libtiff/Debug/tiffd.lib
 
 //Set to ON to use Mike prebuilt dependencies situated side of
 // OpenSceneGraph source.  Use OFF for avoiding.
@@ -914,19 +915,19 @@ ZEROCONF_INCLUDE_DIR:PATH=ZEROCONF_INCLUDE_DIR-NOTFOUND
 ZEROCONF_LIBRARY:FILEPATH=ZEROCONF_LIBRARY-NOTFOUND
 
 //Path to a file.
-ZLIB_INCLUDE_DIR:PATH=C:/Libraries/3rdPartyLibs/x86/include
+ZLIB_INCLUDE_DIR:PATH=C:/Libraries/3rdPartyLibs/zlib-1.2.11
 
 //Path to a library.
-ZLIB_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/x86/lib/zlib.lib
+ZLIB_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Release/zlib.lib
 
 //Path to a library.
-ZLIB_LIBRARY_DEBUG:FILEPATH=C:/Libraries/3rdPartyLibs/x86/lib/zlibd.lib
+ZLIB_LIBRARY_DEBUG:FILEPATH=C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Debug/zlib.lib
 
 //Dependencies for the target
 osgAnimation_LIB_DEPENDS:STATIC=general;osg;general;osgText;general;osgGA;general;osgViewer;general;OpenThreads;general;opengl32;general;;
 
 //Dependencies for the target
-osgDB_LIB_DEPENDS:STATIC=general;osg;general;osgUtil;general;OpenThreads;optimized;C:/Libraries/3rdPartyLibs/x86/lib/zlib.lib;debug;C:/Libraries/3rdPartyLibs/x86/lib/zlibd.lib;general;opengl32;general;;
+osgDB_LIB_DEPENDS:STATIC=general;osg;general;osgUtil;general;OpenThreads;optimized;C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Release/zlib.lib;debug;C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Debug/zlib.lib;general;opengl32;general;;
 
 //Dependencies for the target
 osgFX_LIB_DEPENDS:STATIC=general;osgUtil;general;osgDB;general;osg;general;OpenThreads;general;opengl32;general;;
@@ -995,7 +996,7 @@ osgdb_bvh_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;gener
 osgdb_cfg_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgViewer;general;opengl32;
 
 //Dependencies for the target
-osgdb_curl_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;ws2_32;general;winmm;general;wldap32;optimized;C:/Libraries/3rdPartyLibs/x86/lib/libcurl.lib;debug;C:/Libraries/3rdPartyLibs/x86/lib/libcurld.lib;optimized;C:/Libraries/3rdPartyLibs/x86/lib/zlib.lib;debug;C:/Libraries/3rdPartyLibs/x86/lib/zlibd.lib;general;opengl32;
+osgdb_curl_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;ws2_32;general;winmm;general;wldap32;optimized;C:/Libraries/3rdPartyLibs/x86/lib/libcurl.lib;debug;C:/Libraries/3rdPartyLibs/x86/lib/libcurld.lib;optimized;C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Release/zlib.lib;debug;C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Debug/zlib.lib;general;opengl32;
 
 //Dependencies for the target
 osgdb_dds_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;opengl32;
@@ -1043,7 +1044,7 @@ osgdb_dw_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;genera
 osgdb_dxf_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgText;general;opengl32;
 
 //Dependencies for the target
-osgdb_freetype_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgText;optimized;C:/Libraries/3rdPartyLibs/x86/lib/freetype250.lib;debug;C:/Libraries/3rdPartyLibs/x86/lib/freetype250.lib;general;opengl32;
+osgdb_freetype_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgText;optimized;C:/Libraries/3rdPartyLibs/freetype-2.9/objs/Win32/Debug/freetype.lib;debug;C:/Libraries/3rdPartyLibs/freetype-2.9/objs/Win32/Release/freetype.lib;general;opengl32;
 
 //Dependencies for the target
 osgdb_gdal_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgTerrain;optimized;C:/Libraries/3rdPartyLibs/x86/lib/gdal_i.lib;debug;C:/Libraries/3rdPartyLibs/x86/lib/gdal_i.lib;general;opengl32;
@@ -1058,16 +1059,16 @@ osgdb_gles_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;gene
 osgdb_glsl_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;opengl32;
 
 //Dependencies for the target
-osgdb_gz_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;optimized;C:/Libraries/3rdPartyLibs/x86/lib/zlib.lib;debug;C:/Libraries/3rdPartyLibs/x86/lib/zlibd.lib;general;opengl32;
+osgdb_gz_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;optimized;C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Release/zlib.lib;debug;C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Debug/zlib.lib;general;opengl32;
 
 //Dependencies for the target
 osgdb_hdr_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;opengl32;
 
 //Dependencies for the target
-osgdb_ive_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgSim;general;osgFX;general;osgText;general;osgTerrain;general;osgVolume;optimized;C:/Libraries/3rdPartyLibs/x86/lib/zlib.lib;debug;C:/Libraries/3rdPartyLibs/x86/lib/zlibd.lib;general;opengl32;
+osgdb_ive_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgSim;general;osgFX;general;osgText;general;osgTerrain;general;osgVolume;optimized;C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Release/zlib.lib;debug;C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Debug/zlib.lib;general;opengl32;
 
 //Dependencies for the target
-osgdb_jpeg_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;optimized;C:/Libraries/3rdPartyLibs/x86/lib/jpeg.lib;debug;C:/Libraries/3rdPartyLibs/x86/lib/jpegd.lib;general;opengl32;
+osgdb_jpeg_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;optimized;C:/Libraries/3rdPartyLibs/jpeg-9c/Release/jpeg.lib;debug;C:/Libraries/3rdPartyLibs/jpeg-9c/Release/jpeg.lib;general;opengl32;
 
 //Dependencies for the target
 osgdb_ktx_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;opengl32;
@@ -1136,7 +1137,7 @@ osgdb_pic_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;gener
 osgdb_ply_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;opengl32;
 
 //Dependencies for the target
-osgdb_png_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;optimized;C:/Libraries/3rdPartyLibs/x86/lib/libpng16.lib;debug;C:/Libraries/3rdPartyLibs/x86/lib/libpng16d.lib;optimized;C:/Libraries/3rdPartyLibs/x86/lib/zlib.lib;debug;C:/Libraries/3rdPartyLibs/x86/lib/zlibd.lib;general;opengl32;
+osgdb_png_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;optimized;C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Release/libpng16.lib;debug;C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Debug/libpng16.lib;optimized;C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Release/zlib.lib;debug;C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Debug/zlib.lib;general;opengl32;
 
 //Dependencies for the target
 osgdb_pnm_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;opengl32;
@@ -1217,7 +1218,7 @@ osgdb_tga_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;gener
 osgdb_tgz_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;opengl32;
 
 //Dependencies for the target
-osgdb_tiff_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;optimized;C:/Libraries/3rdPartyLibs/x86/lib/libtiff_i.lib;debug;C:/Libraries/3rdPartyLibs/x86/lib/libtiff_i.lib;general;opengl32;
+osgdb_tiff_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;optimized;C:/Libraries/3rdPartyLibs/tiff-4.0.9/libtiff/Release/tiff.lib;debug;C:/Libraries/3rdPartyLibs/tiff-4.0.9/libtiff/Debug/tiffd.lib;general;opengl32;
 
 //Dependencies for the target
 osgdb_trans_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;opengl32;
@@ -1378,21 +1379,23 @@ DCMTK_DIR-ADVANCED:INTERNAL=1
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[C:/Libraries/3rdPartyLibs/x86/lib/libcurl.lib][C:/Libraries/3rdPartyLibs/x86/include][v7.33.0()]
 //Details about finding Freetype
-FIND_PACKAGE_MESSAGE_DETAILS_Freetype:INTERNAL=[C:/Libraries/3rdPartyLibs/x86/lib/freetype250.lib][C:/Libraries/3rdPartyLibs/x86/include][v2.5.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_Freetype:INTERNAL=[C:/Libraries/3rdPartyLibs/freetype-2.9/objs/Win32/Debug/freetype.lib][C:/Libraries/3rdPartyLibs/freetype-2.9/include][v2.9.0()]
 //Details about finding GDAL
 FIND_PACKAGE_MESSAGE_DETAILS_GDAL:INTERNAL=[C:/Libraries/3rdPartyLibs/x86/lib/gdal_i.lib][C:/Libraries/3rdPartyLibs/x86/include][v()]
 //Details about finding JPEG
-FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[C:/Libraries/3rdPartyLibs/x86/lib/jpeg.lib][C:/Libraries/3rdPartyLibs/x86/include][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[C:/Libraries/3rdPartyLibs/jpeg-9c/Release/jpeg.lib][C:\Libraries\3rdPartyLibs\jpeg-9c][v()]
+//Details about finding LibXml2
+FIND_PACKAGE_MESSAGE_DETAILS_LibXml2:INTERNAL=[C:/Libraries/proj_gdal-1911_64/lib/libxml2.lib][C:/Libraries/proj_gdal-1911_64/include][v2.7.7()]
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][c ][v()]
 //Details about finding PNG
-FIND_PACKAGE_MESSAGE_DETAILS_PNG:INTERNAL=[C:/Libraries/3rdPartyLibs/x86/lib/libpng16.lib][C:/Libraries/3rdPartyLibs/x86/include][v1.6.7()]
+FIND_PACKAGE_MESSAGE_DETAILS_PNG:INTERNAL=[C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Release/libpng16.lib][C:\Libraries\3rdPartyLibs\libpng-1.6.34][v1.6.34()]
 //Details about finding TIFF
-FIND_PACKAGE_MESSAGE_DETAILS_TIFF:INTERNAL=[C:/Libraries/3rdPartyLibs/x86/lib/libtiff_i.lib][C:/Libraries/3rdPartyLibs/x86/include][v4.0.3()]
+FIND_PACKAGE_MESSAGE_DETAILS_TIFF:INTERNAL=[C:/Libraries/3rdPartyLibs/tiff-4.0.9/libtiff/Release/tiff.lib][C:\Libraries\3rdPartyLibs\tiff-4.0.9\libtiff][v4.0.9()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding ZLIB
-FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[C:/Libraries/3rdPartyLibs/x86/lib/zlib.lib][C:/Libraries/3rdPartyLibs/x86/include][v1.2.8()]
+FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[C:/Libraries/3rdPartyLibs/libpng-1.6.34/projects/vstudio/Release/zlib.lib][C:/Libraries/3rdPartyLibs/zlib-1.2.11][v1.2.11()]
 //ADVANCED property for variable: FREETYPE_INCLUDE_DIR
 FREETYPE_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: FREETYPE_INCLUDE_DIR_freetype2

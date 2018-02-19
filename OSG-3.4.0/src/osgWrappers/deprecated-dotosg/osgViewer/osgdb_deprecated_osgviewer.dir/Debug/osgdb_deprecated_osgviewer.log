@@ -1,4 +1,6 @@
-﻿  CompositeViewer.cpp
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgWrappers/deprecated-dotosg/osgViewer/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgWrappers/deprecated-dotosg/osgViewer/CMakeFiles/generate.stamp is up-to-date.
+  CompositeViewer.cpp
   LibraryWrapper.cpp
   View.cpp
   Viewer.cpp

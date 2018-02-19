@@ -1,4 +1,7 @@
 ﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/curl/CMakeLists.txt
   CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/curl/CMakeFiles/generate.stamp is up-to-date.
   ReaderWriterCURL.cpp
+  zlib.lib(inflate.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+  Generating code
+  Finished generating code
   osgdb_curl.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_curl.dll

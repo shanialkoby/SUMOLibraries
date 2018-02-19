@@ -148,4 +148,7 @@ C:\Libraries\OSG-3.4.0\src\osgPlugins\ive\ProxyNode.cpp(208): warning C4456: dec
   VolumeLocator.cpp
   VolumeTile.cpp
   Generating Code...
+  zlib.lib(inflate.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+  Generating code
+  Finished generating code
   osgdb_ive.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_ive.dll

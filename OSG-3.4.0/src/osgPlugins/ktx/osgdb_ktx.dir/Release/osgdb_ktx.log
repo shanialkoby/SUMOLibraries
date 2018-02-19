@@ -1,1 +1,4 @@
-﻿
+﻿  Building Custom Rule C:/Libraries/OSG-3.4.0/src/osgPlugins/ktx/CMakeLists.txt
+  CMake does not need to re-run because C:/Libraries/OSG-3.4.0/src/osgPlugins/ktx/CMakeFiles/generate.stamp is up-to-date.
+  ReaderWriterKTX.cpp
+  osgdb_ktx.vcxproj -> C:\Libraries\OSG-3.4.0\bin\osgPlugins-3.4.0\osgdb_ktx.dll
