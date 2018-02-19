@@ -549,13 +549,13 @@ JASPER_LIBRARY_DEBUG:FILEPATH=JASPER_LIBRARY_DEBUG-NOTFOUND
 JASPER_LIBRARY_RELEASE:FILEPATH=JASPER_LIBRARY_RELEASE-NOTFOUND
 
 //Path to a file.
-JPEG_INCLUDE_DIR:PATH=C:/Libraries/3rdPartyLibs/x64/include
+JPEG_INCLUDE_DIR:PATH=C:/Libraries/3rdPartyLibs/jpeg-9c
 
 //Path to a library.
-JPEG_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/x64/lib/jpeg.lib
+JPEG_LIBRARY:FILEPATH=C:/Libraries/3rdPartyLibs/jpeg-9c/x64/Release/jpeg.lib
 
 //Path to a library.
-JPEG_LIBRARY_DEBUG:FILEPATH=C:/Libraries/3rdPartyLibs/x64/lib/jpegd.lib
+JPEG_LIBRARY_DEBUG:FILEPATH=C:/Libraries/3rdPartyLibs/jpeg-9c/x64/Release/jpeg.lib
 
 //Path to a library.
 LIBLASC_LIBRARY:FILEPATH=LIBLASC_LIBRARY-NOTFOUND
@@ -1074,7 +1074,7 @@ osgdb_hdr_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;gener
 osgdb_ive_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;osgSim;general;osgFX;general;osgText;general;osgTerrain;general;osgVolume;optimized;C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\x64\Release\zlib.lib;debug;C:\Libraries\3rdPartyLibs\libpng-1.6.34\projects\vstudio\x64\Debug\zlib.lib;general;opengl32;
 
 //Dependencies for the target
-osgdb_jpeg_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;optimized;C:/Libraries/3rdPartyLibs/x64/lib/jpeg.lib;debug;C:/Libraries/3rdPartyLibs/x64/lib/jpegd.lib;general;opengl32;
+osgdb_jpeg_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;optimized;C:/Libraries/3rdPartyLibs/jpeg-9c/x64/Release/jpeg.lib;debug;C:/Libraries/3rdPartyLibs/jpeg-9c/x64/Release/jpeg.lib;general;opengl32;
 
 //Dependencies for the target
 osgdb_ktx_LIB_DEPENDS:STATIC=general;OpenThreads;general;osg;general;osgDB;general;osgUtil;general;opengl32;
@@ -1389,7 +1389,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Freetype:INTERNAL=[C:/Libraries/3rdPartyLibs/freety
 //Details about finding GDAL
 FIND_PACKAGE_MESSAGE_DETAILS_GDAL:INTERNAL=[C:/Libraries/3rdPartyLibs/x64/lib/gdal_i.lib][C:/Libraries/3rdPartyLibs/x64/include][v()]
 //Details about finding JPEG
-FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[C:/Libraries/3rdPartyLibs/x64/lib/jpeg.lib][C:/Libraries/3rdPartyLibs/x64/include][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[C:/Libraries/3rdPartyLibs/jpeg-9c/x64/Release/jpeg.lib][C:/Libraries/3rdPartyLibs/jpeg-9c][v()]
 //Details about finding LibXml2
 FIND_PACKAGE_MESSAGE_DETAILS_LibXml2:INTERNAL=[C:/Libraries/proj_gdal-1911_64/lib/libxml2.lib][C:/Libraries/proj_gdal-1911_64/include][v2.7.7()]
 //Details about finding OpenGL

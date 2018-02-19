@@ -1,4 +1,2 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/applications/osgversion/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/applications/osgversion/CMakeFiles/generate.stamp is up-to-date.
-  osgversion.cpp
+﻿  LINK : C:\Libraries\OSG-3.4.0_64\bin\osgversiond.exe not found or not built by the last incremental link; performing full link
   application_osgversion.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgversiond.exe

@@ -1,4 +1,7 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/curl/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/curl/CMakeFiles/generate.stamp is up-to-date.
-  ReaderWriterCURL.cpp
+﻿zlib.lib(adler32.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(adler32.obj)' or at 'C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\zlib.pdb'; linking object as if no debug info
+zlib.lib(crc32.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(crc32.obj)' or at 'C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\zlib.pdb'; linking object as if no debug info
+zlib.lib(inffast.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(inffast.obj)' or at 'C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\zlib.pdb'; linking object as if no debug info
+zlib.lib(inflate.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(inflate.obj)' or at 'C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\zlib.pdb'; linking object as if no debug info
+zlib.lib(inftrees.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(inftrees.obj)' or at 'C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\zlib.pdb'; linking object as if no debug info
+zlib.lib(zutil.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(zutil.obj)' or at 'C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\zlib.pdb'; linking object as if no debug info
   osgdb_curl.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_curld.dll

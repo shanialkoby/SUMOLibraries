@@ -1,13 +1,2 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgWrappers/deprecated-dotosg/osgFX/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgWrappers/deprecated-dotosg/osgFX/CMakeFiles/generate.stamp is up-to-date.
-  IO_AnisotropicLighting.cpp
-  IO_BumpMapping.cpp
-  IO_Cartoon.cpp
-  IO_Effect.cpp
-  IO_MultiTextureControl.cpp
-  IO_Outline.cpp
-  IO_Scribe.cpp
-  IO_SpecularHighlights.cpp
-  LibraryWrapper.cpp
-  Generating Code...
+﻿  LINK : C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_deprecated_osgfxd.dll not found or not built by the last incremental link; performing full link
   osgdb_deprecated_osgfx.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_deprecated_osgfxd.dll

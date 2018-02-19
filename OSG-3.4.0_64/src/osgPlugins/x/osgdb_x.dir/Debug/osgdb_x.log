@@ -1,10 +1,2 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/x/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/x/CMakeFiles/generate.stamp is up-to-date.
-  ReaderWriterDirectX.cpp
-  directx.cpp
-  mesh.cpp
-C:\Libraries\OSG-3.4.0_64\src\osgPlugins\x\mesh.cpp(138): warning C4456: declaration of 'fi' hides previous local declaration
-  C:\Libraries\OSG-3.4.0_64\src\osgPlugins\x\mesh.cpp(89): note: see declaration of 'fi'
-  types.cpp
-  Generating Code...
+﻿  LINK : C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_xd.dll not found or not built by the last incremental link; performing full link
   osgdb_x.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_xd.dll

@@ -1,6 +1,1 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgUtil/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgWrappers/serializers/osgUtil/CMakeFiles/generate.stamp is up-to-date.
-  CullVisitor.cpp
-  UpdateVisitor.cpp
-  Generating Code...
-  osgdb_serializers_osgutil.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_serializers_osgutil.dll
+﻿  osgdb_serializers_osgutil.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_serializers_osgutil.dll

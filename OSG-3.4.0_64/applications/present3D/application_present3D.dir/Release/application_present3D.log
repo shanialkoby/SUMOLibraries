@@ -1,11 +1,1 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/applications/present3D/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/applications/present3D/CMakeFiles/generate.stamp is up-to-date.
-  Cluster.cpp
-  ExportHTML.cpp
-  PointsEventHandler.cpp
-  present3D.cpp
-  ReadShowFile.cpp
-  ShowEventHandler.cpp
-  SpellChecker.cpp
-  Generating Code...
-  application_present3D.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\present3D.exe
+﻿  application_present3D.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\present3D.exe

@@ -1,17 +1,3 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgFX/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgFX/CMakeFiles/generate.stamp is up-to-date.
-  AnisotropicLighting.cpp
-  BumpMapping.cpp
-  Cartoon.cpp
-  Effect.cpp
-  MultiTextureControl.cpp
-  Outline.cpp
-  Registry.cpp
-  Scribe.cpp
-  SpecularHighlights.cpp
-  Technique.cpp
-  Validator.cpp
-  Version.cpp
-  Generating Code...
+﻿  LINK : C:\Libraries\OSG-3.4.0_64\bin\osg130-osgFXd.dll not found or not built by the last incremental link; performing full link
      Creating library C:/Libraries/OSG-3.4.0_64/lib/osgFXd.lib and object C:/Libraries/OSG-3.4.0_64/lib/osgFXd.exp
   osgFX.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osg130-osgFXd.dll

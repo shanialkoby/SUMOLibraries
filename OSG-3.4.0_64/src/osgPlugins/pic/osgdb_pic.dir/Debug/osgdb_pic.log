@@ -1,4 +1,1 @@
-﻿  Building Custom Rule C:/Libraries/OSG-3.4.0_64/src/osgPlugins/pic/CMakeLists.txt
-  CMake does not need to re-run because C:/Libraries/OSG-3.4.0_64/src/osgPlugins/pic/CMakeFiles/generate.stamp is up-to-date.
-  ReaderWriterPIC.cpp
-  osgdb_pic.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_picd.dll
+﻿  osgdb_pic.vcxproj -> C:\Libraries\OSG-3.4.0_64\bin\osgPlugins-3.4.0\osgdb_picd.dll
